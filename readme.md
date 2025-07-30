@@ -59,9 +59,9 @@ Generate Q&A training data, fine-tune models with LoRA, and evaluate Generation 
 
 The project utilizes two main data sources:
 
-- **MIMIC-IV (Open Source):** We leverage the publicly available MIMIC-IV database, integrating multiple hospital admissions for each patient. By using keyword filtering and AI-assisted models, we exclude non-cancer patients and non-cancer-related admissions, retaining only the complete hospitalization trajectories of cancer patients.
+- **[MIMIC-IV](https://physionet.org/content/mimiciv/3.1/) (Open Source):** We leverage the publicly available MIMIC-IV database, integrating multiple hospital admissions for each patient. By using keyword filtering and AI-assisted models, we exclude non-cancer patients and non-cancer-related admissions, retaining only the complete hospitalization trajectories of cancer patients.
 
-- **CancerEHR (Private, Oncology Hospital):** This is a real-world electronic health record (EHR) dataset of cancer patients from an oncology hospital, containing rich clinical treatment processes and follow-up information.
+- **CancerEHR (Private):** This is a real-world electronic health record (EHR) dataset of cancer patients from [Liaoning Cancer Hospital & Institute, Shenyang, China](https://www.lnszl.com/&usg=AOvVaw3I5jcUe_qAj6D7CL8EwB8x), containing rich clinical treatment processes and follow-up information.
 
 
 
