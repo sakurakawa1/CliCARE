@@ -1,0 +1,80 @@
+TKG节点: id=3109, name=Drainage of Peritoneal Cavity, labels=['ClinicalEvent'], properties={'name': 'Drainage of Peritoneal Cavity', 'id': 'esophageal_case_02_Event_49_20250704140700611630_DrainageofPeritonealCavity', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=6490, name=Peritoneal fluid analysis, labels=['Biomarker'], properties={'name': 'Peritoneal fluid analysis', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3586, name=Dexamethasone, labels=['ClinicalEvent'], properties={'name': 'Dexamethasone', 'source': 'ClinicalData', 'id': 'esophageal_case_02_Event_50_20250704141756328989_Dexamethasone', 'type': 'Medication', 'admission_time': '2020-02-19 00:00:00'}
+ALIGN_TO
+KG节点: id=2175, name=Bendamustine + dexamethasone, labels=['Treatment'], properties={'line': 'Relapsed/Refractory treatment', 'name': 'Bendamustine + dexamethasone', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Other recommended', 'evidence_level': 'Category 2A', 'content': 'Bendamustine + dexamethasone'}
+
+TKG节点: id=3140, name=Drainage of Peritoneal Cavity, labels=['ClinicalEvent'], properties={'name': 'Drainage of Peritoneal Cavity', 'id': 'esophageal_case_02_Event_49_20250704141029708694_DrainageofPeritonealCavity', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=6490, name=Peritoneal fluid analysis, labels=['Biomarker'], properties={'name': 'Peritoneal fluid analysis', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3613, name=Palliative care, labels=['ClinicalEvent'], properties={'name': 'Palliative care', 'source': 'ClinicalData', 'id': 'esophageal_case_02_Event_50_20250704141806621245_Palliativecare', 'type': 'Care', 'admission_time': '2020-02-19 00:00:00'}
+ALIGN_TO
+KG节点: id=152, name=Palliative care, labels=['ClinicalSituation'], properties={'stage': 'Extensive linear/nodular LM', 'name': 'Palliative care', 'risk_group': '', 'source': 'ESMO', 'type': 'ClinicalSituation'}
+
+TKG节点: id=3184, name=Microbiological examination of PERITONEAL FLUID, labels=['ClinicalEvent'], properties={'name': 'Microbiological examination of PERITONEAL FLUID', 'id': 'esophageal_case_02_Event_49_20250704140727349229_MicrobiologicalexaminationofPERITONEALFLUID', 'source': 'ClinicalData', 'type': 'Examination', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=3203, name=Microbiological examination of PERITONEAL FLUID, labels=['Biomarker'], properties={'name': 'Microbiological examination of PERITONEAL FLUID', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3610, name=Drainage of Peritoneal Cavity, labels=['ClinicalEvent'], properties={'name': 'Drainage of Peritoneal Cavity', 'id': 'esophageal_case_02_Event_50_20250704141804553398_DrainageofPeritonealCavity', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-02-19 00:00:00'}
+ALIGN_TO
+KG节点: id=6490, name=Peritoneal fluid analysis, labels=['Biomarker'], properties={'name': 'Peritoneal fluid analysis', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3613, name=Palliative care, labels=['ClinicalEvent'], properties={'name': 'Palliative care', 'source': 'ClinicalData', 'id': 'esophageal_case_02_Event_50_20250704141806621245_Palliativecare', 'type': 'Care', 'admission_time': '2020-02-19 00:00:00'}
+ALIGN_TO
+KG节点: id=152, name=Palliative care, labels=['ClinicalSituation'], properties={'stage': 'Extensive linear/nodular LM', 'name': 'Palliative care', 'risk_group': '', 'source': 'ESMO', 'type': 'ClinicalSituation'}
+
+TKG节点: id=3309, name=Drainage of Peritoneal Cavity, labels=['ClinicalEvent'], properties={'name': 'Drainage of Peritoneal Cavity', 'id': 'esophageal_case_02_Event_49_20250704141543947092_DrainageofPeritonealCavity', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=6490, name=Peritoneal fluid analysis, labels=['Biomarker'], properties={'name': 'Peritoneal fluid analysis', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3184, name=Microbiological examination of PERITONEAL FLUID, labels=['ClinicalEvent'], properties={'name': 'Microbiological examination of PERITONEAL FLUID', 'id': 'esophageal_case_02_Event_49_20250704140727349229_MicrobiologicalexaminationofPERITONEALFLUID', 'source': 'ClinicalData', 'type': 'Examination', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=3203, name=Microbiological examination of PERITONEAL FLUID, labels=['Biomarker'], properties={'name': 'Microbiological examination of PERITONEAL FLUID', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3586, name=Dexamethasone, labels=['ClinicalEvent'], properties={'name': 'Dexamethasone', 'source': 'ClinicalData', 'id': 'esophageal_case_02_Event_50_20250704141756328989_Dexamethasone', 'type': 'Medication', 'admission_time': '2020-02-19 00:00:00'}
+ALIGN_TO
+KG节点: id=2175, name=Bendamustine + dexamethasone, labels=['Treatment'], properties={'line': 'Relapsed/Refractory treatment', 'name': 'Bendamustine + dexamethasone', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Other recommended', 'evidence_level': 'Category 2A', 'content': 'Bendamustine + dexamethasone'}
+
+TKG节点: id=3217, name=Encounter for palliative care, labels=['ClinicalEvent'], properties={'name': 'Encounter for palliative care', 'id': 'esophageal_case_02_Event_49_20250704140735559080_Encounterforpalliativecare', 'source': 'ClinicalData', 'type': 'Care', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=152, name=Palliative care, labels=['ClinicalSituation'], properties={'stage': 'Extensive linear/nodular LM', 'name': 'Palliative care', 'risk_group': '', 'source': 'ESMO', 'type': 'ClinicalSituation'}
+
+TKG节点: id=3610, name=Drainage of Peritoneal Cavity, labels=['ClinicalEvent'], properties={'name': 'Drainage of Peritoneal Cavity', 'id': 'esophageal_case_02_Event_50_20250704141804553398_DrainageofPeritonealCavity', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-02-19 00:00:00'}
+ALIGN_TO
+KG节点: id=6490, name=Peritoneal fluid analysis, labels=['Biomarker'], properties={'name': 'Peritoneal fluid analysis', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3217, name=Encounter for palliative care, labels=['ClinicalEvent'], properties={'name': 'Encounter for palliative care', 'id': 'esophageal_case_02_Event_49_20250704140735559080_Encounterforpalliativecare', 'source': 'ClinicalData', 'type': 'Care', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=152, name=Palliative care, labels=['ClinicalSituation'], properties={'stage': 'Extensive linear/nodular LM', 'name': 'Palliative care', 'risk_group': '', 'source': 'ESMO', 'type': 'ClinicalSituation'}
+
+TKG节点: id=3402, name=Encounter for palliative care, labels=['ClinicalEvent'], properties={'name': 'Encounter for palliative care', 'id': 'esophageal_case_02_Event_49_20250704141618819066_Encounterforpalliativecare', 'source': 'ClinicalData', 'type': 'Care', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=152, name=Palliative care, labels=['ClinicalSituation'], properties={'stage': 'Extensive linear/nodular LM', 'name': 'Palliative care', 'risk_group': '', 'source': 'ESMO', 'type': 'ClinicalSituation'}
+
+TKG节点: id=3388, name=Microbiological examination of PERITONEAL FLUID, labels=['ClinicalEvent'], properties={'name': 'Microbiological examination of PERITONEAL FLUID', 'id': 'esophageal_case_02_Event_49_20250704141610619761_MicrobiologicalexaminationofPERITONEALFLUID', 'source': 'ClinicalData', 'type': 'Examination', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=3203, name=Microbiological examination of PERITONEAL FLUID, labels=['Biomarker'], properties={'name': 'Microbiological examination of PERITONEAL FLUID', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3402, name=Encounter for palliative care, labels=['ClinicalEvent'], properties={'name': 'Encounter for palliative care', 'id': 'esophageal_case_02_Event_49_20250704141618819066_Encounterforpalliativecare', 'source': 'ClinicalData', 'type': 'Care', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=152, name=Palliative care, labels=['ClinicalSituation'], properties={'stage': 'Extensive linear/nodular LM', 'name': 'Palliative care', 'risk_group': '', 'source': 'ESMO', 'type': 'ClinicalSituation'}
+
+TKG节点: id=3140, name=Drainage of Peritoneal Cavity, labels=['ClinicalEvent'], properties={'name': 'Drainage of Peritoneal Cavity', 'id': 'esophageal_case_02_Event_49_20250704141029708694_DrainageofPeritonealCavity', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=6490, name=Peritoneal fluid analysis, labels=['Biomarker'], properties={'name': 'Peritoneal fluid analysis', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3109, name=Drainage of Peritoneal Cavity, labels=['ClinicalEvent'], properties={'name': 'Drainage of Peritoneal Cavity', 'id': 'esophageal_case_02_Event_49_20250704140700611630_DrainageofPeritonealCavity', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=6490, name=Peritoneal fluid analysis, labels=['Biomarker'], properties={'name': 'Peritoneal fluid analysis', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3388, name=Microbiological examination of PERITONEAL FLUID, labels=['ClinicalEvent'], properties={'name': 'Microbiological examination of PERITONEAL FLUID', 'id': 'esophageal_case_02_Event_49_20250704141610619761_MicrobiologicalexaminationofPERITONEALFLUID', 'source': 'ClinicalData', 'type': 'Examination', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=3203, name=Microbiological examination of PERITONEAL FLUID, labels=['Biomarker'], properties={'name': 'Microbiological examination of PERITONEAL FLUID', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+
+TKG节点: id=3309, name=Drainage of Peritoneal Cavity, labels=['ClinicalEvent'], properties={'name': 'Drainage of Peritoneal Cavity', 'id': 'esophageal_case_02_Event_49_20250704141543947092_DrainageofPeritonealCavity', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-02-18 00:00:00'}
+ALIGN_TO
+KG节点: id=6490, name=Peritoneal fluid analysis, labels=['Biomarker'], properties={'name': 'Peritoneal fluid analysis', 'source': ['ClinicalData'], 'type': 'Biomarker'}
+

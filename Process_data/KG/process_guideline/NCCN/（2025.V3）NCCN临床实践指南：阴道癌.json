@@ -1,0 +1,83 @@
+{
+    "cancer_info": {
+        "cancer_name": "Cervical and Vaginal Cancer"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Pelvic examination",
+            "Biopsy (mandatory for diagnosis and recurrence confirmation)",
+            "PET/CT (essential for staging recurrent/metastatic disease)",
+            "MRI (for adaptive brachytherapy planning)",
+            "Lymph Node Assessment (image-guided SBRT for para-aortic metastases)",
+            "FDG PET-CT (preferred for metastatic evaluation)",
+            "Chest/abdomen/pelvis CT (alternative if PET-CT unavailable)",
+            "Laboratory Tests: CBC, BUN, serum creatinine",
+            "Biomarker Testing: PD-L1 (CPS ≥1), MSI-H/dMMR, TMB-H, HER2 (IHC 3+/2+), RET/NTRK fusions",
+            "Comprehensive genomic profiling (for metastatic/recurrent disease)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Locally Advanced (Stages IB–IVA)",
+            "risk_group": "Locally Advanced",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "Cervical/Vaginal Cancer patients",
+                    "plan_name": "Concurrent cisplatin-based chemoradiation",
+                    "plan_details": "EBRT (45–50.4 Gy to pelvis) + MRI-guided brachytherapy boost (cumulative EQD2 70–85 Gy) + concurrent cisplatin. Carboplatin alternative for cisplatin intolerance",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "High-risk postoperative cases",
+                    "plan_name": "Extended-Field IMRT",
+                    "plan_details": "Radiation therapy with bone marrow-sparing techniques to minimize toxicity",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Useful in Certain Circumstances"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Recurrent or Metastatic",
+            "risk_group": "Recurrent/Metastatic",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "PD-L1 CPS ≥1",
+                    "plan_name": "Pembrolizumab + chemotherapy ± bevacizumab",
+                    "plan_details": "Combination immunotherapy: Pembrolizumab with paclitaxel/cisplatin or carboplatin, optionally with bevacizumab",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Second-line/Third-line",
+                    "patient_subgroup": "Biomarker-specific subgroups",
+                    "plan_name": "Targeted therapies",
+                    "plan_details": "Tisotumab vedotin (general recurrence), Trastuzumab deruxtecan (HER2+), Selpercatinib (RET fusion+), Larotrectinib/Entrectinib (NTRK fusion+)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred for biomarker subgroups"
+                },
+                {
+                    "treatment_line": "Locoregional Recurrence",
+                    "patient_subgroup": "Prior radiation patients",
+                    "plan_name": "Reirradiation/Exenteration",
+                    "plan_details": "Brachytherapy/IORT/SBRT or pelvic exenteration ± IORT",
+                    "nccn_evidence_category": "Category 3",
+                    "nccn_recommendation_category": "Useful in Certain Circumstances"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "PD-L1 (CPS ≥1): Predicts response to pembrolizumab with significant OS benefit (28.6 vs 16.5 months)",
+            "HER2 (IHC 3+/2+): Indicates eligibility for trastuzumab deruxtecan (ORR: 37.1%)",
+            "MSI-H/dMMR or TMB-H (≥10 mut/Mb): Qualifies for pembrolizumab in ≥2nd-line",
+            "Tissue Factor (TF): Overexpression correlates with tisotumab vedotin response",
+            "RET/NTRK Fusions: High response (>75% ORR) to selpercatinib/larotrectinib"
+        ]
+    },
+    "guideline_id": "（2025.V3）NCCN临床实践指南：阴道癌.txt"
+}

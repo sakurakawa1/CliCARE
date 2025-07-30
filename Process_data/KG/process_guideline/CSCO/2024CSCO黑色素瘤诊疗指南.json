@@ -1,0 +1,127 @@
+{
+    "guideline_id": "2024CSCO黑色素瘤诊疗指南.txt",
+    "cancer_info": {
+        "cancer_name": "Melanoma"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "Skin/Acral Melanoma Stage 0-IA",
+            "recommendation_type": "Surgical Treatment",
+            "recommendation_content": "Excision with 0.5-1 cm margin",
+            "treatment_line": "Curative",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I",
+            "evidence_level": "2A"
+        },
+        {
+            "clinical_context": "Skin/Acral Melanoma Stage IB-IIA",
+            "recommendation_type": "Surgical Treatment",
+            "recommendation_content": "Excision with 1-2 cm margin + SLNB (for thickness ≥0.8mm or ulceration)",
+            "treatment_line": "Curative",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I",
+            "evidence_level": "1A"
+        },
+        {
+            "clinical_context": "Skin/Acral Melanoma Stage IIB-IIC",
+            "recommendation_type": "Adjuvant Therapy",
+            "recommendation_content": "Pembrolizumab (1 year) or Interferon-α",
+            "treatment_line": "Post-operative",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I",
+            "evidence_level": "1A"
+        },
+        {
+            "clinical_context": "Skin/Acral Melanoma Stage III",
+            "recommendation_type": "Targeted Therapy",
+            "recommendation_content": "Dabrafenib + Trametinib (for BRAF mutation)",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "BRAF",
+                    "status": "V600 Mutation",
+                    "testing_guidance": "Required for all patients"
+                }
+            ],
+            "recommendation_level": "Level I",
+            "evidence_level": "1A"
+        },
+        {
+            "clinical_context": "Skin/Acral Melanoma Stage III",
+            "recommendation_type": "Immunotherapy",
+            "recommendation_content": "Pembrolizumab or Toripalimab (1 year for BRAF wild-type)",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "BRAF",
+                    "status": "Wild-type",
+                    "testing_guidance": "Required before treatment"
+                }
+            ],
+            "recommendation_level": "Level I",
+            "evidence_level": "1A"
+        },
+        {
+            "clinical_context": "Mucosal Melanoma Resectable",
+            "recommendation_type": "Adjuvant Therapy",
+            "recommendation_content": "Temozolomide + Cisplatin",
+            "treatment_line": "Post-operative",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I",
+            "evidence_level": "1A"
+        },
+        {
+            "clinical_context": "Mucosal Melanoma Unresectable/Advanced",
+            "recommendation_type": "Targeted Therapy",
+            "recommendation_content": "Imatinib (for KIT mutation)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "KIT",
+                    "status": "Mutation",
+                    "testing_guidance": "Required for mucosal subtype"
+                }
+            ],
+            "recommendation_level": "Level II",
+            "evidence_level": "2A"
+        },
+        {
+            "clinical_context": "Uveal Melanoma Metastatic",
+            "recommendation_type": "Targeted Therapy",
+            "recommendation_content": "Tebentafusp (for HLA-A*02:01 positive)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "HLA-A*02:01",
+                    "status": "Positive",
+                    "testing_guidance": "Required before treatment"
+                }
+            ],
+            "recommendation_level": "Level II",
+            "evidence_level": "2A"
+        }
+    ],
+    "biomarker_clinical_significance": [
+        {
+            "biomarker_name": "BRAF V600",
+            "clinical_significance": "Predicts efficacy of BRAF/MEK inhibitor therapy in skin/acral melanoma"
+        },
+        {
+            "biomarker_name": "cKIT",
+            "clinical_significance": "Predicts response to imatinib in mucosal melanoma (10.8% mutation rate)"
+        },
+        {
+            "biomarker_name": "NRAS",
+            "clinical_significance": "Indicates potential response to MEK inhibitors in non-chronic sun-damaged subtypes"
+        },
+        {
+            "biomarker_name": "PD-L1",
+            "clinical_significance": "May predict enhanced benefit from PD-1 inhibitors in mucosal melanoma"
+        },
+        {
+            "biomarker_name": "3p Chromosome Loss",
+            "clinical_significance": "High-risk prognostic marker for metastasis in uveal melanoma"
+        }
+    ],
+    "tcm_recommendations": []
+}

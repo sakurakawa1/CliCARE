@@ -1,0 +1,180 @@
+{
+    "cancer_info": {
+        "cancer_name": "Non-Small Cell Lung Cancer"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "CT chest/upper abdomen with contrast",
+            "FDG PET-CT (skull base to mid-thigh)",
+            "Brain MRI (or contrast CT if MRI unavailable)",
+            "Bronchoscopy with EBUS/EUS",
+            "Mediastinoscopy/mediastinotomy",
+            "TTNA/VATS for inaccessible lesions",
+            "Thoracentesis for pleural effusions",
+            "Core needle biopsy",
+            "Fine needle aspiration biopsy",
+            "Histologic subtyping (WHO classification)",
+            "Immunohistochemistry (TTF-1, napsin A, p40/p63)",
+            "Molecular profiling (EGFR, ALK, ROS1, BRAF, NTRK, RET, METex14, KRAS G12C, HER2, NRG1)",
+            "PD-L1 IHC testing",
+            "Liquid biopsy (ctDNA) when tissue insufficient",
+            "Pulmonary Function Tests (PFTs)",
+            "Rapid on-site evaluation (ROSE)",
+            "Pleural biopsy for effusion confirmation"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Stage I-II (Early Stage)",
+            "risk_group": "Medically Operable",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary Treatment",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "Surgical Resection",
+                    "plan_details": "Lobectomy or segmentectomy with systematic lymph node sampling",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Adjuvant Therapy",
+                    "patient_subgroup": "High-risk (Tumors >4cm, visceral pleural invasion)",
+                    "plan_name": "Chemotherapy ± Targeted/Immunotherapy",
+                    "plan_details": "Cisplatin-based chemo; Osimertinib for EGFR+; Atezolizumab/Pembrolizumab for PD-L1≥1% (EGFR/ALK-)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred for eligible"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage I-II (Early Stage)",
+            "risk_group": "Medically Inoperable",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary Treatment",
+                    "patient_subgroup": "Peripheral tumors",
+                    "plan_name": "SABR/SBRT",
+                    "plan_details": "50-60 Gy in 3-8 fractions (BED ≥100 Gy)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Primary Treatment",
+                    "patient_subgroup": "Central tumors",
+                    "plan_name": "Risk-Adapted SABR",
+                    "plan_details": "45-50 Gy in 5 fractions with strict OAR constraints",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage III (Locally Advanced)",
+            "risk_group": "Resectable",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Neoadjuvant",
+                    "patient_subgroup": "Tumors ≥4cm or node-positive",
+                    "plan_name": "Chemoimmunotherapy",
+                    "plan_details": "Nivolumab + platinum-doublet chemotherapy × 4 cycles",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "Post-surgery",
+                    "plan_name": "Targeted/Immunotherapy",
+                    "plan_details": "Osimertinib (EGFR+), Alectinib (ALK+), or Pembrolizumab (PD-L1≥1%, EGFR/ALK-)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage III (Locally Advanced)",
+            "risk_group": "Unresectable",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary Treatment",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "Concurrent Chemoradiation",
+                    "plan_details": "Cisplatin/Etoposide or Carboplatin/Paclitaxel + RT (60-66 Gy)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Consolidation",
+                    "patient_subgroup": "Without EGFR/ALK alterations",
+                    "plan_name": "Durvalumab",
+                    "plan_details": "10 mg/kg q2w for 12 months post-chemoradiation",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IV (Metastatic)",
+            "risk_group": "Oligometastatic (≤3-5 sites)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "Controlled primary",
+                    "plan_name": "Local Consolidative Therapy",
+                    "plan_details": "SABR/surgery to all sites + systemic therapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IV (Metastatic)",
+            "risk_group": "Disseminated",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "EGFR Ex19del/L858R+",
+                    "plan_name": "Osimertinib",
+                    "plan_details": "80mg PO daily",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "ALK+",
+                    "plan_name": "Alectinib/Lorlatinib",
+                    "plan_details": "Alectinib 600mg BID or Lorlatinib 100mg daily",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "PD-L1≥50% (no driver)",
+                    "plan_name": "Pembrolizumab",
+                    "plan_details": "200mg q3w or 400mg q6w",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Subsequent",
+                    "patient_subgroup": "KRAS G12C+ post-chemo/IO",
+                    "plan_name": "Adagrasib",
+                    "plan_details": "600mg PO BID",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "EGFR mutations predict response to TKIs (Osimertinib improves CNS penetration)",
+            "ALK/ROS1 fusions sensitive to inhibitors (Lorlatinib crosses BBB)",
+            "PD-L1≥50% predicts benefit from first-line Pembrolizumab monotherapy",
+            "KRAS G12C targetable by GTPase inhibitors post-chemo/immunotherapy",
+            "METex14 skipping responds to Capmatinib/Tepotinib",
+            "HER2 mutations predict response to Fam-trastuzumab deruxtecan",
+            "NRG1 fusions targetable by Zenocutuzumab"
+        ]
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：非小细胞肺癌.txt"
+}

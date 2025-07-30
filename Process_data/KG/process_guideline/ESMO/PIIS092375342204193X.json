@@ -1,0 +1,296 @@
+{
+    "guideline_identifier": "PIIS092375342204193X.txt",
+    "cancer_focus": {
+        "primary_cancer": "Breast Cancer",
+        "related_syndrome_or_condition": "Hereditary Breast and Ovarian Cancer Syndrome"
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Breast cancer risk",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "BRCA1 carriers",
+                    "recommendation_type": "Screening",
+                    "recommendation_content": "Breast MRI every 6 months starting at age 30 (or 5 years before youngest affected relative)",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRCA1",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level A"
+                },
+                {
+                    "clinical_context": "BRCA2/PALB2 carriers",
+                    "recommendation_type": "Screening",
+                    "recommendation_content": "Annual breast MRI starting at age 30 (or 5 years before youngest affected relative)",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRCA2",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        },
+                        {
+                            "name": "PALB2",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level A"
+                },
+                {
+                    "clinical_context": "Carriers ≥40 years when MRI unavailable",
+                    "recommendation_type": "Screening",
+                    "recommendation_content": "Supplemental mammography/ultrasound",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "Any HBOC gene",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline testing for clinically validated HBOC genes"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level C"
+                },
+                {
+                    "clinical_context": "High-risk gene carriers (BRCA1/2, PALB2, TP53, PTEN, STK11, CDH1)",
+                    "recommendation_type": "Risk-reducing surgery",
+                    "recommendation_content": "Risk-reducing mastectomy (RRM)",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRCA1",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        },
+                        {
+                            "name": "BRCA2",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        },
+                        {
+                            "name": "PALB2",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        },
+                        {
+                            "name": "TP53",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        },
+                        {
+                            "name": "PTEN",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        },
+                        {
+                            "name": "STK11",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        },
+                        {
+                            "name": "CDH1",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level B"
+                },
+                {
+                    "clinical_context": "All carriers considering RRM",
+                    "recommendation_type": "Risk-reducing surgery",
+                    "recommendation_content": "Nipple-sparing mastectomy (NSM) is acceptable",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "Any HBOC gene",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline testing for clinically validated HBOC genes"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level C"
+                },
+                {
+                    "clinical_context": "Premenopausal carriers",
+                    "recommendation_type": "Pharmacoprevention",
+                    "recommendation_content": "Tamoxifen reduces breast cancer risk by 30-60%",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "Any HBOC gene",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline testing for clinically validated HBOC genes"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level C"
+                },
+                {
+                    "clinical_context": "Postmenopausal carriers",
+                    "recommendation_type": "Pharmacoprevention",
+                    "recommendation_content": "Aromatase inhibitors reduce breast cancer risk by 30-60%",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "Any HBOC gene",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline testing for clinically validated HBOC genes"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level C"
+                },
+                {
+                    "clinical_context": "Male BRCA2 carriers with gynecomastia/Klinefelter",
+                    "recommendation_type": "Screening",
+                    "recommendation_content": "Annual mammography/ultrasound",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRCA2",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level C"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Ovarian cancer risk",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Pre-RRBSO carriers",
+                    "recommendation_type": "Screening",
+                    "recommendation_content": "Transvaginal ultrasound + serum CA-125 every 6 months starting at RRBSO-recommended age",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "Any HBOC gene",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline testing for clinically validated HBOC genes"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level C"
+                },
+                {
+                    "clinical_context": "BRCA1 carriers",
+                    "recommendation_type": "Risk-reducing surgery",
+                    "recommendation_content": "RRBSO at 35-40 years",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRCA1",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level B"
+                },
+                {
+                    "clinical_context": "BRCA2 carriers",
+                    "recommendation_type": "Risk-reducing surgery",
+                    "recommendation_content": "RRBSO at 40-45 years",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRCA2",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level B"
+                },
+                {
+                    "clinical_context": "All RRBSO procedures",
+                    "recommendation_type": "Risk-reducing surgery",
+                    "recommendation_content": "Pathology examination with SEE-FIM protocol",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "Any HBOC gene",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline testing for clinically validated HBOC genes"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Prostate cancer risk",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "BRCA2 carriers",
+                    "recommendation_type": "Screening",
+                    "recommendation_content": "Annual PSA screening starting at age 40",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRCA2",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level B"
+                },
+                {
+                    "clinical_context": "ATM carriers",
+                    "recommendation_type": "Screening",
+                    "recommendation_content": "Annual PSA screening starting at age 40",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "ATM",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level C"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Pancreatic cancer risk",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "BRCA1/2, ATM, PALB2 carriers with family history",
+                    "recommendation_type": "Screening",
+                    "recommendation_content": "MRI/endoscopic ultrasound from age 50 (or 5-10 years before affected relative)",
+                    "treatment_line": "Prevention",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRCA1",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        },
+                        {
+                            "name": "BRCA2",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        },
+                        {
+                            "name": "ATM",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        },
+                        {
+                            "name": "PALB2",
+                            "status": "Pathogenic variant",
+                            "testing_guidance": "Germline genetic testing via multigene panels"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level C"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Germline pathogenic variants predict cancer risk and guide risk-reducing interventions including enhanced screening, prophylactic surgeries, and pharmacoprevention"
+    }
+}

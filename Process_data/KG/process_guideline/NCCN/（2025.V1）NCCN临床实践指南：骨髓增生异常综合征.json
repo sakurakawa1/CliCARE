@@ -1,0 +1,190 @@
+{
+    "cancer_info": {
+        "cancer_name": "Myelodysplastic Syndromes (MDS)"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Complete blood count (CBC) with differential",
+            "Platelet count",
+            "Reticulocyte count",
+            "Peripheral blood smear",
+            "Bone marrow aspiration/biopsy with iron stain",
+            "Cytogenetic analysis (standard karyotyping ± FISH/CMA)",
+            "Flow cytometry (PNH clone/LGL detection)",
+            "Somatic mutation testing (≥20-gene NGS panel: SF3B1, TP53, ASXL1, RUNX1, SRSF2, IDH1/2, TET2, U2AF1, DNMT3A, STAT3)",
+            "Serum erythropoietin (sEPO) pre-transfusion",
+            "Ferritin",
+            "Iron/total iron-binding capacity (TIBC)",
+            "Folate/B12 levels",
+            "Lactate dehydrogenase (LDH)",
+            "Thyroid-stimulating hormone (TSH)",
+            "Heritable predisposition testing (patients ≤50 years)",
+            "HIV testing (if indicated)",
+            "Copper/ceruloplasmin evaluation",
+            "PDGFRB rearrangement testing (for CMML with eosinophilia)",
+            "Telomere length by flow FISH",
+            "Chromosomal breakage study",
+            "Serum pancreatic isoamylase/trypsinogen",
+            "Erythrocyte adenosine deaminase",
+            "HLA typing (transplant candidates)",
+            "Skin biopsy for fibroblast culture",
+            "Panel-based multigene sequencing",
+            "Whole-exome/genome sequencing",
+            "Chromosomal genomic array testing (CGAT)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "IPSS-R Very Low/Low/Intermediate",
+            "risk_group": "Lower-risk MDS",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Non-del(5q) anemia with sEPO ≤500 mU/mL",
+                    "plan_name": "Epoetin alfa ± G-CSF",
+                    "plan_details": "40–60K U/week",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Ring sideroblasts ≥15% or SF3B1-mutated",
+                    "plan_name": "Luspatercept",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Non-del(5q) anemia with sEPO >500 mU/mL or ESA-refractory",
+                    "plan_name": "Imetelstat",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "del(5q) anemia",
+                    "plan_name": "Lenalidomide",
+                    "plan_details": "10 mg/day, 21/28 days",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Thrombocytopenia/neutropenia (age ≤60, hypocellular BM, PNH clone)",
+                    "plan_name": "Immunosuppressive Therapy (IST)",
+                    "plan_details": "Equine ATG ± cyclosporine",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Refractory thrombocytopenia",
+                    "plan_name": "Thrombopoietin Agonists",
+                    "plan_details": "Eltrombopag or romiplostim",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Useful in certain circumstances"
+                },
+                {
+                    "treatment_line": "Supportive care",
+                    "patient_subgroup": "Transfusion-dependent with ferritin >1000 ng/mL",
+                    "plan_name": "Iron chelation",
+                    "plan_details": "Deferasirox or deferoxamine",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "IPSS-R High/Very High",
+            "risk_group": "Higher-risk MDS",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Transplant-eligible",
+                    "plan_name": "Allogeneic HCT",
+                    "plan_details": "Preferred curative option; with bridging therapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Bridging therapy",
+                    "patient_subgroup": "Transplant-eligible",
+                    "plan_name": "Azacitidine, decitabine, or venetoclax + HMA",
+                    "plan_details": "14-day cycles for venetoclax combinations",
+                    "nccn_evidence_category": "Category 2A for HMAs, Category 2B for venetoclax",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Transplant-ineligible",
+                    "plan_name": "Azacitidine",
+                    "plan_details": "75 mg/m² SC/IV ×7d/28d",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Transplant-ineligible",
+                    "plan_name": "Decitabine",
+                    "plan_details": "20 mg/m² IV ×5d/28d or oral decitabine/cedazuridine",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "IDH1-mutated",
+                    "plan_name": "Ivosidenib",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "IDH2-mutated",
+                    "plan_name": "Enasidenib + Azacitidine",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Non-IDH mutated",
+                    "plan_name": "Venetoclax + HMA",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                },
+                {
+                    "treatment_line": "Second-line/refractory",
+                    "patient_subgroup": "",
+                    "plan_name": "Repeat molecular testing",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                },
+                {
+                    "treatment_line": "Second-line/refractory",
+                    "patient_subgroup": "",
+                    "plan_name": "Clinical trials, IDH inhibitors, venetoclax",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "TP53-mutated",
+                    "plan_name": "HMAs or clinical trials",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate regimen"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "TP53 mutations: poor prognosis, rapid AML progression, lenalidomide resistance; SF3B1 mutations: favorable prognosis, ring sideroblasts association, luspatercept response; IDH1/2 mutations: targetable with inhibitors (ivosidenib/enasidenib); del(5q): lenalidomide sensitivity (caution with TP53 co-mutation); STAT3 mutations: T-cell dysregulation, predicts IST responsiveness; PNH clone: predicts IST response; TET2 mutations: hypomethylating agent (HMA) sensitivity; ASXL1/RUNX1/EZH2 mutations: adverse prognosis; complex karyotype: very poor prognosis; germline mutations (DDX41/RUNX1): require genetic counseling and family screening"
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：骨髓增生异常综合征.txt"
+}

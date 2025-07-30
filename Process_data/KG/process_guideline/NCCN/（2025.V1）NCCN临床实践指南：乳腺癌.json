@@ -1,0 +1,175 @@
+{
+    "cancer_info": {
+        "cancer_name": "Breast Cancer"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "History and physical exam",
+            "Diagnostic bilateral mammogram ± ultrasound",
+            "Breast MRI examination",
+            "Core needle biopsy with biomarker testing (ER, PR, HER2, Ki-67)",
+            "Genetic counseling and germline BRCA1/2 testing",
+            "Complete blood count (CBC)",
+            "Comprehensive metabolic panel",
+            "CT chest/abdomen/pelvis (with contrast)",
+            "Bone scan or sodium fluoride PET/CT",
+            "FDG-PET/CT",
+            "FES-PET/CT for ER+ disease",
+            "Brain MRI (if CNS symptoms)",
+            "Axillary ultrasound ± biopsy",
+            "Full-thickness skin biopsy (Paget disease)",
+            "Bone density assessment",
+            "Fine needle aspiration biopsy (FNAB)",
+            "ctDNA/plasma assays",
+            "X-rays of symptomatic bones"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "DCIS (Noninvasive)",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "Breast-conserving surgery (BCS) ± radiation",
+                    "plan_details": "BCS with whole-breast RT ± boost; margins ≥3mm",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "ER+ DCIS",
+                    "plan_name": "Endocrine therapy",
+                    "plan_details": "Tamoxifen (20mg/day) or aromatase inhibitors for 5 years; low-dose tamoxifen (5mg/day) for intolerance",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Early stage invasive (cT1-3, cN0-1 M0)",
+            "risk_group": "HR+/HER2- with low genomic risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "Postmenopausal",
+                    "plan_name": "Endocrine monotherapy",
+                    "plan_details": "Aromatase inhibitors (anastrozole/letrozole/exemestane) for 5-10 years",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Early stage invasive (cT1-3, cN0-1 M0)",
+            "risk_group": "HR+/HER2- with high genomic risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "Premenopausal",
+                    "plan_name": "Endocrine + CDK4/6 inhibitors",
+                    "plan_details": "Ovarian suppression + abemaciclib/ribociclib for 2 years",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Early stage invasive (cT1-3, cN0-1 M0)",
+            "risk_group": "HER2+",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Neoadjuvant/adjuvant",
+                    "patient_subgroup": "High-risk (≥T2 or N+)",
+                    "plan_name": "Dual HER2 blockade + chemo",
+                    "plan_details": "Pertuzumab + trastuzumab + docetaxel/carboplatin (TCHP regimen)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Early stage invasive (cT1-3, cN0-1 M0)",
+            "risk_group": "TNBC",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Neoadjuvant therapy",
+                    "patient_subgroup": "PD-L1 CPS ≥10",
+                    "plan_name": "Immunotherapy + chemo",
+                    "plan_details": "Pembrolizumab + carboplatin/paclitaxel → AC/EC",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic/recurrent disease",
+            "risk_group": "HR+/HER2-",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Visceral crisis",
+                    "plan_name": "Chemotherapy",
+                    "plan_details": "Anthracyclines, taxanes, or capecitabine-based regimens",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "No visceral crisis",
+                    "plan_name": "CDK4/6 inhibitor + endocrine",
+                    "plan_details": "Ribociclib/palbociclib/abemaciclib + aromatase inhibitor or fulvestrant",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic/recurrent disease",
+            "risk_group": "HER2+",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "Dual HER2 blockade + taxane",
+                    "plan_details": "Pertuzumab + trastuzumab + docetaxel/paclitaxel",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic/recurrent disease",
+            "risk_group": "TNBC",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "PD-L1 CPS ≥10",
+                    "plan_name": "Immunotherapy + chemo",
+                    "plan_details": "Pembrolizumab + albumin-paclitaxel/paclitaxel/gemcitabine-carboplatin",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Inflammatory breast cancer (IBC)",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Neoadjuvant therapy",
+                    "patient_subgroup": "HER2+",
+                    "plan_name": "Chemo + dual HER2 blockade",
+                    "plan_details": "Anthracycline/taxane-based chemo + trastuzumab/pertuzumab",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "ER/PR: Predicts endocrine therapy benefit; HER2 (IHC 3+ or ISH+): Determines anti-HER2 therapy eligibility; HER2-low (IHC 1+ or 2+/ISH-): Eligible for trastuzumab deruxtecan; Germline BRCA1/2: Predicts PARP inhibitor response; PD-L1 CPS ≥10: Predicts pembrolizumab efficacy in TNBC; PIK3CA mutation: Predicts alpelisib efficacy; ESR1 mutation: Predicts resistance to aromatase inhibitors; NTRK fusions: Predicts response to larotrectinib/entrectinib; Oncotype DX RS: Predicts chemotherapy benefit in HR+/HER2- disease"
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：乳腺癌.txt"
+}

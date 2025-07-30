@@ -1,0 +1,165 @@
+{
+    "guideline_id": "2024CSCO宫颈癌诊疗指南.txt",
+    "cancer_info": {
+        "cancer_name": "Cervical Cancer"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "Early-stage cervical cancer IA1 without lymphovascular space invasion (LVSI)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Cervical conization ± pelvic lymph node dissection (with sentinel lymph node mapping)",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Early-stage cervical cancer IA1 with LVSI",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Total hysterectomy (Type C) + pelvic lymph node dissection",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Early-stage cervical cancer IA2 or IB1",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Radical hysterectomy (Type C) + pelvic lymph node dissection, or radical radiotherapy (external beam + brachytherapy) ± concurrent chemotherapy",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Early-stage cervical cancer IB3 or IIA2",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Radical radiotherapy (external beam + brachytherapy) ± platinum-based concurrent chemotherapy",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Early-stage cervical cancer IB3 or IIA2",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Neoadjuvant chemotherapy followed by surgery",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level III Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Locally advanced cervical cancer stage IIB-IVA",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Concurrent chemoradiotherapy (external radiotherapy 45-50Gy + brachytherapy) + pembrolizumab (for stage IIIA-IVA only)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Postoperative adjuvant therapy for high-risk factors (lymph node positive, positive margin, parametrial invasion)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pelvic external beam radiotherapy + concurrent platinum-based chemotherapy ± brachytherapy",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Postoperative adjuvant therapy for intermediate-risk factors (Sedlis criteria)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pelvic radiotherapy ± brachytherapy",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Postoperative adjuvant therapy for intermediate-risk factors in adenocarcinoma or adenosquamous carcinoma",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pelvic radiotherapy ± brachytherapy with concurrent chemotherapy",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Recurrent or metastatic cervical cancer - local recurrence without prior radiotherapy",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Surgery or individualized radiotherapy + systemic therapy",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Recurrent or metastatic cervical cancer - local recurrence after radiotherapy",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pelvic exenteration or stereotactic body radiotherapy (SBRT)",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Recurrent or metastatic cervical cancer - distant metastasis first-line systemic therapy",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Cisplatin/paclitaxel/bevacizumab ± pembrolizumab",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "PD-L1",
+                    "status": "Positive",
+                    "testing_guidance": ""
+                }
+            ],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Recurrent or metastatic cervical cancer - second-line therapy for PD-L1 positive",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Socazolimab or enlansoprazole",
+            "treatment_line": "Second-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "PD-L1",
+                    "status": "Positive",
+                    "testing_guidance": ""
+                }
+            ],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Recurrent or metastatic cervical cancer - second-line therapy for HER2 positive",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Trastuzumab deruxtecan",
+            "treatment_line": "Second-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "HER2",
+                    "status": "Positive (IHC 3+)",
+                    "testing_guidance": ""
+                }
+            ],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Recurrent or metastatic cervical cancer - second-line therapy",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Tisotumab vedotin",
+            "treatment_line": "Second-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Guides selection of targeted therapy and immunotherapy; predicts treatment efficacy based on biomarker status (e.g., PD-L1 for immunotherapy, HER2 for targeted therapy)"
+    },
+    "tcm_recommendations": []
+}

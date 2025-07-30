@@ -1,0 +1,235 @@
+{
+    "guideline_id": "2024CSCO子宫内膜癌诊疗指南.txt",
+    "cancer_info": {
+        "cancer_name": "Endometrial Cancer"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "High-risk population screening",
+            "recommendation_type": "Screening",
+            "recommendation_content": "Annual screening for individuals with Lynch syndrome, obesity (BMI≥30), long-term unopposed estrogen use history, or tamoxifen treatment history. Methods: transvaginal ultrasound (with biopsy if endometrial thickness >3-4mm) combined with endometrial cytology/microhistopathology.",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Pathological diagnosis",
+            "recommendation_type": "Diagnosis",
+            "recommendation_content": "Gold standard is tissue biopsy (hysteroscopy-guided biopsy or fractional curettage). Required tests: immunohistochemistry for ER/PR, p53, and MMR proteins; molecular typing for POLE, MMR, and TP53 status.",
+            "treatment_line": "",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "MMR",
+                    "status": "Required",
+                    "testing_guidance": "Immunohistochemistry for MMR proteins as part of molecular typing"
+                },
+                {
+                    "biomarker_name": "POLE",
+                    "status": "Required",
+                    "testing_guidance": "Molecular testing for POLE mutation status"
+                },
+                {
+                    "biomarker_name": "TP53",
+                    "status": "Required",
+                    "testing_guidance": "Immunohistochemistry for p53 and molecular testing for TP53 mutation status"
+                }
+            ],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Imaging evaluation",
+            "recommendation_type": "Diagnosis",
+            "recommendation_content": "Preferred method: pelvic MRI for assessing myometrial invasion depth. For systemic evaluation: chest CT and abdominopelvic enhanced CT or PET-CT if metastasis is suspected.",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Surgical treatment for early-stage disease",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Complete staging surgery: extrafascial hysterectomy with bilateral salpingo-oophorectomy, pelvic and para-aortic lymphadenectomy ± omentectomy. For early low-risk: sentinel lymph node biopsy instead of systematic lymphadenectomy.",
+            "treatment_line": "Primary",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Postoperative adjuvant therapy for IA stage endometrial adenocarcinoma, G1-2 with no high-risk factors",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Observation only.",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Postoperative adjuvant therapy for IA stage endometrial adenocarcinoma, G3 or LVSI(+)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Vaginal brachytherapy.",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Postoperative adjuvant therapy for IB stage endometrial adenocarcinoma, G1-2",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Vaginal brachytherapy ± external beam radiotherapy.",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Postoperative adjuvant therapy for IB stage G3 or II stage endometrial adenocarcinoma",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "External beam radiotherapy + vaginal brachytherapy ± chemotherapy.",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Postoperative adjuvant therapy for III-IV stage endometrial adenocarcinoma",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Chemotherapy ± radiotherapy, based on paclitaxel/carboplatin regimen.",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Postoperative adjuvant therapy adjustment based on POLE mutation (Stage I-II)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Observation without adjuvant therapy due to excellent prognosis.",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "POLE",
+                    "status": "Mutated",
+                    "testing_guidance": "Molecular testing required as part of diagnosis"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Treatment for serous carcinoma or clear cell carcinoma, Stage I",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Vaginal brachytherapy + chemotherapy (paclitaxel/carboplatin based).",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Treatment for serous carcinoma or clear cell carcinoma, Stage III-IV",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pembrolizumab + chemotherapy (NRG-GY018 regimen).",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Treatment for carcinosarcoma",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Paclitaxel + carboplatin or ifosfamide-based chemotherapy.",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Fertility preservation treatment",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "For patients ≤40 years old with G1 endometrial adenocarcinoma, no myometrial invasion/metastasis, and strong fertility desire: high-dose progestins (megestrol 160-320 mg/day or medroxyprogesterone 500 mg/day) ± LNG-IUD. Alternative: GnRHa + letrozole for obese or liver dysfunction cases. Efficacy assessed by hysteroscopic biopsy every 3-4 months.",
+            "treatment_line": "Primary",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Metastatic first-line treatment for dMMR/MSI-H",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pembrolizumab monotherapy.",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "dMMR/MSI-H",
+                    "status": "Positive",
+                    "testing_guidance": "Immunohistochemistry or molecular testing for MMR deficiency or MSI-H status required"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Metastatic first-line treatment for pMMR",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pembrolizumab + lenvatinib or chemotherapy (paclitaxel/carboplatin based).",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "MMR",
+                    "status": "Proficient",
+                    "testing_guidance": "Testing for MMR status to confirm pMMR"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Metastatic first-line treatment for HER2-positive serous carcinoma or carcinosarcoma",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Trastuzumab deruxtecan.",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "HER2",
+                    "status": "Positive",
+                    "testing_guidance": "Immunohistochemistry or molecular testing for HER2 positivity required"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Metastatic second-line treatment",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Lenvatinib + pembrolizumab (for pMMR), bevacizumab, or topotecan.",
+            "treatment_line": "Second-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "MMR",
+                    "status": "Proficient",
+                    "testing_guidance": "Required for pMMR confirmation in lenvatinib + pembrolizumab regimen"
+                }
+            ],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Follow-up strategy",
+            "recommendation_type": "Monitoring",
+            "recommendation_content": "Frequency: every 3-6 months for 2-3 years post-treatment, then every 6 months up to 5 years, annually thereafter. Content: symptom assessment (vaginal bleeding, pelvic pain), gynecological exam, vaginal cuff cytology, tumor markers (CA125/HE4), pelvic ultrasound or enhanced CT for intermediate-high risk patients. Reduced frequency for POLE mutation type.",
+            "treatment_line": "",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "POLE",
+                    "status": "Mutated",
+                    "testing_guidance": "Molecular testing required to qualify for reduced follow-up"
+                }
+            ],
+            "recommendation_level": "",
+            "evidence_level": ""
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "dMMR/MSI-H predicts sensitivity to immunotherapy (e.g., pembrolizumab) and indicates need for Lynch syndrome screening; POLE mutation indicates excellent prognosis and may exempt adjuvant therapy in early stages; TP53 mutation indicates poor prognosis and necessitates intensified chemotherapy; HER2 positivity guides targeted therapy (e.g., trastuzumab deruxtecan) in serous carcinoma or carcinosarcoma; NTRK fusion indicates potential for larotrectinib in advanced disease."
+    },
+    "tcm_recommendations": []
+}

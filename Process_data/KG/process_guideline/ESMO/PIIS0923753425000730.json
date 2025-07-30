@@ -1,0 +1,190 @@
+{
+    "guideline_identifier": "PIIS0923753425000730.txt",
+    "cancer_focus": {
+        "primary_cancer": "Hepatocellular Carcinoma (HCC)",
+        "related_syndrome_or_condition": "Chronic liver disease, Cirrhosis, Chronic Hepatitis B Virus (HBV) or Hepatitis C Virus (HCV) infection, Portal hypertension, Metabolic dysfunction-associated steatotic liver disease (MASLD)"
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "BCLC Stage 0 (Very Early): Single tumor <2 cm, Child-Pugh A, no portal hypertension",
+            "risk_group": "Very early stage",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Solitary tumors without portal hypertension",
+                    "recommendation_type": "Curative Therapy",
+                    "recommendation_content": "Surgical resection (minimally invasive preferred)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IIA"
+                },
+                {
+                    "clinical_context": "Tumors ≤3 cm",
+                    "recommendation_type": "Curative Therapy",
+                    "recommendation_content": "Thermal ablation (RFA/MWA)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IIA"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "BCLC Stage A (Early): Single tumor or ≤3 nodules ≤3 cm, Child-Pugh A–B",
+            "risk_group": "Early stage",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Within Milan criteria",
+                    "recommendation_type": "Curative Therapy",
+                    "recommendation_content": "Orthotopic Liver Transplantation (OLT)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IIA"
+                },
+                {
+                    "clinical_context": "Outside Milan criteria",
+                    "recommendation_type": "Curative Therapy",
+                    "recommendation_content": "Consider OLT under UCSF criteria",
+                    "treatment_line": "Alternative",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IIIB"
+                },
+                {
+                    "clinical_context": "Waitlist >3 months for OLT",
+                    "recommendation_type": "Bridge Therapy",
+                    "recommendation_content": "Transarterial radioembolization (TARE)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IIIB"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "BCLC Stage B (Intermediate): Multinodular, asymptomatic, Child-Pugh A–B, preserved performance status",
+            "risk_group": "Intermediate stage",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Multinodular HCC",
+                    "recommendation_type": "Locoregional Therapy",
+                    "recommendation_content": "Transarterial chemoembolization (TACE) with DEB preferred",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IB"
+                },
+                {
+                    "clinical_context": "Alternative to TACE",
+                    "recommendation_type": "Locoregional Therapy",
+                    "recommendation_content": "Transarterial radioembolization (TARE)",
+                    "treatment_line": "Alternative",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IIB"
+                },
+                {
+                    "clinical_context": "Ablation-unsuitable tumors",
+                    "recommendation_type": "Radiotherapy",
+                    "recommendation_content": "Stereotactic body radiotherapy (SBRT) or HDR brachytherapy",
+                    "treatment_line": "Alternative",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IIB"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "BCLC Stage C (Advanced): Vascular invasion/extrahepatic spread, PS 1–2, Child-Pugh A–B",
+            "risk_group": "Advanced stage",
+            "treatment_plans": [
+                {
+                    "clinical_context": "First-line systemic therapy (ECOG PS 0–1)",
+                    "recommendation_type": "Systemic Therapy",
+                    "recommendation_content": "Atezolizumab + bevacizumab",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IA"
+                },
+                {
+                    "clinical_context": "First-line systemic therapy (ECOG PS 0–1)",
+                    "recommendation_type": "Systemic Therapy",
+                    "recommendation_content": "Durvalumab + tremelimumab (STRIDE regimen)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IA"
+                },
+                {
+                    "clinical_context": "ICI contraindicated",
+                    "recommendation_type": "Systemic Therapy",
+                    "recommendation_content": "Lenvatinib or sorafenib",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IA"
+                },
+                {
+                    "clinical_context": "Post-sorafenib therapy",
+                    "recommendation_type": "Systemic Therapy",
+                    "recommendation_content": "Regorafenib or cabozantinib",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IA"
+                },
+                {
+                    "clinical_context": "Post-sorafenib with elevated AFP",
+                    "recommendation_type": "Systemic Therapy",
+                    "recommendation_content": "Ramucirumab",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "AFP",
+                            "status": "≥400 ng/mL",
+                            "testing_guidance": "Mandatory pre-treatment testing for eligibility"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level IB"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "BCLC Stage D (Terminal): Severe liver dysfunction (Child-Pugh C), PS >2",
+            "risk_group": "Terminal stage",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Symptomatic management",
+                    "recommendation_type": "Supportive Care",
+                    "recommendation_content": "Best supportive care (BSC)",
+                    "treatment_line": "Palliative",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": ""
+                },
+                {
+                    "clinical_context": "Pain management",
+                    "recommendation_type": "Radiotherapy",
+                    "recommendation_content": "Stereotactic radiotherapy for pain control",
+                    "treatment_line": "Palliative",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IIA"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Post-curative treatment (Resection/Ablation/OLT)",
+            "risk_group": "Adjuvant setting",
+            "treatment_plans": [
+                {
+                    "clinical_context": "After resection/ablation",
+                    "recommendation_type": "Adjuvant Therapy",
+                    "recommendation_content": "Adjuvant therapy not recommended",
+                    "treatment_line": "Adjuvant",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IE"
+                },
+                {
+                    "clinical_context": "After OLT",
+                    "recommendation_type": "Adjuvant Therapy",
+                    "recommendation_content": "Adjuvant therapy not recommended",
+                    "treatment_line": "Adjuvant",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level IVE"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "AFP ≥400 ng/mL predicts efficacy of ramucirumab. No validated predictive biomarkers for immune checkpoint inhibitor (ICI) efficacy. Biopsy required for non-cirrhotic patients and prior to systemic therapy in advanced HCC. Molecular testing via NGS recommended for mixed-histology tumors and clinical trial enrollment."
+    }
+}

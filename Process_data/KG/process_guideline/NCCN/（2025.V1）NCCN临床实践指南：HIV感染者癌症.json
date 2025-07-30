@@ -1,0 +1,184 @@
+{
+    "cancer_info": {
+        "cancer_name": "Multiple HIV-associated cancers (Anal, NSCLC, Hodgkin Lymphoma, Cervical)"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "CD4 count",
+            "HIV viral load",
+            "Hepatitis B serology",
+            "Hepatitis C serology",
+            "TB screening (PPD/IGRA)",
+            "STI screening",
+            "Digital rectal exam (DRE)",
+            "High-resolution anoscopy (HRA) with biopsy",
+            "Anal cytology",
+            "HPV DNA testing",
+            "CT scan",
+            "MRI",
+            "PET-CT",
+            "Low-dose CT (LDCT) screening",
+            "Diagnostic biopsy (bronchoscopic/CT-guided)",
+            "Brain MRI",
+            "Excisional lymph node biopsy",
+            "Bone marrow biopsy",
+            "EBV status assessment",
+            "Pap smear",
+            "HPV co-testing",
+            "Colposcopy with biopsy",
+            "MRI pelvis"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Anal Cancer: Localized (Stage I-III)",
+            "risk_group": "HIV-infected",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Definitive treatment",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Chemoradiation (CRT) with 5-FU + Mitomycin C",
+                    "plan_details": "Definitive chemoradiation with 5-Fluorouracil + Mitomycin C",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Definitive treatment",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Capecitabine-based CRT",
+                    "plan_details": "Capecitabine substituting for infusional 5-FU (Phase II data)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Alternative regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Anal Cancer: Metastatic/Recurrent",
+            "risk_group": "HIV-infected",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Platinum-based chemotherapy",
+                    "plan_details": "Cisplatin + 5-FU or Carboplatin + Paclitaxel",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Second-line",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Immunotherapy",
+                    "plan_details": "Nivolumab or Pembrolizumab (NCI9673 phase II trial)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "NSCLC: Advanced Non-Squamous",
+            "risk_group": "HIV-infected",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Carboplatin + Pemetrexed",
+                    "plan_details": "Induction followed by Pemetrexed maintenance (IFCT-1001 CHIVA trial)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Second-line",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Immunotherapy",
+                    "plan_details": "Pembrolizumab (Phase I) or Nivolumab (IFCT-1602 CHIVA2 trial)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Hodgkin Lymphoma: Advanced Stage (IIB-IV)",
+            "risk_group": "HIV-infected",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "ABVD regimen",
+                    "plan_details": "Doxorubicin + Bleomycin + Vinblastine + Dacarbazine",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Brentuximab vedotin + AVD",
+                    "plan_details": "Brentuximab vedotin + Doxorubicin + Vinblastine + Dacarbazine (AMC 085 trial)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Alternative regimen"
+                },
+                {
+                    "treatment_line": "Relapsed/Refractory",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Autologous Stem Cell Transplant",
+                    "plan_details": "With reduced-intensity conditioning (BMT CTN 0803/AMC 071)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Cervical Cancer: Precancer (HSIL/CIN2+)",
+            "risk_group": "HIV-infected",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Definitive treatment",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Excisional procedures",
+                    "plan_details": "LEEP, cryotherapy, or cold-knife conization",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Cervical Cancer: Invasive (Localized)",
+            "risk_group": "HIV-infected",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Definitive treatment",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Radical hysterectomy",
+                    "plan_details": "Surgical resection",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard regimen"
+                },
+                {
+                    "treatment_line": "Definitive treatment",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Definitive chemoradiation",
+                    "plan_details": "Cisplatin-based concurrent chemoradiation",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Cervical Cancer: Invasive (Locally Advanced)",
+            "risk_group": "HIV-infected",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Definitive treatment",
+                    "patient_subgroup": "PLWH with controlled HIV",
+                    "plan_name": "Concurrent chemoradiation",
+                    "plan_details": "Cisplatin-based therapy (AMC trials)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "HPV: Essential causative agent for anal/cervical cancer; persistence drives carcinogenesis; used in screening. CD4 Lymphocyte Count: Predicts toxicity risk and outcomes during therapy; goal >200 cells/µL. HIV Viral Load: Sustained suppression (<200 copies/mL) associated with better outcomes. EBV: Essential pathogenic driver for Hodgkin Lymphoma. PD-L1: Predicts response to immunotherapy in NSCLC. Smoking Status: Major risk factor for lung cancer development."
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：HIV感染者癌症.txt"
+}

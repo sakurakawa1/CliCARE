@@ -1,0 +1,101 @@
+{
+    "guideline_id": "2024CSCO肿瘤相关性贫血临床实践指南- .txt",
+    "cancer_info": {
+        "cancer_name": "All Malignancies"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "General diagnosis of CRA",
+            "recommendation_type": "Diagnosis",
+            "recommendation_content": "Initiate evaluation when hemoglobin (Hb) is ≤110 g/L or has decreased by ≥20 g/L from baseline.",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": "Evidence 2A"
+        },
+        {
+            "clinical_context": "Cause identification in CRA",
+            "recommendation_type": "Diagnosis",
+            "recommendation_content": "Perform tests including reticulocyte count, mean corpuscular volume (MCV); investigate for bleeding (fecal occult blood/endoscopy), hemolysis (Coombs test/DIC screening), nutritional deficiencies (iron/folate/vitamin B12), and renal function (eGFR <60 ml/min).",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Diagnosis of iron deficiency in CRA",
+            "recommendation_type": "Diagnosis",
+            "recommendation_content": "Diagnose absolute iron deficiency if serum ferritin (SF) <30 μg/L and transferrin saturation (TSAT) <20%; functional iron deficiency if SF 30-500 μg/L and TSAT <50%.",
+            "treatment_line": "",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "Serum Ferritin (SF)",
+                    "status": "Absolute deficiency if <30 μg/L, Functional deficiency if 30-500 μg/L",
+                    "testing_guidance": "Measure SF level for iron status assessment"
+                },
+                {
+                    "biomarker_name": "Transferrin Saturation (TSAT)",
+                    "status": "Absolute deficiency if <20%, Functional deficiency if <50%",
+                    "testing_guidance": "Measure TSAT to confirm iron deficiency type"
+                }
+            ],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": "Evidence 2A"
+        },
+        {
+            "clinical_context": "Non-chemotherapy-related CRA in solid tumors",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Causal treatment and iron supplementation; transfusion for patients with Hb <60 g/L or symptomatic anemia.",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Non-chemotherapy-related CRA in MDS patients",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Stratify using IPSS/WPSS; use erythropoiesis-stimulating agents (ESA) if serum erythropoietin (EPO) level <500 mU/ml.",
+            "treatment_line": "",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "Erythropoietin (EPO)",
+                    "status": "<500 mU/ml",
+                    "testing_guidance": "Measure serum EPO level before ESA initiation"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1"
+        },
+        {
+            "clinical_context": "Non-chemotherapy-related CRA in palliative care patients",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Transfusion for Hb <60 g/L or symptomatic patients; ESA for asymptomatic patients requiring quality of life improvement.",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Chemotherapy-related CRA with severe anemia (Hb <60 g/L)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Immediate blood transfusion; indicated for massive bleeding, ESA inefficacy, or palliative care requiring rapid symptom relief.",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Chemotherapy-related CRA with mild-moderate anemia (Hb ≥80 g/L)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "First-line: Erythropoiesis-stimulating agents (ESA) such as EPO or roxadustat plus iron supplementation. Target Hb: 100-120 g/L; avoid Hb >130 g/L.",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": "Evidence 2A"
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Serum ferritin (SF) and transferrin saturation (TSAT) diagnose iron deficiency types: absolute deficiency (predicts need for iron replacement) and functional deficiency (common in cancer, predicts response to intravenous iron). Erythropoietin (EPO) level >500 mU/ml in MDS predicts poor response to ESA. Inflammatory markers (e.g., CRP/ESR) indicate anemia of inflammation."
+    },
+    "tcm_recommendations": []
+}

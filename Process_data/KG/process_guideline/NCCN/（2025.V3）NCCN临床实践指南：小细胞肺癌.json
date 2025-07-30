@@ -1,0 +1,173 @@
+{
+    "cancer_info": {
+        "cancer_name": "Small Cell Lung Cancer"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Biopsy/cytology of primary/metastatic site",
+            "History & Physical (H&P)",
+            "Complete blood count (CBC)",
+            "Electrolytes",
+            "Liver function tests (LFTs)",
+            "Blood urea nitrogen (BUN) and creatinine",
+            "Contrast-enhanced CT of chest, abdomen, and pelvis",
+            "Brain MRI (preferred) or contrast CT if MRI contraindicated",
+            "FDG-PET/CT (skull base to mid-thigh)",
+            "Bone scan (if PET unavailable)",
+            "Thoracentesis (for pleural effusion)",
+            "Bone imaging or MRI (if PET equivocal for bone metastases)",
+            "Bone marrow biopsy (if cytopenias or nucleated RBCs)",
+            "Pathology review with immunohistochemistry: Neuroendocrine markers (INSM1, CD56, synaptophysin, chromogranin A)",
+            "POU2F3 IHC if neuroendocrine markers negative",
+            "Ki-67 testing",
+            "Comprehensive molecular profiling (for relapsed extensive-stage SCLC in never/light smokers)",
+            "Pulmonary function tests",
+            "EBUS-TBNA for nodal staging",
+            "Mediastinoscopy for clinical stage I-IIIA",
+            "Thoracoscopy for cytologically negative pleural effusions",
+            "Hyponatremia screening (for SIADH)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Limited Stage (T1-4 N0-3 M0)",
+            "risk_group": "PS 0-2",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary Therapy",
+                    "patient_subgroup": "General",
+                    "plan_name": "Concurrent chemoradiation",
+                    "plan_details": "Cisplatin/etoposide + thoracic RT: 45 Gy twice daily over 3 weeks or 66-70 Gy once daily over 6-7 weeks",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Category 1"
+                },
+                {
+                    "treatment_line": "Primary Therapy",
+                    "patient_subgroup": "T1-2 N0 M0",
+                    "plan_name": "Surgery",
+                    "plan_details": "Lobectomy + mediastinal lymph node dissection",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Primary Therapy",
+                    "patient_subgroup": "Medically inoperable T1-2 N0",
+                    "plan_name": "Stereotactic Ablative RT (SABR)",
+                    "plan_details": "50-60 Gy in 3-8 fractions + adjuvant chemotherapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Adjuvant Therapy",
+                    "patient_subgroup": "After chemoradiation without progression",
+                    "plan_name": "Durvalumab consolidation",
+                    "plan_details": "1500 mg every 28 days for up to 24 months",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Category 1"
+                },
+                {
+                    "treatment_line": "Adjuvant Therapy",
+                    "patient_subgroup": "Post-surgery with node-positive disease",
+                    "plan_name": "Post-operative RT",
+                    "plan_details": "Radiation therapy to mediastinum",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Prophylactic Therapy",
+                    "patient_subgroup": "Complete/partial response after primary therapy",
+                    "plan_name": "Prophylactic Cranial Irradiation (PCI)",
+                    "plan_details": "25 Gy in 10 fractions with hippocampal avoidance considered",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Category 1"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Limited Stage (T1-4 N0-3 M0)",
+            "risk_group": "PS 3-4",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Supportive Care",
+                    "patient_subgroup": "General",
+                    "plan_name": "Individualized therapy",
+                    "plan_details": "Supportive care ± palliative radiotherapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Category 2A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Extensive Stage (M1)",
+            "risk_group": "PS 0-2",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "General",
+                    "plan_name": "Platinum/etoposide + PD-L1 inhibitor",
+                    "plan_details": "Atezolizumab or durvalumab with carboplatin/cisplatin and etoposide",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Category 1"
+                },
+                {
+                    "treatment_line": "Consolidation Therapy",
+                    "patient_subgroup": "Responders with residual thoracic disease",
+                    "plan_name": "Thoracic RT",
+                    "plan_details": "30 Gy in 10 fractions",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Prophylactic Therapy",
+                    "patient_subgroup": "Responders",
+                    "plan_name": "Prophylactic Cranial Irradiation (PCI)",
+                    "plan_details": "20-25 Gy in 5-10 fractions (optional with hippocampal avoidance)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Subsequent Therapy",
+                    "patient_subgroup": "CTFI ≥6 months (Sensitive relapse)",
+                    "plan_name": "Lurbinectedin or Tarlatamab",
+                    "plan_details": "Lurbinectedin OR Tarlatamab-dlle (DLL3-targeted bispecific antibody)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Subsequent Therapy",
+                    "patient_subgroup": "CTFI <6 months (Refractory disease)",
+                    "plan_name": "Topotecan or CAV regimen",
+                    "plan_details": "Topotecan (IV/oral) OR Cyclophosphamide/Doxorubicin/Vincristine (CAV)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Palliative Therapy",
+                    "patient_subgroup": "Symptomatic metastases",
+                    "plan_name": "Site-directed RT",
+                    "plan_details": "Bone mets: 8 Gy single fraction; Brain mets: SRS for 1-4 lesions or WBRT (30 Gy/10 fractions)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Category 2A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Extensive Stage (M1)",
+            "risk_group": "PS 3-4",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Supportive Care",
+                    "patient_subgroup": "General",
+                    "plan_name": "Palliative therapy",
+                    "plan_details": "Supportive care ± palliative RT to symptomatic sites",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Category 2A"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Neuroendocrine markers (INSM1, CD56, synaptophysin, chromogranin A): Define SCLC diagnosis; POU2F3: Identifies neuroendocrine-low subtypes; DLL3: Target for tarlatamab therapy in relapsed disease (expressed in 85-94% of SCLC); MGMT Methylation: Predicts response to temozolomide in relapsed SCLC; Genomic profiling: Identifies potential actionable targets in relapsed ES-SCLC (especially in never/light smokers)"
+    },
+    "guideline_id": "（2025.V3）NCCN临床实践指南：小细胞肺癌.txt"
+}

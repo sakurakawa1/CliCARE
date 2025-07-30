@@ -1,0 +1,79 @@
+{
+    "cancer_info": {
+        "cancer_name": "Lung Cancer"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Low-Dose CT (LDCT)",
+            "Chest CT with IV contrast (for mediastinal abnormalities)",
+            "FDG PET-CT (for nodules ≥8 mm solid component)",
+            "Transthoracic needle biopsy (TTNB)",
+            "Surgical excision",
+            "Quantitative perfusion CT",
+            "Volume Doubling Time (VDT) analysis"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Stage I NSCLC",
+            "risk_group": "Operable",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Curative-intent",
+                    "patient_subgroup": "Surgical candidates",
+                    "plan_name": "Lobectomy",
+                    "plan_details": "Video-Assisted Thoracoscopic Surgery (VATS) preferred over thoracotomy",
+                    "nccn_evidence_category": null,
+                    "nccn_recommendation_category": null
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage I NSCLC",
+            "risk_group": "Medically inoperable",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Curative-intent",
+                    "patient_subgroup": "Non-surgical candidates",
+                    "plan_name": "Stereotactic Ablative Radiotherapy",
+                    "plan_details": "SABR/SBRT",
+                    "nccn_evidence_category": null,
+                    "nccn_recommendation_category": null
+                },
+                {
+                    "treatment_line": "Curative-intent",
+                    "patient_subgroup": "High-risk patients",
+                    "plan_name": "Ablative Techniques",
+                    "plan_details": "RFA, microwave, cryoablation",
+                    "nccn_evidence_category": null,
+                    "nccn_recommendation_category": null
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage III NSCLC",
+            "risk_group": "Advanced",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "Locally advanced",
+                    "plan_name": "Chemoradiation ± surgery",
+                    "plan_details": "Combined modality therapy",
+                    "nccn_evidence_category": null,
+                    "nccn_recommendation_category": null
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "Nodule Growth Rate (VDT): <400 days suggests malignancy",
+            "PET-CT SUVmax: Higher uptake correlates with malignancy",
+            "Adenocarcinoma subtypes (lepidic, acinar) predict survival",
+            "CHRNA5 variants associated with nicotine dependence and lung cancer risk",
+            "COPD/emphysema detection on CT is independent risk factor",
+            "Coronary Artery Calcification (CAC) predicts cardiovascular risk"
+        ]
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：肺癌筛查.txt"
+}

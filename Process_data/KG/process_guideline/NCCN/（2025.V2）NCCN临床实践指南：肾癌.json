@@ -1,0 +1,236 @@
+{
+    "cancer_info": {
+        "cancer_name": "Renal Cell Carcinoma (RCC)"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "History and Physical examination",
+            "CBC",
+            "Comprehensive metabolic panel (including corrected calcium, creatinine, LDH)",
+            "Urinalysis",
+            "Abdominal/pelvic CT or MRI with IV contrast (renal protocol)",
+            "Chest CT (preferred) or Chest X-ray",
+            "Bone scan (if symptomatic or elevated ALP/bone pain)",
+            "Brain MRI (if neurological symptoms)",
+            "Core needle biopsy (for small masses <3 cm or prior to ablation)",
+            "Ureteroscopy or urine cytology (if urothelial carcinoma suspected)",
+            "Genetic testing (for early onset ≤46 years, bilateral/multifocal tumors, family history, specific histologies)",
+            "Abdominal MRI (for hereditary syndrome screening)",
+            "Limited CT (for surgical planning)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Stage I (T1a)",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "T1a tumors",
+                    "plan_name": "Partial nephrectomy",
+                    "plan_details": "Preferred for T1a tumors",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "T1a tumors with comorbidities",
+                    "plan_name": "Active surveillance",
+                    "plan_details": "For masses ≤2 cm",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Alternative"
+                },
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Inoperable T1a tumors",
+                    "plan_name": "Ablation",
+                    "plan_details": "Cryoablation or RFA for masses ≤3 cm",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Alternative"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage I (T1b)/II/III",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "T1b/II/III tumors",
+                    "plan_name": "Radical nephrectomy",
+                    "plan_details": "Standard surgical approach",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Feasible T1b/II/III tumors",
+                    "plan_name": "Partial nephrectomy",
+                    "plan_details": "When technically feasible",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred when feasible"
+                },
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "High-risk ccRCC (stage II-IV NED)",
+                    "plan_name": "Pembrolizumab",
+                    "plan_details": "Post-nephrectomy adjuvant therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IV Resectable",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Select patients with good PS",
+                    "plan_name": "Cytoreductive nephrectomy",
+                    "plan_details": "± adjuvant pembrolizumab",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IV (Metastatic) or Relapsed",
+            "risk_group": "Favorable (ccRCC)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Favorable risk ccRCC",
+                    "plan_name": "Axitinib + Pembrolizumab",
+                    "plan_details": "TKI-IO combination therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Favorable risk ccRCC",
+                    "plan_name": "Cabozantinib + Nivolumab",
+                    "plan_details": "TKI-IO combination therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Favorable risk ccRCC",
+                    "plan_name": "Lenvatinib + Pembrolizumab",
+                    "plan_details": "TKI-IO combination therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IV (Metastatic) or Relapsed",
+            "risk_group": "Intermediate/Poor (ccRCC)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Intermediate/poor risk ccRCC",
+                    "plan_name": "Ipilimumab + Nivolumab",
+                    "plan_details": "IO-IO combination therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Intermediate/poor risk ccRCC",
+                    "plan_name": "Cabozantinib monotherapy",
+                    "plan_details": "TKI monotherapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Alternative"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IV (Metastatic) or Relapsed",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Subsequent therapy",
+                    "patient_subgroup": "ccRCC after PD-1/VEGF-TKI failure",
+                    "plan_name": "Cabozantinib",
+                    "plan_details": "Single-agent TKI",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Subsequent therapy",
+                    "patient_subgroup": "ccRCC after prior therapy",
+                    "plan_name": "Lenvatinib + Everolimus",
+                    "plan_details": "TKI-mTOR inhibitor combination",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Subsequent therapy",
+                    "patient_subgroup": "VHL-associated RCC",
+                    "plan_name": "Belzutifan",
+                    "plan_details": "HIF-2α inhibitor",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Non-Clear Cell RCC (nccRCC)",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "All nccRCC",
+                    "plan_name": "Cabozantinib",
+                    "plan_details": "Single-agent TKI",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "nccRCC",
+                    "plan_name": "Lenvatinib + Pembrolizumab",
+                    "plan_details": "TKI-IO combination",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Collecting duct/medullary nccRCC",
+                    "plan_name": "Platinum-based chemotherapy",
+                    "plan_details": "e.g., Carboplatin/Gemcitabine",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Oligometastatic Disease",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Local therapy",
+                    "patient_subgroup": "Limited metastases",
+                    "plan_name": "Metastasectomy or SBRT/ablation",
+                    "plan_details": "Curative-intent local treatment",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "PD-1/PD-L1 status predicts efficacy of immunotherapy (e.g., pembrolizumab)",
+            "Sarcomatoid features indicate aggressive disease and improved response to cabozantinib + nivolumab",
+            "VHL mutations guide use of belzutifan (HIF-2α inhibitor)",
+            "TSC mutations indicate response to everolimus (mTOR inhibitor)",
+            "HLRCC (FH-deficient) predicts response to erlotinib + bevacizumab",
+            "IMDC/MSKCC risk factors direct first-line therapy selection (e.g., ipilimumab + nivolumab for poor risk)",
+            "SDH-deficient RCC associated with PGL/PCC syndromes requiring specific surveillance"
+        ]
+    },
+    "guideline_id": "（2025.V2）NCCN临床实践指南：肾癌.txt"
+}

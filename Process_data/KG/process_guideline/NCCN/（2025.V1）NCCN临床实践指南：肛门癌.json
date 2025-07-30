@@ -1,0 +1,134 @@
+{
+    "cancer_info": {
+        "cancer_name": "Squamous Cell Carcinoma of the Anal Canal and Perianal Region"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Digital rectal examination (DRE)",
+            "Anoscopy",
+            "Inguinal lymph node palpation",
+            "Gynecologic exam (including cervical cancer screening)",
+            "Biopsy for histologic confirmation",
+            "CT chest/abdomen/pelvis with IV/oral contrast",
+            "Contrast-enhanced MRI pelvis",
+            "PET/CT or PET/MRI (skull base to mid-thigh if available)",
+            "HIV testing",
+            "Fertility risk discussion/counseling",
+            "High-Resolution Anoscopy (HRA) for post-treatment surveillance",
+            "Pelvic MRI with contrast",
+            "Endoanal ultrasound",
+            "Chest CT (with or without contrast)",
+            "CD4 count testing (for HIV+ patients)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "T1 N0 M0 (Well-differentiated perianal/SISCCA)",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Selected cases with sphincter preservation",
+                    "plan_name": "Local excision",
+                    "plan_details": "1-cm margins; for SISCCA (≤3mm invasion, ≤7mm horizontal spread)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stages I-III (Non-metastatic excluding low-risk T1N0)",
+            "risk_group": "Non-low risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "General population",
+                    "plan_name": "Chemoradiation (5-FU + Mitomycin C + RT)",
+                    "plan_details": "Radiation: 50.4-54 Gy via IMRT; Chemo: 5-FU continuous infusion + Mitomycin C",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Alternative regimen",
+                    "plan_name": "Chemoradiation (Capecitabine + Mitomycin C + RT)",
+                    "plan_details": "Oral capecitabine substitution for 5-FU",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "HIV+ patients",
+                    "plan_name": "Chemoradiation + HAART",
+                    "plan_details": "No dose modifications based solely on HIV status; ART essential",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Locally progressive/recurrent disease",
+            "risk_group": "Salvage candidates",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Salvage treatment",
+                    "patient_subgroup": "Resectable disease",
+                    "plan_name": "Abdominoperineal resection (APR)",
+                    "plan_details": "With inguinal node dissection ± VRAM flap reconstruction",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard"
+                },
+                {
+                    "treatment_line": "Pre-APR treatment",
+                    "patient_subgroup": "Unresectable recurrence",
+                    "plan_name": "Immunotherapy",
+                    "plan_details": "Nivolumab or pembrolizumab",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Considered"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic/Recurrent disease",
+            "risk_group": "Advanced stage",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line systemic therapy",
+                    "patient_subgroup": "General population",
+                    "plan_name": "Carboplatin + Paclitaxel",
+                    "plan_details": "Based on InterAACT trial (superior OS vs. cisplatin/5-FU)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line systemic therapy",
+                    "patient_subgroup": "Alternative regimens",
+                    "plan_name": "FOLFCIS/mFOLFOX6/5-FU+Cisplatin",
+                    "plan_details": "For patients unsuitable for carboplatin/paclitaxel",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Other"
+                },
+                {
+                    "treatment_line": "Second-line+ therapy",
+                    "patient_subgroup": "PD-L1+ tumors",
+                    "plan_name": "Pembrolizumab/Nivolumab",
+                    "plan_details": "Response rates 20-24% in refractory disease (KEYNOTE-158, NCI9673)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Palliative care",
+                    "patient_subgroup": "Symptomatic sites",
+                    "plan_name": "Radiation therapy",
+                    "plan_details": "20-30 Gy in 5-10 fractions",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Supportive"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "HPV/p16: Prognostic biomarker (positive status correlates with improved OS). PD-L1: Predictive biomarker for response to PD-1 inhibitors in metastatic setting. HIV status: Requires testing but does not alter treatment; ART adherence critical for treatment tolerance. CD4 count <200 cells/µL increases radiation toxicity risk."
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：肛门癌.txt"
+}

@@ -1,0 +1,164 @@
+{
+    "cancer_info": {
+        "cancer_name": "Immunotherapy-Related Toxicities (across multiple cancer types)"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "ECG",
+            "Troponin",
+            "NT-proBNP",
+            "TSH",
+            "FT4",
+            "Cortisol",
+            "HbA1c",
+            "O2 saturation",
+            "Chest imaging",
+            "Skin biopsy",
+            "Liver biopsy",
+            "Myocardium biopsy",
+            "Autoantibodies (anti-desmoglein, AchR antibodies)",
+            "Ferritin",
+            "Cardiac MRI",
+            "Chest CT",
+            "Morning cortisol",
+            "ACTH",
+            "Testosterone",
+            "Estrogen",
+            "Renin",
+            "Comprehensive Metabolic Panel",
+            "Stool studies (C. difficile, pathogens)",
+            "Fecal lactoferrin/calprotectin",
+            "Abdominal/pelvic CT with contrast",
+            "Colonoscopy",
+            "ALT",
+            "AST",
+            "Alkaline phosphatase",
+            "Bilirubin",
+            "Viral serologies (HBV, HCV, HIV)",
+            "Abdominal ultrasound/CT/MRI",
+            "CBC",
+            "Peripheral smear",
+            "Reticulocyte count",
+            "LDH",
+            "Haptoglobin",
+            "Direct antiglobulin test",
+            "Bone marrow biopsy",
+            "Acetylcholine receptor antibodies",
+            "MRI brain/spine",
+            "Lumbar puncture",
+            "EMG",
+            "Pulse oximetry",
+            "Bronchoscopy with BAL",
+            "IL-6 levels",
+            "CRP",
+            "Ferritin",
+            "ICE score assessment",
+            "Brain MRI",
+            "CSF analysis",
+            "Soluble CD25",
+            "NK function tests"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Grade 1 (Mild)",
+            "risk_group": "General",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "Monitoring",
+                    "plan_details": "Continue immunotherapy with close monitoring",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Grade 2 (Moderate)",
+            "risk_group": "General",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "Corticosteroids",
+                    "plan_details": "Hold immunotherapy; initiate prednisone 0.5-1 mg/kg/day or equivalent",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Grade 3-4 (Severe/Life-threatening)",
+            "risk_group": "High-risk (combination therapy, pre-existing autoimmunity)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "High-dose corticosteroids",
+                    "plan_details": "Permanently discontinue immunotherapy; methylprednisolone 1-2 mg/kg/day IV",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                },
+                {
+                    "treatment_line": "Refractory cases",
+                    "patient_subgroup": "Colitis",
+                    "plan_name": "Anti-TNFα/anti-integrin",
+                    "plan_details": "Infliximab 5 mg/kg or vedolizumab if no improvement in 48-72 hours",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                },
+                {
+                    "treatment_line": "Refractory cases",
+                    "patient_subgroup": "Hepatitis",
+                    "plan_name": "Mycophenolate mofetil",
+                    "plan_details": "1.5 g BID",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                },
+                {
+                    "treatment_line": "Refractory cases",
+                    "patient_subgroup": "Neurologic irAEs",
+                    "plan_name": "IVIG/Plasmapheresis",
+                    "plan_details": "IVIG 2g/kg or plasmapheresis",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                },
+                {
+                    "treatment_line": "CAR T-specific",
+                    "patient_subgroup": "CRS Grade 3-4",
+                    "plan_name": "Tocilizumab + steroids",
+                    "plan_details": "Tocilizumab 8 mg/kg IV + dexamethasone 10 mg q6h",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "CAR T-specific",
+                    "patient_subgroup": "Refractory ICANS",
+                    "plan_name": "Anakinra",
+                    "plan_details": "IL-1R antagonist for steroid-refractory neurotoxicity",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "HLH/MAS syndrome",
+            "risk_group": "CAR T-cell patients",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "Confirmed HLH",
+                    "plan_name": "HLH-94 protocol",
+                    "plan_details": "High-dose corticosteroids + etoposide",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Troponin/NT-proBNP: Early detection of myocarditis; IL-6/CRP/Ferritin: Correlate with CRS/HLH severity; Soluble CD25: Diagnostic for HLH/MAS; Autoantibodies (e.g., anti-AChR): Confirm autoimmune neurologic disorders; Neurofilament Light Chain: Marker for neuronal injury in ICANS; Cytokine profiles: Predict toxicity severity; CD4/CD8 ratio: Associated with CAR T-cell persistence and toxicity risk"
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：免疫治疗相关毒性的管理.txt"
+}

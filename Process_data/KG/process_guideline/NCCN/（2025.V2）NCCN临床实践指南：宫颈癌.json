@@ -1,0 +1,155 @@
+{
+    "cancer_info": {
+        "cancer_name": "Cervical Cancer"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Pelvic MRI (parametrial assessment)",
+            "FDG-PET/CT (nodal metastasis evaluation)",
+            "CT chest/abdomen/pelvis",
+            "Cone biopsy (cold knife preferred)",
+            "Endocervical Curettage (ECC)",
+            "Cervical biopsy with margin assessment",
+            "LVSI assessment",
+            "p16 IHC testing",
+            "HPV testing",
+            "CBC",
+            "Renal/hepatic function tests",
+            "HIV testing",
+            "Cystoscopy/proctoscopy (if bladder/rectal involvement suspected)",
+            "SLN mapping with ultrastaging",
+            "Comprehensive molecular profiling (PD-L1, MSI-H/dMMR, TMB-H, HER2, NTRK, RET)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Stage IA1",
+            "risk_group": "Low risk (no LVSI)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Fertility-sparing candidates",
+                    "plan_name": "Cone biopsy",
+                    "plan_details": "En bloc excision with ≥1mm clear margins",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Conservative management"
+                },
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Non-fertility-sparing",
+                    "plan_name": "Type A hysterectomy",
+                    "plan_details": "Simple hysterectomy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IA2-IB1 (tumors ≤2cm)",
+            "risk_group": "Low risk (no LVSI, Silva A/B)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Fertility-sparing candidates",
+                    "plan_name": "Radical trachelectomy",
+                    "plan_details": "Vaginal/abdominal approach + SLN mapping",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Conservative surgery"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IB1 (non-conservative)/IB2",
+            "risk_group": "Intermediate risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Non-fertility-sparing",
+                    "plan_name": "Radical hysterectomy (Type B/C)",
+                    "plan_details": "Open approach + pelvic/para-aortic lymphadenectomy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Alternative treatment",
+                    "patient_subgroup": "Locally advanced",
+                    "plan_name": "Chemoradiation",
+                    "plan_details": "EBRT + brachytherapy + concurrent platinum",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Standard"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IB3-IVA",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "Definitive chemoradiation",
+                    "plan_details": "EBRT (45 Gy) + brachytherapy (EQD2 ≥85 Gy) + concurrent cisplatin/carboplatin ± pembrolizumab",
+                    "nccn_evidence_category": "Category 1 (FIGO 2014)/Category 2B (FIGO 2018)",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic/Recurrent",
+            "risk_group": "Advanced disease",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "PD-L1+ (CPS≥1)",
+                    "plan_name": "Pembrolizumab combination",
+                    "plan_details": "Pembrolizumab + platinum/taxane ± bevacizumab",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "PD-L1+/MSI-H/TMB-H",
+                    "plan_name": "Pembrolizumab/Cemiplimab",
+                    "plan_details": "Immune checkpoint inhibitors",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Subsequent therapy",
+                    "patient_subgroup": "HER2+ (IHC 3+/2+)",
+                    "plan_name": "Trastuzumab deruxtecan",
+                    "plan_details": "Fam-trastuzumab deruxtecan",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Targeted therapy"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Post-hysterectomy",
+            "risk_group": "High-risk features",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "Positive nodes/margins",
+                    "plan_name": "Chemoradiation",
+                    "plan_details": "Pelvic EBRT + concurrent platinum chemo + brachytherapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Standard"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "PD-L1 (CPS≥1): Predicts response to pembrolizumab/cemiplimab in 1L metastatic disease",
+            "MSI-H/dMMR: Indicates immunotherapy benefit (pembrolizumab in 2L+)",
+            "TMB-H (≥10 mut/Mb): Predicts pembrolizumab efficacy in 2L+",
+            "HER2 (IHC 3+/2+): Guides trastuzumab deruxtecan use",
+            "NTRK Fusion: Targetable with larotrectinib/entrectinib",
+            "RET Fusion: Targetable with selpercatinib",
+            "HPV Status: Prognostic indicator (worse outcomes in HPV-independent subtypes)",
+            "Silva Pattern: Predicts nodal metastasis risk (Pattern A: low risk; Pattern C: high risk)"
+        ]
+    },
+    "guideline_id": "（2025.V2）NCCN临床实践指南：宫颈癌.txt"
+}

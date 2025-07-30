@@ -1,0 +1,164 @@
+{
+    "guideline_identifier": "PIIS2059702923008591.txt",
+    "cancer_focus": {
+        "primary_cancer": "Solid Tumors (Breast Cancer, Non-Small Cell Lung Cancer, Melanoma)",
+        "related_syndrome_or_condition": "Leptomeningeal Metastasis"
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Confirmed LM (Type I): Positive CSF cytology or leptomeningeal biopsy",
+            "risk_group": "Poor prognosis: Older age, poor KPS, positive CSF cytology, CSF flow obstruction, triple-negative breast cancer, absence of druggable targets",
+            "treatment_plans": [
+                {
+                    "clinical_context": "HER2+ breast cancer without CSF obstruction",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Intrathecal trastuzumab (80–150 mg) ± pertuzumab; systemic trastuzumab-deruxtecan",
+                    "treatment_line": "",
+                    "biomarker_requirements": [
+                        {
+                            "name": "HER2",
+                            "status": "Positive",
+                            "testing_guidance": "CSF immunohistochemistry or liquid biopsy"
+                        }
+                    ],
+                    "esmo_evidence_level": "ESMO II"
+                },
+                {
+                    "clinical_context": "NSCLC with EGFR mutation",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Osimertinib (160 mg daily)",
+                    "treatment_line": "",
+                    "biomarker_requirements": [
+                        {
+                            "name": "EGFR",
+                            "status": "Mutated",
+                            "testing_guidance": "CSF cell-free DNA analysis"
+                        }
+                    ],
+                    "esmo_evidence_level": "ESMO II-B"
+                },
+                {
+                    "clinical_context": "Melanoma LM",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Nivolumab ± ipilimumab",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "ESMO II"
+                },
+                {
+                    "clinical_context": "Non-leukemic LM",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "High-dose IV methotrexate",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "ESMO I"
+                },
+                {
+                    "clinical_context": "Breast cancer LM",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "IV thiotepa",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": ""
+                },
+                {
+                    "clinical_context": "Symptomatic nodular lesions or cranial/spinal nerve deficits",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Focal radiotherapy to symptomatic sites",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": ""
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Confirmed LM (Type I): Positive CSF cytology or leptomeningeal biopsy",
+            "risk_group": "Favorable prognosis: Systemic/intrathecal therapy administration, controlled extracranial disease",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Confirmed LM (Type IA-C) without CSF flow obstruction",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Intrathecal chemotherapy: Methotrexate (10–15 mg), cytarabine (10 mg), liposomal cytarabine (50 mg), thiotepa (10 mg) via Ommaya reservoir",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "ESMO III-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Probable LM (Type II): Typical clinical + MRI findings with negative/equivocal cytology",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "General management",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Prioritize tumor-specific systemic therapy with CNS penetration; repeat CSF cytology if initial negative",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "ESMO V-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Possible LM: Isolated clinical OR MRI findings (e.g., hydrocephalus)",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Hydrocephalus management",
+                    "recommendation_type": "Supportive care",
+                    "recommendation_content": "Ventriculoperitoneal shunting for symptomatic relief",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": ""
+                },
+                {
+                    "clinical_context": "Asymptomatic LM",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Modify systemic therapy for CNS penetration (e.g., high-dose methotrexate)",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": ""
+                }
+            ]
+        },
+        {
+            "staging_criteria": "LM with CSF flow obstruction",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "CSF flow restoration",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Focal radiotherapy to restore flow before intrathecal therapy",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": ""
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Extensive linear/nodular LM",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Palliative care",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Whole-brain radiotherapy (30 Gy/10 fractions); avoid with concurrent intrathecal therapy",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "ESMO IV-C"
+                },
+                {
+                    "clinical_context": "Select patients with LM",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Craniospinal irradiation (photon or proton-based)",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "ESMO II"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Guides targeted therapy selection and predicts treatment efficacy"
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "guideline_identifier": "PIIS0923753423050743.txt",
+    "cancer_focus": {
+        "primary_cancer": "Primary Central Nervous System Lymphoma (PCNSL)",
+        "related_syndrome_or_condition": [
+            "Primary Vitreoretinal Lymphoma (PVRL)",
+            "Secondary CNS Lymphoma (SCNSL)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Newly Diagnosed PCNSL",
+            "risk_group": "Fit Patients (Suitable for HDC/ASCT)",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Induction therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "MATRix regimen (high-dose methotrexate + high-dose cytarabine + rituximab + thiotepa)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "CD20",
+                            "status": "Positive",
+                            "testing_guidance": "IHC on tumor tissue (standard diagnostic panel)"
+                        }
+                    ],
+                    "esmo_evidence_level": "I-A"
+                },
+                {
+                    "clinical_context": "Consolidation therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "High-dose chemotherapy with autologous stem cell transplantation (HDC/ASCT) using thiotepa-based conditioning",
+                    "treatment_line": "First-line consolidation",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I-A"
+                },
+                {
+                    "clinical_context": "Consolidation for ASCT-ineligible",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Whole-brain radiotherapy (WBRT) at 36-40 Gy",
+                    "treatment_line": "First-line consolidation",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I-A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Newly Diagnosed PCNSL",
+            "risk_group": "Elderly/Unfit for ASCT",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Induction therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "High-dose methotrexate (≥3 g/m²) + rituximab + procarbazine/temozolomide",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "CD20",
+                            "status": "Positive",
+                            "testing_guidance": "IHC on tumor tissue"
+                        }
+                    ],
+                    "esmo_evidence_level": "I-A"
+                },
+                {
+                    "clinical_context": "Post-induction management",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Avoid WBRT due to neurotoxicity risk",
+                    "treatment_line": "Consolidation",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I-D"
+                },
+                {
+                    "clinical_context": "Maintenance therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Lenalidomide or temozolomide maintenance",
+                    "treatment_line": "First-line maintenance",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "IV-C"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Newly Diagnosed PCNSL",
+            "risk_group": "Unfit for HD-MTX",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Palliative therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Palliative WBRT (30-36 Gy), corticosteroids, oral alkylators, or novel agents (ibrutinib)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "III-B, V-C"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "PVRL",
+            "risk_group": "First-Line",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Systemic therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "High-dose methotrexate-based regimens",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "CD20",
+                            "status": "Positive",
+                            "testing_guidance": "IHC on tumor tissue"
+                        }
+                    ],
+                    "esmo_evidence_level": "IV-C"
+                },
+                {
+                    "clinical_context": "Local ocular therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Intravitreal methotrexate or rituximab",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "IV-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "PVRL",
+            "risk_group": "Relapsed/Refractory",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Salvage therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "ASCT, ibrutinib, lenalidomide, or temozolomide",
+                    "treatment_line": "Salvage",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "III-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Relapsed/Refractory PCNSL",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Salvage therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "High-dose cytarabine or ifosfamide followed by ASCT or WBRT",
+                    "treatment_line": "Salvage",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "III-B"
+                },
+                {
+                    "clinical_context": "Late relapse",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Rechallenge with high-dose methotrexate",
+                    "treatment_line": "Salvage",
+                    "biomarker_requirements": [
+                        {
+                            "name": "CD20",
+                            "status": "Positive",
+                            "testing_guidance": "IHC on tumor tissue"
+                        }
+                    ],
+                    "esmo_evidence_level": "IV-B"
+                },
+                {
+                    "clinical_context": "BTK inhibitor therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Ibrutinib or tirabrutinib",
+                    "treatment_line": "Salvage",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "III-B"
+                },
+                {
+                    "clinical_context": "CAR T-cell therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "CD19-directed CAR T-cell therapy (e.g., tisagenlecleucel)",
+                    "treatment_line": "Salvage",
+                    "biomarker_requirements": [
+                        {
+                            "name": "CD19",
+                            "status": "Positive",
+                            "testing_guidance": "IHC or flow cytometry on tumor tissue/CSF"
+                        }
+                    ],
+                    "esmo_evidence_level": "V-C"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "MYD88 L265P and IL-10 serve as diagnostic biomarkers in CSF/vitreous fluid. CD20 expression enables rituximab-based immunotherapy. CD19 positivity is required for CD19-targeted therapies including CAR T-cell treatment."
+    }
+}

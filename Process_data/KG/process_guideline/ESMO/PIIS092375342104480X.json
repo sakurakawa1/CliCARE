@@ -1,0 +1,236 @@
+{
+    "guideline_identifier": "PIIS092375342104480X.txt",
+    "cancer_focus": {
+        "primary_cancer": "Gastrointestinal Stromal Tumours",
+        "related_syndrome_or_condition": "Carney Triad, Carney-Stratakis Syndrome, Neurofibromatosis Type 1, Germline KIT/PDGFRA Mutations"
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Localised",
+            "risk_group": "High risk (sensitive mutations)",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Adjuvant therapy after resection",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Imatinib 400 mg/day for 3 years",
+                    "treatment_line": "Adjuvant",
+                    "biomarker_requirements": [
+                        {
+                            "name": "KIT/PDGFRA mutation",
+                            "status": "Sensitive (excluding PDGFRA D842V)",
+                            "testing_guidance": "Mandatory testing for all GISTs except ≤2 cm non-rectal tumours; Sanger sequencing or NGS"
+                        }
+                    ],
+                    "esmo_evidence_level": "LOE I, GoR A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Localised",
+            "risk_group": "Very high risk (tumour rupture)",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Adjuvant therapy after resection with tumour rupture",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Adjuvant imatinib",
+                    "treatment_line": "Adjuvant",
+                    "biomarker_requirements": [
+                        {
+                            "name": "KIT/PDGFRA mutation",
+                            "status": "Sensitive (excluding PDGFRA D842V)",
+                            "testing_guidance": "Mandatory testing for all GISTs except ≤2 cm non-rectal tumours; Sanger sequencing or NGS"
+                        }
+                    ],
+                    "esmo_evidence_level": "LOE IV, GoR A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Localised",
+            "risk_group": "Excluded genotypes (PDGFRA D842V, SDH-deficient, NF1-related, BRAF/NTRK-altered)",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Adjuvant therapy exclusion",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "No adjuvant therapy",
+                    "treatment_line": "Adjuvant",
+                    "biomarker_requirements": [
+                        {
+                            "name": "PDGFRA D842V, SDH deficiency, NF1 mutation, BRAF/NTRK alteration",
+                            "status": "Present",
+                            "testing_guidance": "Mandatory KIT/PDGFRA testing plus additional testing in wild-type GISTs; SDHB IHC for SDH deficiency"
+                        }
+                    ],
+                    "esmo_evidence_level": "GoR D"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Localised, unresectable or functionally high-risk",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Neoadjuvant therapy for sensitive mutations",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Imatinib 6–12 months",
+                    "treatment_line": "Neoadjuvant",
+                    "biomarker_requirements": [
+                        {
+                            "name": "KIT/PDGFRA mutation",
+                            "status": "Sensitive (excluding D842V)",
+                            "testing_guidance": "Mandatory testing; centralised labs preferred"
+                        }
+                    ],
+                    "esmo_evidence_level": "LOE III, GoR A"
+                },
+                {
+                    "clinical_context": "Neoadjuvant therapy for PDGFRA D842V mutations",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Avapritinib 300 mg/day",
+                    "treatment_line": "Neoadjuvant",
+                    "biomarker_requirements": [
+                        {
+                            "name": "PDGFRA",
+                            "status": "D842V mutation",
+                            "testing_guidance": "Mandatory testing; centralised labs preferred"
+                        }
+                    ],
+                    "esmo_evidence_level": "LOE III, GoR A, MCBS 3, ESCAT I-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Advanced/Metastatic",
+            "risk_group": "",
+            "treatment_plans": [
+                {
+                    "clinical_context": "First-line for sensitive mutations",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Imatinib 400 mg/day indefinitely",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "KIT/PDGFRA mutation",
+                            "status": "Sensitive (excluding exon 9 and D842V)",
+                            "testing_guidance": "Mandatory testing; Sanger sequencing or NGS"
+                        }
+                    ],
+                    "esmo_evidence_level": "LOE I, GoR A"
+                },
+                {
+                    "clinical_context": "First-line for KIT exon 9 mutations",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Imatinib 800 mg/day",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "KIT",
+                            "status": "Exon 9 mutation",
+                            "testing_guidance": "Mandatory testing; Sanger sequencing or NGS"
+                        }
+                    ],
+                    "esmo_evidence_level": "LOE III, GoR B, ESCAT I-A"
+                },
+                {
+                    "clinical_context": "First-line for PDGFRA D842V mutations",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Avapritinib 300 mg/day",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "PDGFRA",
+                            "status": "D842V mutation",
+                            "testing_guidance": "Mandatory testing; centralised labs preferred"
+                        }
+                    ],
+                    "esmo_evidence_level": "LOE III, GoR A, MCBS 3, ESCAT I-B"
+                },
+                {
+                    "clinical_context": "Second-line after imatinib progression",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Sunitinib 50 mg/day (4 weeks on/2 weeks off)",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "LOE I, GoR A, MCBS 3"
+                },
+                {
+                    "clinical_context": "Third-line treatment",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Regorafenib 160 mg/day (3 weeks on/1 week off)",
+                    "treatment_line": "Third-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "LOE I, GoR A, MCBS 3"
+                },
+                {
+                    "clinical_context": "Fourth-line treatment",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Ripretinib 150 mg/day",
+                    "treatment_line": "Fourth-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "LOE I, GoR A, MCBS 3"
+                },
+                {
+                    "clinical_context": "NTRK fusion-positive tumours",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Larotrectinib or entrectinib",
+                    "treatment_line": "Subsequent lines",
+                    "biomarker_requirements": [
+                        {
+                            "name": "NTRK fusion",
+                            "status": "Present",
+                            "testing_guidance": "Additional testing in quadruple-negative wild-type GISTs"
+                        }
+                    ],
+                    "esmo_evidence_level": "LOE III, GoR A, MCBS 3, ESCAT I-C"
+                },
+                {
+                    "clinical_context": "BRAF-mutated tumours",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "BRAF/MEK inhibitors (e.g., dabrafenib/trametinib)",
+                    "treatment_line": "Subsequent lines",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRAF",
+                            "status": "Mutation",
+                            "testing_guidance": "Additional testing in wild-type GISTs"
+                        }
+                    ],
+                    "esmo_evidence_level": "LOE V, GoR B, ESCAT III-A"
+                },
+                {
+                    "clinical_context": "SDH-deficient GISTs",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Sunitinib or regorafenib (limited activity)",
+                    "treatment_line": "Subsequent lines",
+                    "biomarker_requirements": [
+                        {
+                            "name": "SDH deficiency",
+                            "status": "Present",
+                            "testing_guidance": "SDHB immunohistochemistry"
+                        }
+                    ],
+                    "esmo_evidence_level": "LOE III, GoR B"
+                },
+                {
+                    "clinical_context": "Residual disease responding to TKIs",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Resection of residual disease",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "LOE III, GoR C"
+                },
+                {
+                    "clinical_context": "Isolated progressing lesions",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Excision while continuing TKI",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "LOE IV, GoR C"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "KIT mutations (especially exon 11 deletions at codons 557-558) indicate poor prognosis but predict imatinib response. PDGFRA D842V mutations confer favorable prognosis and innate imatinib resistance but high avapritinib sensitivity. SDH-deficient, NF1-related, BRAF-mutated, and NTRK-rearranged GISTs have distinct natural histories guiding targeted therapy selection."
+    }
+}

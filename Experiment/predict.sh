@@ -1,0 +1,22 @@
+echo "开始进行QA_MIMIC_KG的预测，模型使用Qwen3-8B"
+CUDA_VISIBLE_DEVICES=0,1,2,3 llamafactory-cli train \
+    --stage sft \
+    --model_name_or_path /autodl-fs/data/Raw_model/Qwen3-8B \
+    --preprocessing_num_workers 16 \
+    --finetuning_type lora \
+    --quantization_method bnb \
+    --template default \
+    --flash_attn auto \
+    --dataset_dir data \
+    --eval_dataset QA_MIMIC_KG_eval \
+    --cutoff_len 20000 \
+    --max_samples 100000 \
+    --per_device_eval_batch_size 1 \
+    --predict_with_generate True \
+    --max_new_tokens 4096 \
+    --top_p 0.7 \
+    --temperature 0.95 \
+    --output_dir saves/Qwen3-8B/lora/QA_MIMIC_KG_eval \
+    --trust_remote_code True \
+    --do_predict True \
+    --adapter_name_or_path saves/Qwen3-8B/lora/QA_MIMIC_KG_train

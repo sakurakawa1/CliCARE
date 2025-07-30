@@ -1,0 +1,112 @@
+{
+    "guideline_id": "2024CSCO卵巢癌诊疗指南.txt",
+    "cancer_info": {
+        "cancer_name": "Ovarian Cancer"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "Early-stage epithelial ovarian cancer (Stage I)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "For patients preserving fertility: unilateral adnexectomy (Stage IA) followed by TC chemotherapy for 3-6 cycles (for G2/G3 or Stage IC). For patients without fertility preservation: comprehensive staging surgery followed by observation (IA G1) or chemotherapy (IC).",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Advanced epithelial ovarian cancer (Stage II-IV) with satisfactory debulking surgery",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Paclitaxel + carboplatin for 6 cycles (liposomal paclitaxel is Level I recommended).",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Advanced epithelial ovarian cancer with unsatisfactory debulking surgery",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Neoadjuvant chemotherapy (TC regimen for 3 cycles) followed by interval debulking surgery.",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Maintenance therapy after chemotherapy CR/PR",
+            "recommendation_type": "Maintenance Treatment",
+            "recommendation_content": "For BRCA mutation: olaparib, niraparib, or fuzuloparib. For HRD positive: niraparib or fuzuloparib. For HRP/untested HRD: niraparib or bevacizumab.",
+            "treatment_line": "Maintenance",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "BRCA",
+                    "status": "Mutant",
+                    "testing_guidance": "Test for BRCA mutation before initiation."
+                },
+                {
+                    "biomarker_name": "HRD",
+                    "status": "Positive",
+                    "testing_guidance": "Test HRD status to confirm eligibility."
+                },
+                {
+                    "biomarker_name": "HRD",
+                    "status": "Negative or Untested",
+                    "testing_guidance": "For HRP or untested cases, consider niraparib or bevacizumab."
+                }
+            ],
+            "recommendation_level": "Level I",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Platinum-sensitive recurrent ovarian cancer (platinum-free interval ≥6 months)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Surgical debulking (optional) followed by platinum-based chemotherapy (TC or Gem-Carbo) ± bevacizumab, then PARP inhibitor maintenance. New addition: mirvetuximab soravtansine for FRα high expression.",
+            "treatment_line": "Recurrent",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "FRα",
+                    "status": "High expression",
+                    "testing_guidance": "Test FRα expression (≥75% tumor cells PS2+) for eligibility."
+                }
+            ],
+            "recommendation_level": "Level II",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Platinum-resistant recurrent ovarian cancer",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Non-platinum single-agent chemotherapy (doxorubicin liposomal, albumin-bound paclitaxel) ± bevacizumab. New addition: trastuzumab deruxtecan for HER2 2+/3+.",
+            "treatment_line": "Recurrent",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "HER2",
+                    "status": "2+ or 3+",
+                    "testing_guidance": "Test HER2 status for eligibility."
+                }
+            ],
+            "recommendation_level": "Level III",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Malignant germ cell tumors",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "BEP regimen (bleomycin + etoposide + cisplatin) as primary treatment; for Stage I dysgerminoma, observation may be considered.",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Sex cord-stromal tumors",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Surgery as primary treatment; for high-risk group (Stage IC or rupture), postoperative TC or BEP chemotherapy.",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "BRCA1/2 mutation predicts response to PARP inhibitors (e.g., olaparib, niraparib, fuzuloparib) in first-line maintenance therapy. HRD status indicates benefit from PARP inhibitors in maintenance therapy for HRD-positive patients; HRP patients benefit from bevacizumab. FRα expression (≥75% tumor cells PS2+) indicates eligibility for mirvetuximab soravtansine in platinum-resistant recurrence. MSI/dMMR guides immunotherapy (e.g., pembrolizumab) in recurrence. NTRK/RET fusions indicate eligibility for targeted therapies (e.g., larotrectinib, selpercatinib) in refractory recurrence."
+    },
+    "tcm_recommendations": []
+}

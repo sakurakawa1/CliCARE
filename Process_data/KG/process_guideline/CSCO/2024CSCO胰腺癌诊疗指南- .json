@@ -1,0 +1,75 @@
+{
+    "guideline_id": "2024CSCO胰腺癌诊疗指南- .txt",
+    "cancer_info": {
+        "cancer_name": "Pancreatic Ductal Adenocarcinoma (PDAC)"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "Resectable pancreatic cancer",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Surgical resection: Pancreaticoduodenectomy for pancreatic head/uncinate process; distal pancreatectomy with splenectomy for pancreatic body/tail. Adjuvant chemotherapy starting within 1-2 weeks post-surgery: For good performance status, mFOLFIRINOX or gemcitabine plus capecitabine; for poor performance status, gemcitabine or S-1 monotherapy.",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Borderline resectable pancreatic cancer",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Neoadjuvant therapy: FOLFIRINOX or gemcitabine plus nab-paclitaxel. If conversion to resectable is successful, assess for surgical resection.",
+            "treatment_line": "Neoadjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Locally advanced pancreatic cancer",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "First-line treatment: Induction chemotherapy (FOLFIRINOX or gemcitabine-based) followed by chemoradiation. Alternative: Combination with tumor treating fields therapy. Local ablation with irreversible electroporation for stable disease.",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Metastatic pancreatic cancer",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "First-line treatment: For good performance status, NALIRIFOX, FOLFIRINOX, or AG regimen (gemcitabine plus nab-paclitaxel); for BRCA mutation, platinum-based therapy followed by olaparib maintenance; for poor performance status, gemcitabine or S-1 monotherapy.",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "BRCA",
+                    "status": "Mutation",
+                    "testing_guidance": "Test for BRCA mutations in all patients as per germline testing recommendations."
+                }
+            ],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Metastatic pancreatic cancer",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Second-line treatment: After first-line gemcitabine-based therapy, use 5FU-based therapy (e.g., liposomal irinotecan plus 5FU/LV); for dMMR or MSI-H, pembrolizumab.",
+            "treatment_line": "Second-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "dMMR or MSI-H",
+                    "status": "Positive",
+                    "testing_guidance": "Test for mismatch repair deficiency or microsatellite instability."
+                }
+            ],
+            "recommendation_level": "",
+            "evidence_level": ""
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "BRCA1/2 germline mutations predict sensitivity to platinum-based therapy and benefit from olaparib maintenance. KRAS G12C mutation indicates potential for targeted therapy in clinical trials. NTRK/NRG1 fusions predict sensitivity to TRK inhibitors. dMMR/MSI-H status predicts response to immunotherapy with objective response rate >30%. CA199 serves as a prognostic indicator and for early recurrence detection."
+    },
+    "tcm_recommendations": [
+        {
+            "syndrome_type": "",
+            "tcm_treatment_plan": "Kanglaite injection in combination with gemcitabine to prolong progression-free survival and overall survival; Huachansu for controlling disease progression and alleviating symptoms; Matrine for potential antitumor effects.",
+            "recommendation_grade": ""
+        }
+    ]
+}

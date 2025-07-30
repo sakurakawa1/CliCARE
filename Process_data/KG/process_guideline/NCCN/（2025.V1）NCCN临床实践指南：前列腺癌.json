@@ -1,0 +1,216 @@
+{
+    "cancer_info": {
+        "cancer_name": "Prostate Cancer"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Physical exam",
+            "Digital Rectal Exam (DRE)",
+            "PSA testing",
+            "PSA density calculation",
+            "Transrectal Ultrasound (TRUS)-guided biopsy",
+            "PSMA-PET/CT",
+            "PSMA-PET/MRI",
+            "CT scan (abdomen/pelvis/chest)",
+            "MRI (abdomen/pelvis)",
+            "Bone Scan (Technetium-99m MDP)",
+            "Multiparametric MRI (mpMRI)",
+            "F-18 piflufolastat PET",
+            "Ga-68 PSMA-11 PET",
+            "NaF-PET/CT",
+            "Germline testing (BRCA1/2, ATM, PALB2, CHEK2, MMR genes)",
+            "Somatic tumor testing (HRR mutations, MSI-H/dMMR, TMB)",
+            "Metastatic lesion biopsy",
+            "Confirmatory prostate biopsy",
+            "DEXA scan (bone mineral density)",
+            "FRAX tool assessment",
+            "Testosterone level testing",
+            "Complete Blood Count (CBC)",
+            "Liver Function Tests (LFTs)",
+            "Renal Function tests",
+            "Electrolytes panel"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Localized",
+            "risk_group": "Very Low/Low Risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "General",
+                    "plan_name": "Active surveillance",
+                    "plan_details": "PSA q6mo, DRE q12mo, biopsy q1-5 years, mpMRI q12mo",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Localized",
+            "risk_group": "Favorable Intermediate Risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "General",
+                    "plan_name": "EBRT or brachytherapy",
+                    "plan_details": "Radiation monotherapy without ADT",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Select patients",
+                    "plan_name": "Active surveillance",
+                    "plan_details": "For life expectancy >10 years",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Localized",
+            "risk_group": "Unfavorable Intermediate Risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "General",
+                    "plan_name": "EBRT + ADT",
+                    "plan_details": "70-80 Gy radiation with 4-6 months androgen deprivation therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Surgical candidates",
+                    "plan_name": "Radical prostatectomy",
+                    "plan_details": "With pelvic lymph node dissection",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Localized",
+            "risk_group": "High/Very High Risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "General",
+                    "plan_name": "EBRT + ADT",
+                    "plan_details": "Radiation with 24-36 months ADT ± brachytherapy boost",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Regional node-positive",
+                    "plan_name": "EBRT + ADT + abiraterone",
+                    "plan_details": "Radiation with androgen deprivation and ARSI",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic Castration-Sensitive",
+            "risk_group": "Low Volume",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "General",
+                    "plan_name": "ADT + ARSI",
+                    "plan_details": "Androgen deprivation therapy with novel antiandrogens (abiraterone/enzalutamide/apalutamide)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "With primary tumor",
+                    "plan_name": "EBRT to primary + ADT",
+                    "plan_details": "Based on STAMPEDE Arm H",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Other Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic Castration-Sensitive",
+            "risk_group": "High Volume",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Fit patients",
+                    "plan_name": "ADT + docetaxel + ARSI",
+                    "plan_details": "Triplet therapy (e.g., ADT + docetaxel + abiraterone)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "General",
+                    "plan_name": "ADT + docetaxel",
+                    "plan_details": "Or ADT + novel antiandrogen",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic Castration-Resistant",
+            "risk_group": "1st Line",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "No prior chemotherapy",
+                    "plan_name": "Novel hormonal therapy",
+                    "plan_details": "Abiraterone or enzalutamide",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "HRR mutations",
+                    "plan_name": "PARP inhibitor combinations",
+                    "plan_details": "Olaparib + abiraterone or talazoparib + enzalutamide",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic Castration-Resistant",
+            "risk_group": "2nd Line",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "Post-ARSI/taxane, PSMA-positive",
+                    "plan_name": "Lu-177 PSMA-617",
+                    "plan_details": "Radioligand therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "MSI-H/dMMR",
+                    "plan_name": "Pembrolizumab",
+                    "plan_details": "Immune checkpoint inhibitor",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "HRR mutations",
+                    "plan_name": "PARP inhibitors",
+                    "plan_details": "Olaparib or rucaparib monotherapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "HRR mutations (BRCA1/2, ATM): Predict response to PARP inhibitors and platinum chemotherapy. MSI-H/dMMR: Indicates benefit from pembrolizumab. PSMA expression: Required for Lu-177 PSMA-617 therapy eligibility. Germline mutations: Guide genetic counseling and predict aggressive disease. Decipher genomic classifier: Prognostic for metastasis risk post-treatment. PTEN loss: Associated with aggressive disease and treatment resistance."
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：前列腺癌.txt"
+}

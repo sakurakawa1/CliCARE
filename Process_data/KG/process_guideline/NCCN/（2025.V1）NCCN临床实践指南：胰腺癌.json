@@ -1,0 +1,181 @@
+{
+    "cancer_info": {
+        "cancer_name": "Pancreatic Adenocarcinoma"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Dedicated pancreatic-protocol CT (multiphase IV contrast)",
+            "MRI/MRCP",
+            "EUS-guided FNA/biopsy",
+            "PET-CT/PET-MRI for high-risk features",
+            "Staging laparoscopy (CA 19-9 > 150 U/mL or body/tail tumors)",
+            "Chest CT to rule out metastasis",
+            "CA 19-9 testing (post-biliary decompression)",
+            "Liver function tests",
+            "CBC and electrolytes",
+            "IgG4 testing (to differentiate autoimmune pancreatitis)",
+            "Germline genetic testing (BRCA1/2, PALB2, ATM, Lynch syndrome genes)",
+            "Somatic NGS profiling (ALK/NRG1/NTRK/ROS1/FGFR2/RET fusions, BRAF/KRAS/PALB2 mutations, HER2 amplification, MSI/dMMR, TMB)",
+            "HER2 IHC/FISH testing"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Resectable",
+            "risk_group": "Without high-risk features",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All",
+                    "plan_name": "Surgical resection",
+                    "plan_details": "Pancreaticoduodenectomy (Whipple) for head/uncinate tumors; Distal pancreatectomy for body/tail tumors; R0 resection (≥1 mm clearance)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Standard"
+                },
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "Post-resection (ECOG 0-1)",
+                    "plan_name": "mFOLFIRINOX or Gemcitabine/Capecitabine",
+                    "plan_details": "mFOLFIRINOX: Oxaliplatin 85 mg/m² + Irinotecan 150-180 mg/m² + Leucovorin 400 mg/m² + 5-FU 2400 mg/m²; Gemcitabine 1000 mg/m² + Capecitabine 1660 mg/m²; Start within 8-12 weeks post-surgery",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Resectable",
+            "risk_group": "With high-risk features (CA 19-9 >100 U/mL, large tumors)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Neoadjuvant therapy",
+                    "patient_subgroup": "ECOG 0-1",
+                    "plan_name": "FOLFIRINOX or Gemcitabine/nab-Paclitaxel",
+                    "plan_details": "FOLFIRINOX: Oxaliplatin 85 mg/m² + Irinotecan 180 mg/m² + Leucovorin 400 mg/m² + 5-FU 400 mg/m² bolus then 2400 mg/m² infusion; Gemcitabine 1000 mg/m² + nab-Paclitaxel 125 mg/m²; ± Chemoradiation (45-54 Gy)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Borderline Resectable",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Neoadjuvant therapy",
+                    "patient_subgroup": "ECOG 0-1",
+                    "plan_name": "FOLFIRINOX or Gemcitabine/nab-Paclitaxel",
+                    "plan_details": "Systemic therapy → Restaging → Surgery if feasible; SMV/PV reconstruction acceptable",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Locally Advanced",
+            "risk_group": "Good PS (ECOG 0-1)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "FOLFIRINOX or Gemcitabine/nab-Paclitaxel",
+                    "plan_details": "4-6 months systemic therapy; Consolidation with chemoradiation (45-54 Gy + capecitabine) or SBRT (30-45 Gy/3-5 fractions) for non-progressors",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Targeted therapy",
+                    "patient_subgroup": "Actionable alterations",
+                    "plan_name": "Biomarker-directed regimens",
+                    "plan_details": "BRAF V600E+: Dabrafenib + Trametinib; NTRK fusion+: Entrectinib/Larotrectinib; dMMR/MSI-H: Pembrolizumab",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Locally Advanced",
+            "risk_group": "Poor PS (ECOG ≥2)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "Gemcitabine monotherapy",
+                    "plan_details": "Gemcitabine 1000 mg/m² weekly",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic",
+            "risk_group": "Good PS (ECOG 0-1)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "FOLFIRINOX or Gemcitabine/nab-Paclitaxel",
+                    "plan_details": "FOLFIRINOX OS: 11.1 months; Gem/nab-Pac OS: 8.5 months; NALIRIFOX OS: 9.3 months",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Maintenance therapy",
+                    "patient_subgroup": "Responders after 4-6 months",
+                    "plan_name": "5-FU/Leucovorin or PARP inhibitors",
+                    "plan_details": "Olaparib for gBRCA+; Rucaparib for PALB2+",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic",
+            "risk_group": "Poor PS (ECOG ≥2)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "Gemcitabine monotherapy",
+                    "plan_details": "Gemcitabine 1000 mg/m² weekly",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic",
+            "risk_group": "Second-line therapy",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Subsequent therapy",
+                    "patient_subgroup": "Prior gemcitabine",
+                    "plan_name": "Liposomal irinotecan + 5-FU/Leucovorin",
+                    "plan_details": "Category 1 evidence",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Targeted therapy",
+                    "patient_subgroup": "Biomarker-specific",
+                    "plan_name": "Biomarker-directed regimens",
+                    "plan_details": "HER2+: Fam-trastuzumab deruxtecan; FGFR+: Erdafitinib; KRAS G12C: Adagrasib/Sotorasib",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "CA 19-9: Prognostic marker; >90 U/mL post-resection predicts recurrence; >20% decline during therapy correlates with survival benefit",
+            "BRCA1/2/PALB2 mutations: Predict platinum chemotherapy sensitivity and PARP inhibitor response",
+            "dMMR/MSI-H: Predicts immunotherapy response (pembrolizumab ORR: 34%)",
+            "NTRK fusions: Predict TRK inhibitor response (entrectinib/larotrectinib)",
+            "HER2 amplification: Predicts HER2-targeted therapy response (fam-trastuzumab deruxtecan)",
+            "BRAF V600E: Predicts BRAF/MEK inhibitor response (dabrafenib + trametinib)",
+            "KRAS G12C: Investigational target for adagrasib/sotorasib",
+            "hENT1: Low expression predicts gemcitabine resistance"
+        ]
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：胰腺癌.txt"
+}

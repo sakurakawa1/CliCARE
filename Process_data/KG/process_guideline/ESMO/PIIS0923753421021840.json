@@ -1,0 +1,198 @@
+{
+    "guideline_identifier": "PIIS0923753421021840.txt",
+    "cancer_focus": {
+        "primary_cancer": "Soft Tissue Sarcomas",
+        "related_syndrome_or_condition": "Li-Fraumeni syndrome, Familial adenomatous polyposis"
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Localized (Extremities/Trunk)",
+            "risk_group": "High-grade (G2-G3)",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Resectable high-grade STS",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "En bloc resection with R0 margins + Preoperative radiotherapy (50 Gy) or postoperative radiotherapy (up to 66 Gy) + Neoadjuvant anthracycline + ifosfamide (AI) for predicted 10-year OS <60%",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II-B"
+                },
+                {
+                    "clinical_context": "Unresectable tumors",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Chemotherapy + radiotherapy or isolated limb perfusion (ILP) or regional hyperthermia + chemotherapy",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Localized (Extremities/Trunk)",
+            "risk_group": "Low-grade",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Resectable low-grade STS",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "En bloc resection with R0 margins + Consider radiotherapy omission after multidisciplinary discussion",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "IV-E"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Retroperitoneal Sarcoma (RPS)",
+            "risk_group": "Resectable",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Primary RPS",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Compartmental resection (en bloc removal of adjacent organs) ± neoadjuvant radiotherapy for low/intermediate-grade liposarcoma",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "V-A"
+                },
+                {
+                    "clinical_context": "High-risk RPS",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Regional hyperthermia + chemotherapy post-resection",
+                    "treatment_line": "Adjuvant",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic/Advanced",
+            "risk_group": "Unresectable",
+            "treatment_plans": [
+                {
+                    "clinical_context": "First-line systemic therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Doxorubicin (all subtypes) or anthracycline + ifosfamide (ifosfamide-sensitive subtypes)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I-A"
+                },
+                {
+                    "clinical_context": "Angiosarcoma subtype",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Taxanes or gemcitabine ± docetaxel",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "III-B"
+                },
+                {
+                    "clinical_context": "NTRK-rearranged tumors",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Larotrectinib or entrectinib",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "NTRK",
+                            "status": "Rearranged",
+                            "testing_guidance": "Pan-TRK IHC screening → molecular confirmation (FISH/RNA-seq)"
+                        }
+                    ],
+                    "esmo_evidence_level": "III-A"
+                },
+                {
+                    "clinical_context": "Second-line therapy (non-adipocytic STS)",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Pazopanib",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I-B"
+                },
+                {
+                    "clinical_context": "Liposarcoma second-line",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Trabectedin or eribulin",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I-B"
+                },
+                {
+                    "clinical_context": "Epithelioid sarcoma",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Tazemetostat",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "INI1 (SMARCB1)",
+                            "status": "Loss",
+                            "testing_guidance": "IHC detection"
+                        }
+                    ],
+                    "esmo_evidence_level": "II"
+                },
+                {
+                    "clinical_context": "Inflammatory myofibroblastic tumor (IMT)",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Crizotinib",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "ALK",
+                            "status": "Rearranged",
+                            "testing_guidance": "FISH or IHC"
+                        }
+                    ],
+                    "esmo_evidence_level": "II"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Uterine Sarcoma",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Leiomyosarcoma (ULMS)",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Total hysterectomy ± salpingo-oophorectomy + adjuvant gemcitabine/docetaxel or hormonal therapy (low-grade)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "IV-A"
+                },
+                {
+                    "clinical_context": "Endometrial Stromal Sarcoma (ESS)",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Hormonal therapy (progestins/GnRH agonists) for low-grade; chemotherapy for high-grade YWHAE-rearranged tumors",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "YWHAE",
+                            "status": "Rearranged",
+                            "testing_guidance": "FISH detection for high-grade classification"
+                        }
+                    ],
+                    "esmo_evidence_level": "V-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Desmoid Tumors (DF)",
+            "risk_group": "Progressive",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Symptomatic/progressive DF",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Sorafenib, pazopanib, or low-dose chemotherapy after failed observation",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "CTNNB1",
+                            "status": "Mutated",
+                            "testing_guidance": "Sequencing to predict anti-EGFR/VEGFR response"
+                        }
+                    ],
+                    "esmo_evidence_level": "II-B"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "NTRK fusions predict response to TRK inhibitors; ALK rearrangements indicate crizotinib sensitivity; INI1 loss enables tazemetostat use; CTNNB1 mutations guide anti-EGFR/VEGFR therapy; YWHAE rearrangements signal aggressive ESS requiring chemotherapy"
+    }
+}

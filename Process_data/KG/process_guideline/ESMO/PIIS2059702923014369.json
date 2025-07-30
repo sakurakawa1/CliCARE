@@ -1,0 +1,236 @@
+{
+    "guideline_identifier": "PIIS2059702923014369.txt",
+    "cancer_focus": {
+        "primary_cancer": "Not specified (applies to various cancers)",
+        "related_syndrome_or_condition": "Chemotherapy-Induced Nausea and Vomiting (CINV), Radiotherapy-Induced Nausea and Vomiting (RINV)"
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Chemotherapy: High risk (≥90% vomiting risk - e.g., cisplatin, AC combinations)",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Non-AC HEC acute phase",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "4-drug regimen: 5-HT₃ RA + dexamethasone + NK₁ RA + olanzapine pre-chemotherapy",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I, A"
+                },
+                {
+                    "clinical_context": "Non-AC HEC delayed phase",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "Dexamethasone + olanzapine (days 2–4)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II, B"
+                },
+                {
+                    "clinical_context": "AC-based HEC acute phase",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "4-drug regimen: 5-HT₃ RA + dexamethasone + NK₁ RA + olanzapine",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I, A"
+                },
+                {
+                    "clinical_context": "AC-based HEC delayed phase",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "Olanzapine alone (days 2–4); 10 mg/day (5 mg if sedation concern)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II, B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Chemotherapy: Moderate risk (30–90% vomiting risk - e.g., carboplatin AUC≥5, oxaliplatin)",
+            "risk_group": "Moderate risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Carboplatin (AUC≥5) acute phase",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "3-drug regimen: 5-HT₃ RA + dexamethasone + NK₁ RA",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I, A"
+                },
+                {
+                    "clinical_context": "Carboplatin (AUC≥5) delayed phase",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "No routine prophylaxis",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II, B"
+                },
+                {
+                    "clinical_context": "Oxaliplatin acute phase (general)",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "2-drug regimen: 5-HT₃ RA (palonosetron preferred) + dexamethasone",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II, C"
+                },
+                {
+                    "clinical_context": "Oxaliplatin acute phase (women ≤50 years)",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "Add NK₁ RA to 2-drug regimen",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "III, B"
+                },
+                {
+                    "clinical_context": "Other MEC (e.g., ADCs)",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "Manage as carboplatin AUC≥5",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II, C"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Chemotherapy: Low risk (10–30% vomiting risk)",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Low-risk chemotherapy",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "Single agent (dexamethasone, 5-HT₃ RA, or dopamine RA)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II, B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Chemotherapy: Minimal risk (<10% vomiting risk)",
+            "risk_group": "Minimal risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Minimal-risk chemotherapy",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "No routine prophylaxis",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "IV, D"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Special Scenarios: High-dose chemotherapy (stem cell transplant)",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Stem cell transplant conditioning",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "5-HT₃ RA + dexamethasone + NK₁ RA ± olanzapine",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I, A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Special Scenarios: Multi-day cisplatin",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Multi-day cisplatin regimens",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "5-HT₃ RA (daily) + dexamethasone (days 1–post) + aprepitant + olanzapine",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "I, A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Special Scenarios: Breakthrough CINV",
+            "risk_group": "Not applicable",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Breakthrough CINV (any emetic risk)",
+                    "recommendation_type": "Rescue",
+                    "recommendation_content": "Olanzapine 10 mg/day × 3 days (if not used prophylactically)",
+                    "treatment_line": "Breakthrough",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II, B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Radiotherapy: High risk (e.g., TBI, upper abdomen)",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "RINV prophylaxis",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "5-HT₃ RA ± dexamethasone",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II, A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Radiotherapy: Moderate risk (e.g., craniospinal, pelvis)",
+            "risk_group": "Moderate risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "RINV prophylaxis",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "5-HT₃ RA ± dexamethasone",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II, A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Radiotherapy: Low risk (e.g., brain, head/neck, thorax)",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "RINV management",
+                    "recommendation_type": "Rescue",
+                    "recommendation_content": "Rescue therapy only (dexamethasone, dopamine RA, or 5-HT₃ RA)",
+                    "treatment_line": "Symptomatic",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "IV, B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Radiotherapy: Minimal risk (e.g., extremities, breast)",
+            "risk_group": "Minimal risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "RINV management",
+                    "recommendation_type": "Rescue",
+                    "recommendation_content": "Rescue therapy only (dexamethasone, dopamine RA, or 5-HT₃ RA)",
+                    "treatment_line": "Symptomatic",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "IV, B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Special Scenarios: Concomitant weekly cisplatin + RT",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Chemoradiotherapy",
+                    "recommendation_type": "Prophylaxis",
+                    "recommendation_content": "Aprepitant/fosaprepitant + 5-HT₃ RA + dexamethasone",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "II, B"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "No specific diagnostic or predictive biomarkers identified; risk stratification based solely on emetogenic potential of treatment regimens and patient factors"
+    }
+}

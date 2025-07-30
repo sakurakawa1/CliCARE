@@ -1,0 +1,57 @@
+# Core ML and Deep Learning
+torch>=2.7.0
+transformers>=4.51.3
+tokenizers>=0.21.1
+safetensors>=0.5.3
+
+# Data Processing and Analysis
+numpy>=2.2.5
+scipy>=1.15.2
+scikit-learn>=1.6.1
+pandas>=2.0.0
+
+# NLP and Text Processing
+nltk>=3.9.1
+sentence-transformers>=4.1.0
+langchain>=0.3.24
+langchain-community>=0.3.23
+langchain-core>=0.3.56
+langchain-text-splitters>=0.3.8
+
+# Vector Database and Search
+faiss-cpu>=1.11.0
+
+# API and HTTP
+openai>=1.76.0
+httpx>=0.28.1
+requests>=2.32.3
+
+# Database and Graph Database
+PyMySQL>=1.1.1
+SQLAlchemy>=2.0.40
+neo4j>=5.28.1
+py2neo>=2021.2.4
+
+# Configuration and Utilities
+python-dotenv>=1.1.0
+pydantic>=2.11.7
+pydantic_core>=2.33.2
+PyYAML>=6.0.2
+
+# Text Processing and Web Scraping
+regex>=2024.11.6
+Scrapy>=2.13.0
+beautifulsoup4>=4.13.4
+lxml>=5.4.0
+
+# Evaluation and Similarity
+thefuzz>=0.22.1
+python-Levenshtein>=0.25.1
+RapidFuzz>=3.13.0
+
+# Progress and Utilities
+tqdm>=4.67.1
+joblib>=1.5.1
+
+# Hugging Face
+huggingface-hub>=0.33.1

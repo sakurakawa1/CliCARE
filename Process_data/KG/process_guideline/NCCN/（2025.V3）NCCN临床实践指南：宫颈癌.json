@@ -1,0 +1,242 @@
+{
+    "cancer_info": {
+        "cancer_name": "Cervical Cancer"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Pelvic exam",
+            "Colposcopy with biopsy",
+            "Cervical biopsy (cone biopsy preferred for fertility-sparing candidates)",
+            "Cold-knife cone biopsy",
+            "LEEP (Loop Electrosurgical Excision Procedure)",
+            "Pathology review (margin status, LVSI, histology, grade, tumor size, depth of invasion)",
+            "Ultrastaging of Sentinel Lymph Nodes (SLNs)",
+            "CBC (Complete Blood Count)",
+            "Platelet count",
+            "Renal function tests",
+            "Hepatic function tests",
+            "HIV testing",
+            "HPV testing",
+            "Pelvic MRI (for Stage I and fertility-sparing planning)",
+            "FDG PET-CT (for Stage IB3-IVA)",
+            "CT chest/abdomen/pelvis (alternative to PET-CT)",
+            "Chest X-ray (CXR)",
+            "Chest CT",
+            "Brain MRI (for neuroendocrine carcinoma)",
+            "Cystoscopy (if bladder involvement suspected)",
+            "Proctoscopy (if bowel involvement suspected)",
+            "Examination under anesthesia (EUA) for advanced stages",
+            "Sentinel lymph node mapping",
+            "Pelvic lymphadenectomy",
+            "Para-aortic lymphadenectomy",
+            "PD-L1 testing (Combined Positive Score)",
+            "MSI-H/dMMR testing",
+            "Tumor Mutational Burden (TMB) testing",
+            "HER2 testing (IHC/FISH)",
+            "NTRK fusion testing",
+            "RET fusion testing",
+            "Neuroendocrine markers (chromogranin, synaptophysin, CD56)",
+            "Smoking cessation counseling"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Stage IA1",
+            "risk_group": "No LVSI",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All",
+                    "plan_name": "Simple hysterectomy or observation",
+                    "plan_details": "Type A hysterectomy or surveillance",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IA1",
+            "risk_group": "With LVSI",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All",
+                    "plan_name": "Conization + lymph node assessment",
+                    "plan_details": "Conization with negative margins + pelvic SLN mapping/lymphadenectomy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IA2-IB1",
+            "risk_group": "Fertility-sparing eligible",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Tumor ≤2cm, no LVSI, negative margins",
+                    "plan_name": "Radical trachelectomy + SLN mapping",
+                    "plan_details": "Laparoscopic/open radical trachelectomy with pelvic lymphadenectomy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Meets conservative criteria",
+                    "plan_name": "Conization + surveillance",
+                    "plan_details": "Cone biopsy with negative margins and negative imaging",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IB1-IB2",
+            "risk_group": "Non-fertility-sparing",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All",
+                    "plan_name": "Radical hysterectomy",
+                    "plan_details": "Type B/C radical hysterectomy + pelvic lymphadenectomy (open approach)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IB3-IVA",
+            "risk_group": "Locally advanced",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All",
+                    "plan_name": "Definitive chemoradiation",
+                    "plan_details": "Cisplatin (40mg/m² weekly) + EBRT + brachytherapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "FIGO 2014 Stage III-IVA",
+                    "plan_name": "Pembrolizumab + chemoradiation",
+                    "plan_details": "Pembrolizumab added to cisplatin + EBRT + brachytherapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Alternative",
+                    "patient_subgroup": "Cisplatin-intolerant",
+                    "plan_name": "Carboplatin-based chemoradiation",
+                    "plan_details": "Carboplatin (AUC 2 weekly) + EBRT + brachytherapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Alternative"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Post-operative",
+            "risk_group": "Intermediate risk (Sedlis criteria)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "Node-negative with ≥2 risk factors",
+                    "plan_name": "Pelvic EBRT",
+                    "plan_details": "External beam radiotherapy alone",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Post-operative",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "Positive nodes/margins/parametria",
+                    "plan_name": "Chemoradiation",
+                    "plan_details": "Cisplatin + EBRT",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic or recurrent disease",
+            "risk_group": "PD-L1 positive (CPS≥1)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "All",
+                    "plan_name": "Pembrolizumab + chemotherapy ± bevacizumab",
+                    "plan_details": "Pembrolizumab + cisplatin/carboplatin + paclitaxel ± bevacizumab",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic or recurrent disease",
+            "risk_group": "All comers",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "All",
+                    "plan_name": "Platinum-taxane ± bevacizumab",
+                    "plan_details": "Carboplatin/cisplatin + paclitaxel ± bevacizumab",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line",
+                    "patient_subgroup": "All",
+                    "plan_name": "Tisotumab vedotin",
+                    "plan_details": "Monotherapy targeting tissue factor",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line",
+                    "patient_subgroup": "HER2+",
+                    "plan_name": "Trastuzumab deruxtecan",
+                    "plan_details": "HER2-directed antibody-drug conjugate",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Small cell neuroendocrine carcinoma",
+            "risk_group": "Localized",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All",
+                    "plan_name": "Chemoradiation",
+                    "plan_details": "Cisplatin + etoposide + EBRT/brachytherapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Small cell neuroendocrine carcinoma",
+            "risk_group": "Metastatic",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "All",
+                    "plan_name": "Platinum-etoposide ± immunotherapy",
+                    "plan_details": "Cisplatin/carboplatin + etoposide ± atezolizumab",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "PD-L1 (CPS≥1): Predicts response to immunotherapy (pembrolizumab/cemiplimab); MSI-H/dMMR: Predicts immunotherapy response; TMB-H (≥10 mut/Mb): Predicts pembrolizumab response; HER2 (IHC 3+ or 2+): Predicts trastuzumab deruxtecan efficacy; HER2 mutation: Predicts neratinib response; RET fusion: Predicts selpercatinib response; NTRK fusion: Predicts entrectinib/larotrectinib response; HPV status: Distinguishes HPV-associated (better prognosis) vs HPV-independent tumors; LVSI: Key prognostic factor affecting management"
+    },
+    "guideline_id": "（2025.V3）NCCN临床实践指南：宫颈癌.txt"
+}

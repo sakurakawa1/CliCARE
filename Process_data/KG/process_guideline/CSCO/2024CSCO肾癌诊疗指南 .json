@@ -1,0 +1,120 @@
+{
+    "guideline_id": "2024CSCO肾癌诊疗指南 .txt",
+    "cancer_info": {
+        "cancer_name": "Renal Cell Carcinoma (RCC)"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "Localized renal cell carcinoma (T1-T2, N0, M0)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Preserve renal unit surgery (NSS) for patients with renal insufficiency, solitary kidney, or bilateral renal cancer, or radical nephrectomy (RN); regional lymph node dissection not recommended",
+            "treatment_line": "Primary treatment",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Localized renal cell carcinoma (T1-T2, N0, M0) in inoperable patients",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Ablation therapy (radiofrequency/cryoablation) or stereotactic body radiation therapy (SBRT)",
+            "treatment_line": "Primary treatment",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Localized renal cell carcinoma (T1-T2, N0, M0) with small tumors and short life expectancy",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Active surveillance",
+            "treatment_line": "Primary treatment",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level III Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Locally advanced renal cell carcinoma (T3-T4, N0/NX, M0)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Radical nephrectomy with thrombectomy (multidisciplinary team required); regional lymph node dissection if metastasis suspected",
+            "treatment_line": "Primary treatment",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Metastatic renal cell carcinoma (low risk by IMDC/MSKCC)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Sunitinib (50mg/day, 4 weeks on/2 weeks off) or active surveillance for asymptomatic patients with low tumor burden",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Metastatic renal cell carcinoma (intermediate risk by IMDC/MSKCC)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Axitinib (5mg BID) + Toripalimab (240mg q3w) or Pembrolizumab (200mg q3w) + Lenvatinib (12-20mg/day)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Metastatic renal cell carcinoma (high risk by IMDC/MSKCC)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Axitinib + Toripalimab or Pembrolizumab + Lenvatinib",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Metastatic renal cell carcinoma after targeted therapy failure",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Vorolanib + Everolimus or Cabozantinib (60mg/day)",
+            "treatment_line": "Second-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Clear cell RCC Stage II-III or high risk (T4, sarcomatoid differentiation)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pembrolizumab adjuvant therapy",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Non-clear cell RCC",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Clinical trials or observation",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Diagnosis of renal masses",
+            "recommendation_type": "Diagnostic Standard",
+            "recommendation_content": "Surgical specimen pathology for operable patients (requires histologic type, grade, stage)",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Diagnosis of inoperable advanced disease",
+            "recommendation_type": "Diagnostic Standard",
+            "recommendation_content": "Core needle biopsy (avoid fine needle) for histologic subtyping and molecular testing",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": "Evidence 2A"
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Biomarkers are used for: 1) Diagnosis (immunohistochemical markers distinguish RCC subtypes), 2) Prognosis (IMDC factors, nuclear grade, sarcomatoid differentiation predict outcomes), 3) Treatment prediction (TFE3 rearrangements may indicate ICI sensitivity; hereditary gene mutations guide surveillance)"
+    },
+    "tcm_recommendations": []
+}

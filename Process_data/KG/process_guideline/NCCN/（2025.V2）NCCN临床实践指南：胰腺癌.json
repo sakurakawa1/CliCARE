@@ -1,0 +1,208 @@
+{
+    "cancer_info": {
+        "cancer_name": "Pancreatic Adenocarcinoma"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Pancreas-protocol CT (multiphase IV contrast)",
+            "MRI abdomen/pelvis",
+            "PET-CT/PET-MRI for high-risk features",
+            "Chest CT for metastasis screening",
+            "Endoscopic Ultrasound (EUS) with FNA/biopsy",
+            "ERCP with stent placement",
+            "Percutaneous Transhepatic Cholangiography (PTC)",
+            "Staging laparoscopy",
+            "CA 19-9 monitoring",
+            "Liver function tests",
+            "Germline genetic testing (BRCA, PALB2)",
+            "IgG4 testing",
+            "NGS-based tumor somatic testing",
+            "HER2 overexpression via IHC/FISH"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Resectable",
+            "risk_group": "Without high-risk features",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All",
+                    "plan_name": "Surgery",
+                    "plan_details": "Pancreaticoduodenectomy (Whipple) for head/uncinate tumors; Distal pancreatectomy for body/tail tumors with goal of R0 resection (>1mm margin clearance)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard"
+                },
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "Post-resection",
+                    "plan_name": "mFOLFIRINOX",
+                    "plan_details": "Modified FOLFIRINOX regimen for 6 months",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "Post-resection",
+                    "plan_name": "Gemcitabine + Capecitabine",
+                    "plan_details": "Gemcitabine 1000mg/m² + Capecitabine 1660mg/m² for 6 months",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Resectable",
+            "risk_group": "With high-risk features (↑CA 19-9, large tumors)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Neoadjuvant therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "FOLFIRINOX",
+                    "plan_details": "5-FU 2400mg/m², leucovorin 400mg/m², irinotecan 180mg/m², oxaliplatin 85mg/m² for 4-6 months → Surgery → Adjuvant therapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                },
+                {
+                    "treatment_line": "Neoadjuvant therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "Gemcitabine + Nab-paclitaxel",
+                    "plan_details": "Gemcitabine 1000mg/m² + Nab-paclitaxel 125mg/m² for 4-6 months → Surgery → Adjuvant therapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Borderline Resectable",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Neoadjuvant therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "FOLFIRINOX ± Chemoradiation",
+                    "plan_details": "FOLFIRINOX regimen → Chemoradiation (45-54 Gy) → Reassessment for surgery",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Surgery",
+                    "patient_subgroup": "After downstaging",
+                    "plan_name": "Pancreaticoduodenectomy",
+                    "plan_details": "With vascular reconstruction if needed for R0 resection",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Locally Advanced",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "FOLFIRINOX → Chemoradiation",
+                    "plan_details": "FOLFIRINOX regimen followed by chemoradiation (45-54 Gy with 5-FU/capecitabine)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Radiation therapy",
+                    "patient_subgroup": "Select cases",
+                    "plan_name": "SBRT",
+                    "plan_details": "30-45 Gy in 3 fractions or 25-50 Gy in 5 fractions",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Alternative"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic",
+            "risk_group": "Good PS (ECOG 0-1)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "General",
+                    "plan_name": "FOLFIRINOX",
+                    "plan_details": "5-FU 2400mg/m², leucovorin 400mg/m², irinotecan 180mg/m², oxaliplatin 85mg/m²",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "BRCA/PALB2 mutations",
+                    "plan_name": "Gemcitabine + Cisplatin",
+                    "plan_details": "Gemcitabine 1000mg/m² + Cisplatin 25mg/m²",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Targeted"
+                },
+                {
+                    "treatment_line": "Maintenance therapy",
+                    "patient_subgroup": "BRCA1/2 mutations after platinum",
+                    "plan_name": "Olaparib",
+                    "plan_details": "300mg twice daily",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Targeted"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic",
+            "risk_group": "Poor PS (ECOG ≥2)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "Gemcitabine monotherapy",
+                    "plan_details": "Gemcitabine 1000mg/m² weekly",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Subsequent therapy",
+                    "patient_subgroup": "NRG1 fusion-positive",
+                    "plan_name": "Zenocutuzumab",
+                    "plan_details": "Dosing per biomarker",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Targeted"
+                },
+                {
+                    "treatment_line": "Subsequent therapy",
+                    "patient_subgroup": "HER2+ (IHC3+ or IHC2+/FISH+)",
+                    "plan_name": "Fam-trastuzumab deruxtecan",
+                    "plan_details": "5.4mg/kg every 3 weeks",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Targeted"
+                },
+                {
+                    "treatment_line": "Subsequent therapy",
+                    "patient_subgroup": "MSI-H/dMMR",
+                    "plan_name": "Pembrolizumab",
+                    "plan_details": "200mg every 3 weeks",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Targeted"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "CA 19-9: Prognostic value (elevated levels correlate with advanced disease); Therapy response monitoring (decline predicts improved outcomes); Limitations: False negatives in Lewis antigen-negative patients; False positives in biliary obstruction/inflammation",
+            "BRCA1/2/PALB2 mutations: Predict response to platinum-based chemotherapy and PARP inhibitors (olaparib/rucaparib)",
+            "MSI-H/dMMR/TMB-H: Indicate benefit from immunotherapy (pembrolizumab/dostarlimab)",
+            "NRG1/NTRK/FGFR2 fusions: Actionable targets for zenocutuzumab, entrectinib/larotrectinib, and erdafitinib respectively",
+            "HER2 amplification/overexpression: Predicts response to fam-trastuzumab deruxtecan",
+            "KRAS G12C mutation: Targetable with adagrasib/sotorasib in subsequent therapy",
+            "Lymph Node Ratio (LNR): >0.2 correlates with worse prognosis",
+            "hENT1 expression: Predictive biomarker for gemcitabine response in adjuvant setting"
+        ]
+    },
+    "guideline_id": "（2025.V2）NCCN临床实践指南：胰腺癌.txt"
+}

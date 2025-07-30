@@ -1,0 +1,133 @@
+{
+    "guideline_id": "2024CSCO免疫检查点抑制剂临床应用指南- .txt",
+    "cancer_info": {
+        "cancer_name": "Lung Cancer"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "Metastatic non-squamous NSCLC without EGFR/ALK mutations",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pembrolizumab + pemetrexed + platinum-based chemotherapy",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "EGFR",
+                    "status": "Negative",
+                    "testing_guidance": "Molecular testing required"
+                },
+                {
+                    "biomarker_name": "ALK",
+                    "status": "Negative",
+                    "testing_guidance": "Molecular testing required"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Metastatic squamous NSCLC",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Tislelizumab + paclitaxel + carboplatin",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Early-stage high-risk NSCLC (II-IIIA) post-resection",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Atezolizumab monotherapy",
+            "treatment_line": "Adjuvant",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "PD-L1",
+                    "status": "Positive (TPS≥1%)",
+                    "testing_guidance": "IHC testing on tumor tissue"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Extensive-stage SCLC",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Atezolizumab + etoposide + carboplatin",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Recurrent/metastatic head and neck squamous cell carcinoma",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pembrolizumab monotherapy",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "PD-L1",
+                    "status": "Positive (CPS≥20)",
+                    "testing_guidance": "IHC testing for CPS"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Metastatic esophageal squamous carcinoma",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pembrolizumab + cisplatin + 5-FU",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Unresectable hepatocellular carcinoma",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Atezolizumab + bevacizumab",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "dMMR/MSI-H metastatic colorectal cancer",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pembrolizumab monotherapy",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "MSI-H/dMMR",
+                    "status": "Positive",
+                    "testing_guidance": "IHC or PCR/NGS testing"
+                },
+                {
+                    "biomarker_name": "KRAS/NRAS/BRAF",
+                    "status": "Wild-type",
+                    "testing_guidance": "Molecular testing required"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "High-risk triple-negative breast cancer",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Pembrolizumab + chemotherapy (neoadjuvant) → pembrolizumab (adjuvant)",
+            "treatment_line": "Neoadjuvant/Adjuvant",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "PD-L1",
+                    "status": "Positive (CPS≥20)",
+                    "testing_guidance": "IHC testing for CPS"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": ""
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "PD-L1 expression (CPS/TPS/TAP/IC) determines immunotherapy eligibility across cancers. dMMR/MSI-H status predicts high response to PD-1 inhibitors in colorectal/gastric cancers. EGFR/ALK negativity is required for NSCLC immunotherapy. TMB-H (≥10 mut/Mb) may indicate pan-cancer immunotherapy benefit."
+    },
+    "tcm_recommendations": []
+}

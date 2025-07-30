@@ -1,0 +1,258 @@
+{
+    "guideline_identifier": "PIIS092375342204769X.txt",
+    "cancer_focus": {
+        "primary_cancer": "Cancer of Unknown Primary",
+        "related_syndrome_or_condition": ""
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Favourable Subtypes",
+            "risk_group": "Oligometastatic",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Oligometastatic disease amenable to local ablation",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Local ablative therapy (surgery/radiotherapy) if feasible. Pre-treatment requires FDG-PET/CT + brain MRI to exclude additional metastases.",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "III-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Favourable Subtypes",
+            "risk_group": "Breast-like",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Women with isolated axillary lymph node involvement",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Axillary lymph node dissection + breast radiotherapy or mastectomy. Systemic therapy aligned with breast cancer guidelines.",
+                    "treatment_line": "",
+                    "biomarker_requirements": [
+                        {
+                            "name": "ER",
+                            "status": "Tested",
+                            "testing_guidance": "Required for therapy selection"
+                        },
+                        {
+                            "name": "PgR",
+                            "status": "Tested",
+                            "testing_guidance": "Required for therapy selection"
+                        },
+                        {
+                            "name": "HER2",
+                            "status": "Tested",
+                            "testing_guidance": "Required for therapy selection"
+                        }
+                    ],
+                    "esmo_evidence_level": "III-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Favourable Subtypes",
+            "risk_group": "Ovary-like",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Women with peritoneal carcinomatosis",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Surgical debulking + carboplatin/paclitaxel ± bevacizumab. PARP inhibitors if BRCA1/2 mutant.",
+                    "treatment_line": "",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRCA1/2",
+                            "status": "Mutant",
+                            "testing_guidance": "Germline testing recommended"
+                        }
+                    ],
+                    "esmo_evidence_level": "III-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Favourable Subtypes",
+            "risk_group": "Head/Neck-like",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Squamous cell carcinoma in cervical lymph nodes",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Neck dissection ± radiotherapy/chemotherapy.",
+                    "treatment_line": "",
+                    "biomarker_requirements": [
+                        {
+                            "name": "p16/HPV",
+                            "status": "Tested",
+                            "testing_guidance": "Required for diagnosis"
+                        },
+                        {
+                            "name": "EBV",
+                            "status": "Tested",
+                            "testing_guidance": "Required for diagnosis"
+                        }
+                    ],
+                    "esmo_evidence_level": "III-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Favourable Subtypes",
+            "risk_group": "Colon-like",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Adenocarcinoma with colorectal IHC profile (CK7–/CK20+/CDX2+)",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "FOLFOX/FOLFIRI ± bevacizumab (MSS) or immunotherapy (MSI-H/dMMR).",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "MSI/dMMR",
+                            "status": "High",
+                            "testing_guidance": "Test all cases"
+                        }
+                    ],
+                    "esmo_evidence_level": "III-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Favourable Subtypes",
+            "risk_group": "Prostate-like",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Men with blastic bone metastases + PSA expression",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Androgen deprivation therapy per prostate cancer guidelines.",
+                    "treatment_line": "",
+                    "biomarker_requirements": [
+                        {
+                            "name": "PSA",
+                            "status": "Expressed",
+                            "testing_guidance": "Required for diagnosis"
+                        }
+                    ],
+                    "esmo_evidence_level": "III-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Favourable Subtypes",
+            "risk_group": "Renal-like",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Carcinoma with renal cell IHC profile",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "TKI/ICI therapy per renal cell carcinoma guidelines.",
+                    "treatment_line": "",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "III-B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unfavourable Subtypes",
+            "risk_group": "Good Prognosis (ECOG PS 0–1 + normal LDH)",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Fit patients without favourable subtype features",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Platinum-based doublets (cisplatin/gemcitabine or carboplatin/paclitaxel). Avoid triplet regimens due to toxicity.",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "III-B"
+                },
+                {
+                    "clinical_context": "NTRK fusion-positive",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Larotrectinib or entrectinib (tumor-agnostic approval).",
+                    "treatment_line": "",
+                    "biomarker_requirements": [
+                        {
+                            "name": "NTRK",
+                            "status": "Fusion",
+                            "testing_guidance": "NGS recommended"
+                        }
+                    ],
+                    "esmo_evidence_level": "III-A"
+                },
+                {
+                    "clinical_context": "EGFR/ALK/ROS1 alterations (NSCLC suspected)",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Tyrosine kinase inhibitors.",
+                    "treatment_line": "",
+                    "biomarker_requirements": [
+                        {
+                            "name": "EGFR/ALK/ROS1",
+                            "status": "Altered",
+                            "testing_guidance": "Test if NSCLC suspected"
+                        }
+                    ],
+                    "esmo_evidence_level": ""
+                },
+                {
+                    "clinical_context": "BRAF V600E mutation",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "BRAF inhibitors (especially if lung primary suspected).",
+                    "treatment_line": "",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRAF",
+                            "status": "V600E mutation",
+                            "testing_guidance": "Test if lung primary suspected"
+                        }
+                    ],
+                    "esmo_evidence_level": ""
+                },
+                {
+                    "clinical_context": "MSI-H/dMMR (non-colon-like)",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Pembrolizumab.",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "MSI/dMMR",
+                            "status": "High",
+                            "testing_guidance": "Test all cases"
+                        }
+                    ],
+                    "esmo_evidence_level": ""
+                },
+                {
+                    "clinical_context": "TMB-high (≥10 mut/Mb)",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Consider nivolumab or pembrolizumab.",
+                    "treatment_line": "Relapsed/refractory",
+                    "biomarker_requirements": [
+                        {
+                            "name": "TMB",
+                            "status": "High (≥10 mut/Mb)",
+                            "testing_guidance": "Test when considering immunotherapy"
+                        }
+                    ],
+                    "esmo_evidence_level": ""
+                },
+                {
+                    "clinical_context": "PD-L1-high",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Consider immune checkpoint inhibitors.",
+                    "treatment_line": "Relapsed/refractory",
+                    "biomarker_requirements": [
+                        {
+                            "name": "PD-L1",
+                            "status": "High",
+                            "testing_guidance": "Test when considering immunotherapy"
+                        }
+                    ],
+                    "esmo_evidence_level": ""
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unfavourable Subtypes",
+            "risk_group": "Poor Prognosis (ECOG PS ≥2 or elevated LDH)",
+            "treatment_plans": []
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Biomarkers determine favourable subtypes, guide site-specific therapies, predict response to targeted treatments (e.g., NTRK inhibitors, PARP inhibitors) and immunotherapy (e.g., MSI-H/dMMR, TMB-high), and inform prognosis."
+    }
+}

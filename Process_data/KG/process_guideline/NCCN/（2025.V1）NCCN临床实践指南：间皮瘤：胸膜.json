@@ -1,0 +1,123 @@
+{
+    "cancer_info": {
+        "cancer_name": "Malignant Pleural Mesothelioma"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Contrast-enhanced chest CT",
+            "FDG-PET/CT (must precede pleurodesis)",
+            "MRI (optional for chest wall/spinal/diaphragmatic/vascular invasion)",
+            "Brain MRI (if neurologic symptoms)",
+            "Thoracoscopic biopsy (preferred)",
+            "CT-guided core biopsy",
+            "Open biopsy",
+            "EBUS/EUS-FNA (mediastinal lymph node assessment)",
+            "Mediastinoscopy",
+            "VATS/laparoscopy (if contralateral/peritoneal involvement suspected)",
+            "Thoracentesis for pleural effusion assessment",
+            "IHC panel (WT1, calretinin, D2-40, CEA, TTF-1, claudin-4)",
+            "BAP1 loss testing (IHC)",
+            "MTAP loss testing (IHC)",
+            "CDKN2A FISH testing",
+            "Molecular profiling (NF2, CDKN2A deletions, ALK/NTRK fusions)",
+            "Soluble mesothelin-related peptide (SMRP) testing",
+            "Pulmonary function tests (PFTs) including DLCO",
+            "Cardiac stress test"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Stage I-IIIA epithelioid",
+            "risk_group": "Operable candidates (FEV1 >80%, adequate cardiac function)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Multimodality therapy",
+                    "patient_subgroup": "Surgical candidates",
+                    "plan_name": "Pleurectomy/Decortication (P/D) ± sequential pleural IMRT",
+                    "plan_details": "Lung-sparing surgery; IMRT at experienced centers only",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred for operable patients"
+                },
+                {
+                    "treatment_line": "Trimodality therapy",
+                    "patient_subgroup": "Surgical candidates",
+                    "plan_name": "Neoadjuvant chemotherapy → Surgery → Adjuvant IMRT",
+                    "plan_details": "Pemetrexed + Cisplatin/Carboplatin induction → P/D/EPP → Hemithoracic IMRT (45-60 Gy)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other recommended"
+                },
+                {
+                    "treatment_line": "Primary therapy",
+                    "patient_subgroup": "Non-surgical candidates",
+                    "plan_name": "Systemic therapy + Pleural IMRT",
+                    "plan_details": "Platinum-based chemotherapy + IMRT (20-40 Gy)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IIIB-IV, sarcomatoid/biphasic, or medically inoperable",
+            "risk_group": "Unfavorable prognosis",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Epithelioid histology",
+                    "plan_name": "Nivolumab + Ipilimumab",
+                    "plan_details": "Immunotherapy combination (CheckMate 743 regimen)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Epithelioid histology",
+                    "plan_name": "Platinum + Pemetrexed ± Bevacizumab",
+                    "plan_details": "Cisplatin 75mg/m² or Carboplatin AUC 5 + Pemetrexed 500mg/m²",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Sarcomatoid/biphasic histology",
+                    "plan_name": "Nivolumab + Ipilimumab",
+                    "plan_details": "First-line immunotherapy for aggressive subtypes",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Subsequent therapy",
+                    "patient_subgroup": "Any histology after progression",
+                    "plan_name": "Nivolumab ± Ipilimumab",
+                    "plan_details": "Immunotherapy rechallenge for prior responders",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Subsequent therapy",
+                    "patient_subgroup": "Any histology",
+                    "plan_name": "Pemetrexed rechallenge",
+                    "plan_details": "If prior response to pemetrexed-based therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Other recommended"
+                },
+                {
+                    "treatment_line": "Palliative care",
+                    "patient_subgroup": "Symptomatic patients",
+                    "plan_name": "Palliative RT",
+                    "plan_details": "20-40 Gy for pain/obstruction management",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other recommended"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "Diagnostic: BAP1 loss (specific for mesothelioma), MTAP loss (surrogate for CDKN2A deletion), IHC panel (WT1/calretinin/D2-40 for mesothelial differentiation)",
+            "Prognostic: Epithelioid histology and BAP1 loss correlate with better survival; Sarcomatoid histology and CDKN2A loss indicate poor prognosis",
+            "Predictive: ALK/NTRK fusions (<1%) indicate response to TRK/ALK inhibitors; PD-L1 expression has unclear predictive value for immunotherapy",
+            "Therapeutic targeting: Molecular profiling recommended to identify rare actionable alterations (e.g., ALK/NTRK) for clinical trials"
+        ]
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：间皮瘤：胸膜.txt"
+}

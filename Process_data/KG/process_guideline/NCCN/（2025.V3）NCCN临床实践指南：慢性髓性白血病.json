@@ -1,0 +1,210 @@
+{
+    "cancer_info": {
+        "cancer_name": "Chronic Myeloid Leukemia"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "CBC with differential",
+            "Peripheral blood smear",
+            "Bone marrow aspirate/biopsy (morphology and cytogenetics)",
+            "Quantitative RT-PCR (qPCR) for BCR-ABL1 transcripts (International Scale)",
+            "Fluorescence in situ hybridization (FISH) for BCR-ABL1",
+            "Hepatitis B panel",
+            "Mutation analysis for atypical BCR-ABL1 transcripts (e.g., e1a2, e19a2)",
+            "Spleen size measurement (palpation)",
+            "Flow cytometry (for suspected blast phase)",
+            "HLA typing (if transplant considered)",
+            "Next-generation sequencing (NGS) for myeloid mutations",
+            "Cerebrospinal Fluid (CSF) analysis (for CNS involvement)",
+            "CT/MRI imaging (for extramedullary disease)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Chronic Phase (CP)",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "Low risk (Sokal ≤0.8; ELTS ≤1.5680)",
+                    "plan_name": "Imatinib",
+                    "plan_details": "400 mg once daily",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "Low risk (Sokal ≤0.8; ELTS ≤1.5680)",
+                    "plan_name": "Asciminib",
+                    "plan_details": "80 mg once daily or 40 mg twice daily",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Chronic Phase (CP)",
+            "risk_group": "Intermediate risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "Intermediate risk (Sokal >0.8–1.2; ELTS >1.5680–2.2185)",
+                    "plan_name": "Bosutinib",
+                    "plan_details": "400 mg once daily",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "Intermediate risk (Sokal >0.8–1.2; ELTS >1.5680–2.2185)",
+                    "plan_name": "Dasatinib",
+                    "plan_details": "100 mg once daily",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "Intermediate risk (Sokal >0.8–1.2; ELTS >1.5680–2.2185)",
+                    "plan_name": "Nilotinib",
+                    "plan_details": "300 mg twice daily",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "Intermediate risk (Sokal >0.8–1.2; ELTS >1.5680–2.2185)",
+                    "plan_name": "Asciminib",
+                    "plan_details": "80 mg once daily or 40 mg twice daily",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Chronic Phase (CP)",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "High risk (Sokal >1.2; ELTS >2.2185)",
+                    "plan_name": "Bosutinib",
+                    "plan_details": "400 mg once daily",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "High risk (Sokal >1.2; ELTS >2.2185)",
+                    "plan_name": "Dasatinib",
+                    "plan_details": "100 mg once daily",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "High risk (Sokal >1.2; ELTS >2.2185)",
+                    "plan_name": "Nilotinib",
+                    "plan_details": "300 mg twice daily",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "High risk (Sokal >1.2; ELTS >2.2185)",
+                    "plan_name": "Asciminib",
+                    "plan_details": "80 mg once daily or 40 mg twice daily",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Chronic Phase (CP)",
+            "risk_group": "Resistance or intolerance to first-line TKI",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Second-line therapy",
+                    "patient_subgroup": "Without T315I mutation",
+                    "plan_name": "Alternate TKI",
+                    "plan_details": "Switch to bosutinib, dasatinib, nilotinib, ponatinib, or asciminib",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended regimen"
+                },
+                {
+                    "treatment_line": "Second-line therapy",
+                    "patient_subgroup": "With T315I mutation",
+                    "plan_name": "Ponatinib or Asciminib",
+                    "plan_details": "Ponatinib: 45 mg once daily (reduce to 15 mg upon BCR-ABL1 ≤1% IS) OR Asciminib: 200 mg twice daily",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Second-line therapy",
+                    "patient_subgroup": "With specific mutations (e.g., V299L, Y253H, E255K/V)",
+                    "plan_name": "Mutation-adapted TKI",
+                    "plan_details": "Avoid dasatinib for V299L; avoid nilotinib for Y253H/E255K/V; select alternative TKI",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Accelerated Phase (AP)",
+            "risk_group": "Any",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "Any",
+                    "plan_name": "Second/third-generation TKI or asciminib",
+                    "plan_details": "Bosutinib, dasatinib, nilotinib, ponatinib, or asciminib; consider allogeneic HCT if responsive",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Blast Phase (BP)",
+            "risk_group": "Lymphoid",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "Lymphoid blast crisis",
+                    "plan_name": "ALL-type induction + TKI",
+                    "plan_details": "Hyper-CVAD regimen + TKI (dasatinib or ponatinib) with CNS prophylaxis",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Blast Phase (BP)",
+            "risk_group": "Myeloid",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "Myeloid blast crisis",
+                    "plan_name": "AML-type induction + TKI",
+                    "plan_details": "Idarubicin/cytarabine or mitoxantrone/etoposide/cytarabine + TKI (dasatinib or ponatinib)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "e14a2 transcript variant: Predicts better response to imatinib",
+            "e1a2 (p190) transcript variant: Predicts higher progression risk and inferior TKI response",
+            "T315I mutation: Confers resistance to all TKIs except ponatinib and asciminib",
+            "Compound mutations: Confer high resistance to ponatinib",
+            "V299L mutation: Confers resistance to dasatinib",
+            "Y253H, E255K/V mutations: Confer resistance to nilotinib",
+            "F317L mutation: Confers resistance to dasatinib",
+            "ASXL1 mutation: Predicts inferior response to TKIs",
+            "IKZF1, RUNX1, DNMT3A mutations: Predict progression to accelerated/blast phase",
+            "Major route ACAs (trisomy 8, isochromosome 17q): Worsen prognosis in Ph+ cells",
+            "Monosomy 7/del7q: Predicts transformation to MDS/AML"
+        ]
+    },
+    "guideline_id": "（2025.V3）NCCN临床实践指南：慢性髓性白血病.txt"
+}

@@ -1,0 +1,271 @@
+{
+    "cancer_info": {
+        "cancer_name": "Small Bowel Adenocarcinoma"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Chest/abdomen/pelvis CT with IV ± oral contrast",
+            "MRI/MR enterography",
+            "FDG-PET/CT (for equivocal CT/MR findings)",
+            "EGD with EUS (for duodenal tumors)",
+            "Push/double-balloon enteroscopy",
+            "Capsule endoscopy",
+            "Fine needle aspiration biopsy",
+            "Lymph node assessment (≥5 nodes for duodenal, ≥8 nodes for jejunal/ileal)",
+            "MMR/MSI testing (IHC for MMR proteins and/or PCR for MSI)",
+            "RAS (KRAS/NRAS) mutation testing",
+            "HER2 testing (IHC and/or ISH/FISH)",
+            "BRAF V600E mutation testing",
+            "NTRK fusion testing",
+            "RET fusion testing",
+            "Tumor Mutational Burden (TMB) testing",
+            "POLE/POLD1 mutation testing",
+            "PD-L1 testing",
+            "CA 19-9 biomarker testing",
+            "CEA biomarker testing",
+            "Circulating Tumor DNA (ctDNA) analysis"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Stage I (T1-2 N0 M0)",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "All",
+                    "plan_name": "Observation",
+                    "plan_details": "No adjuvant therapy recommended",
+                    "nccn_evidence_category": "Category 2A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage II (T3-4 N0 M0)",
+            "risk_group": "Low risk (T3 without high-risk features)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "MSS/pMMR",
+                    "plan_name": "5-FU/LV or capecitabine",
+                    "plan_details": "6 months duration",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "MSS/pMMR",
+                    "plan_name": "Observation",
+                    "plan_details": "Optional for low-risk patients",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "MSI-H/dMMR",
+                    "plan_name": "Observation",
+                    "plan_details": "No adjuvant therapy",
+                    "nccn_evidence_category": "Category 2A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage II (T3-4 N0 M0)",
+            "risk_group": "High risk (T4, positive margins, <5 duodenal/<8 jejunal/ileal nodes, perforation, LVI/PNI, poor differentiation)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "MSS/pMMR",
+                    "plan_name": "CAPEOX",
+                    "plan_details": "3-6 months duration",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "MSS/pMMR",
+                    "plan_name": "FOLFOX",
+                    "plan_details": "6 months duration",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "Positive margins",
+                    "plan_name": "Chemoradiation",
+                    "plan_details": "5-FU/capecitabine + radiotherapy",
+                    "nccn_evidence_category": "Category 2A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage III (Any T N1-2 M0)",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "MSS/pMMR",
+                    "plan_name": "CAPEOX",
+                    "plan_details": "3-6 months duration",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "MSS/pMMR",
+                    "plan_name": "FOLFOX",
+                    "plan_details": "6 months duration",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "MSI-H/dMMR",
+                    "plan_name": "Observation",
+                    "plan_details": "No adjuvant therapy",
+                    "nccn_evidence_category": "Category 2A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Locally Unresectable/Medically Inoperable",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "dMMR/MSI-H or POLE/POLD1-mutated",
+                    "plan_name": "Checkpoint inhibitors",
+                    "plan_details": "Nivolumab, pembrolizumab, cemiplimab, dostarlimab, retifanlimab, tislelizumab, toripalimab, or nivolumab/ipilimumab",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "All",
+                    "plan_name": "Chemoradiation",
+                    "plan_details": "CAPEOX/FOLFOX followed by chemoradiotherapy",
+                    "nccn_evidence_category": "Category 2A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic/Recurrent Disease (Stage IV)",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "MSS/pMMR",
+                    "plan_name": "FOLFOX/CAPEOX/FOLFIRI ± bevacizumab",
+                    "plan_details": "Intensive regimen",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "MSS/pMMR",
+                    "plan_name": "5-FU/capecitabine ± bevacizumab",
+                    "plan_details": "Non-intensive regimen",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "RAS wild-type",
+                    "plan_name": "Panitumumab + chemotherapy",
+                    "plan_details": "Anti-EGFR therapy",
+                    "nccn_evidence_category": "Category 2B"
+                },
+                {
+                    "treatment_line": "Any line",
+                    "patient_subgroup": "dMMR/MSI-H or POLE/POLD1-mutated",
+                    "plan_name": "Immunotherapy",
+                    "plan_details": "Pembrolizumab, nivolumab ± ipilimumab, dostarlimab",
+                    "nccn_evidence_category": "Category 1"
+                },
+                {
+                    "treatment_line": "Any line",
+                    "patient_subgroup": "TMB-H (≥10 mut/Mb)",
+                    "plan_name": "Pembrolizumab",
+                    "plan_details": "Immune checkpoint inhibitor",
+                    "nccn_evidence_category": "Category 2B"
+                },
+                {
+                    "treatment_line": "Subsequent lines",
+                    "patient_subgroup": "BRAF V600E+",
+                    "plan_name": "Dabrafenib + trametinib",
+                    "plan_details": "BRAF/MEK inhibitor combination",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Subsequent lines",
+                    "patient_subgroup": "HER2 amplified (IHC 3+)",
+                    "plan_name": "Fam-trastuzumab deruxtecan",
+                    "plan_details": "HER2-targeted antibody-drug conjugate",
+                    "nccn_evidence_category": "Category 2A"
+                },
+                {
+                    "treatment_line": "Subsequent lines",
+                    "patient_subgroup": "NTRK fusion+",
+                    "plan_name": "TRK inhibitors",
+                    "plan_details": "Larotrectinib, entrectinib, or repotrectinib",
+                    "nccn_evidence_category": "Category 1"
+                },
+                {
+                    "treatment_line": "Subsequent lines",
+                    "patient_subgroup": "RET fusion+",
+                    "plan_name": "Selpercatinib",
+                    "plan_details": "RET inhibitor",
+                    "nccn_evidence_category": "Category 1"
+                },
+                {
+                    "treatment_line": "Subsequent lines",
+                    "patient_subgroup": "All",
+                    "plan_name": "FOLFIRI",
+                    "plan_details": "After platinum failure",
+                    "nccn_evidence_category": "Category 2B"
+                },
+                {
+                    "treatment_line": "Subsequent lines",
+                    "patient_subgroup": "All",
+                    "plan_name": "Taxanes",
+                    "plan_details": "nab-Paclitaxel or docetaxel",
+                    "nccn_evidence_category": "Category 2B"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": [
+        {
+            "biomarker": "MMR/MSI",
+            "clinical_significance": "Universal testing required. Prognostic: dMMR/MSI-H associated with better survival in Stage II. Predictive: Guides immunotherapy use (checkpoint inhibitors in metastatic/unresectable disease). High clinical utility."
+        },
+        {
+            "biomarker": "RAS (KRAS/NRAS)",
+            "clinical_significance": "Predictive biomarker for anti-EGFR therapy benefit (panitumumab) in wild-type patients. Mandatory in metastatic disease. High clinical utility."
+        },
+        {
+            "biomarker": "HER2",
+            "clinical_significance": "Predictive biomarker for HER2-targeted therapies (fam-trastuzumab deruxtecan). High clinical utility if positive."
+        },
+        {
+            "biomarker": "BRAF V600E",
+            "clinical_significance": "Predictive biomarker for BRAF/MEK inhibitor combination (dabrafenib + trametinib). Associated with poor prognosis. High clinical utility."
+        },
+        {
+            "biomarker": "NTRK Fusions",
+            "clinical_significance": "Predictive biomarker for TRK inhibitors (larotrectinib, entrectinib). Rare but high-impact target. High clinical utility."
+        },
+        {
+            "biomarker": "RET Fusions",
+            "clinical_significance": "Predictive biomarker for RET inhibitors (selpercatinib). Rare but high-impact target. High clinical utility."
+        },
+        {
+            "biomarker": "TMB-H (≥10 mut/Mb)",
+            "clinical_significance": "Predictive biomarker for immunotherapy (pembrolizumab). Emerging clinical utility."
+        },
+        {
+            "biomarker": "POLE/POLD1",
+            "clinical_significance": "Associated with ultra-hypermutation. Predictive biomarker for exceptional response to immunotherapy. Emerging clinical utility."
+        },
+        {
+            "biomarker": "TMB ultra-hypermutated (≥50 mut/Mb)",
+            "clinical_significance": "Predictive biomarker for immunotherapy benefit in dMMR/MSI-H/POLE/POLD1 tumors."
+        },
+        {
+            "biomarker": "PTEN mutations",
+            "clinical_significance": "Potential negative predictor of response to PD-1 blockade in MSI-H/dMMR tumors."
+        }
+    ],
+    "guideline_id": "（2025.V1）NCCN临床实践指南：小肠腺癌.txt"
+}

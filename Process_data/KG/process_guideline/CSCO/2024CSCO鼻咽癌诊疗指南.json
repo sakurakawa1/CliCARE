@@ -1,0 +1,111 @@
+{
+    "guideline_id": "2024CSCO鼻咽癌诊疗指南.txt",
+    "cancer_info": {
+        "cancer_name": "Nasopharyngeal Cancer"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "Early-stage (T1-2N0)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Radiotherapy alone",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I",
+            "evidence_level": "Evidence I"
+        },
+        {
+            "clinical_context": "Locally advanced (T1-2N+ or T3-4)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Concurrent chemoradiotherapy with cisplatin (100mg/m² every 3 weeks or 40mg/m² weekly)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level IA",
+            "evidence_level": "Evidence IA"
+        },
+        {
+            "clinical_context": "High-risk locally advanced (T4/N2-3)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Induction chemotherapy (GP or TPF regimen) followed by concurrent chemoradiotherapy ± PD-1 inhibitor (e.g., sintilimab)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "EBV DNA",
+                    "status": "≥4000 copies/mL",
+                    "testing_guidance": "Plasma EBV DNA testing for prognostic stratification; critical value ≥4000 copies/mL indicates high distant metastasis risk"
+                }
+            ],
+            "recommendation_level": "Level IB",
+            "evidence_level": "Evidence IB"
+        },
+        {
+            "clinical_context": "Metastatic, first-line",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Gemcitabine + cisplatin + PD-1 inhibitor (e.g., toripalimab or camrelizumab)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level IA",
+            "evidence_level": "Evidence IA"
+        },
+        {
+            "clinical_context": "Metastatic, second-line",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Single-agent chemotherapy (docetaxel or gemcitabine) or PD-1 inhibitor (if not previously used)",
+            "treatment_line": "Second-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level IIA",
+            "evidence_level": "Evidence IIA"
+        },
+        {
+            "clinical_context": "Recurrent, rI-II stage",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Surgery (endoscopic nasopharyngectomy)",
+            "treatment_line": "For recurrence",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I",
+            "evidence_level": "Evidence I"
+        },
+        {
+            "clinical_context": "Recurrent, rIII stage",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Radiotherapy (hyperfractionated IMRT at 66-70Gy)",
+            "treatment_line": "For recurrence",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "EBV DNA",
+                    "status": "",
+                    "testing_guidance": "Used for re-irradiation risk stratification based on EBV DNA level and tumor volume"
+                }
+            ],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Pediatric nasopharyngeal cancer, early-stage (I)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Radiotherapy alone (dose reduced to 59.4-66Gy)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        },
+        {
+            "clinical_context": "Pediatric nasopharyngeal cancer, advanced-stage (II-IVA)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Induction chemotherapy (TPF or GP regimen) followed by concurrent chemoradiotherapy",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "",
+            "evidence_level": ""
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "EBV DNA is used for screening (sensitivity >95% at >20 copies/mL), diagnostic aid, prognostic stratification (≥4000 copies/mL indicates high distant metastasis risk), efficacy monitoring (persistent positivity post-treatment suggests residual disease or recurrence), and recurrence prediction (rising levels detect relapse 2-3 months before imaging). Other markers include serum antibodies (e.g., VCA-IgA/EA-IgA for screening) and genetic signatures (e.g., DMGY signature for metastasis risk)."
+    },
+    "tcm_recommendations": [
+        {
+            "syndrome_type": "",
+            "tcm_treatment_plan": "For radiation dermatitis: topical sulfadiazine silver cream or Kangfuxin liquid; for oral mucositis: low-level laser therapy plus Shuanghua Baihe tablets or Kouyanqing granules for gargling; nutritional support with Kangfuxin liquid for mucosal repair and individualized nutrition intervention.",
+            "recommendation_grade": ""
+        }
+    ]
+}

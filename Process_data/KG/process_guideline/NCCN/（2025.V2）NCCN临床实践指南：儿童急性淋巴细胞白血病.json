@@ -1,0 +1,153 @@
+{
+    "cancer_info": {
+        "cancer_name": "Pediatric Acute Lymphoblastic Leukemia"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Bone marrow aspirate/biopsy (morphology, flow cytometry)",
+            "Cytogenetics/FISH (BCR::ABL1, KMT2A, ETV6::RUNX1, hypodiploidy)",
+            "Molecular profiling (CRLF2, JAK2, IKZF1, NOTCH1, FBXW7)",
+            "Lumbar puncture with CSF analysis (CNS status classification)",
+            "Multiparameter flow cytometry (MRD monitoring)",
+            "Next-generation sequencing (NGS) for MRD detection",
+            "Karyotyping",
+            "RT-PCR for BCR::ABL1",
+            "Low-density array for BCR::ABL1-like signatures",
+            "CT/MRI head (if neurologic symptoms)",
+            "Chest X-ray (mediastinal mass evaluation)",
+            "Scrotal ultrasound (testicular involvement)",
+            "PET-CT (if lymphoblastic lymphoma suspected)",
+            "Echocardiogram (if anthracyclines planned)",
+            "Pharmacogenomics testing (TPMT, NUDT15)",
+            "CBC with differential",
+            "Liver function tests (LFTs)",
+            "Tumor lysis panel (LDH, uric acid, electrolytes)",
+            "Coagulation studies (PT, PTT, fibrinogen, D-dimer)",
+            "Pregnancy testing",
+            "Viral serologies (HSV, CMV, EBV)",
+            "Immunoglobulins"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Initial risk stratification",
+            "risk_group": "Standard Risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "B-ALL, BCR::ABL1-negative",
+                    "plan_name": "COG AALL0932",
+                    "plan_details": "Dexamethasone, vincristine, pegaspargase, methotrexate",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Initial risk stratification",
+            "risk_group": "High Risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "B-ALL, BCR::ABL1-negative",
+                    "plan_name": "COG AALL1131",
+                    "plan_details": "Cyclophosphamide, cytarabine, daunorubicin added to backbone",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "BCR::ABL1-positive",
+                    "plan_name": "COG AALL1631",
+                    "plan_details": "Chemotherapy + TKI (imatinib/dasatinib)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "T-ALL",
+                    "plan_name": "COG AALL0434",
+                    "plan_details": "Nelarabine + augmented BFM backbone",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Initial risk stratification",
+            "risk_group": "Very High Risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Infant ALL with KMT2A rearrangements",
+                    "plan_name": "Interfant Regimen",
+                    "plan_details": "Intensive chemotherapy ± blinatumomab",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Post-induction risk stratification",
+            "risk_group": "MRD ≥0.01% at Day 29",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Treatment intensification",
+                    "patient_subgroup": "B-ALL",
+                    "plan_name": "Blinatumomab",
+                    "plan_details": "CD19/CD3 bispecific antibody for MRD eradication",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Relapsed/Refractory Disease",
+            "risk_group": "First relapse",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "B-ALL",
+                    "plan_name": "Blinatumomab or Inotuzumab",
+                    "plan_details": "CD19/CD3 bispecific antibody or CD22 antibody-drug conjugate",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "T-ALL",
+                    "plan_name": "Nelarabine-based regimens",
+                    "plan_details": "Nelarabine ± chemotherapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Relapsed/Refractory Disease",
+            "risk_group": "Multiple relapse/refractory",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Third-line treatment",
+                    "patient_subgroup": "KMT2A-rearranged ALL",
+                    "plan_name": "Revumenib",
+                    "plan_details": "Menin inhibitor",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Third-line treatment",
+                    "patient_subgroup": "B-ALL",
+                    "plan_name": "Tisagenlecleucel",
+                    "plan_details": "CD19 CAR T-cell therapy",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Other recommended"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "MRD: Most powerful prognostic factor; guides treatment intensification; BCR::ABL1: High-risk marker requiring TKIs; KMT2A rearrangements: Poor prognosis in infants, targetable with menin inhibitors; IKZF1 deletions: Inferior EFS independent of MRD; CRLF2/JAK-STAT: Defines BCR::ABL1-like ALL, targetable with JAK inhibitors; TPMT/NUDT15: Predicts thiopurine toxicity requiring dose reduction; ETV6::RUNX1: Favorable prognosis allowing therapy de-escalation"
+    },
+    "guideline_id": "（2025.V2）NCCN临床实践指南：儿童急性淋巴细胞白血病.txt"
+}

@@ -1,0 +1,209 @@
+{
+    "cancer_info": {
+        "cancer_name": "Thymic Epithelial Tumors (Thymomas and Thymic Carcinomas)"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Chest CT with contrast",
+            "Chest MRI (if CT inconclusive/contraindicated)",
+            "FDG PET/CT (skull base to mid-thigh)",
+            "Serum beta-hCG test",
+            "Serum AFP test",
+            "CBC",
+            "Platelet count",
+            "LDH test",
+            "Anti-AChR antibodies test (for myasthenia gravis screening)",
+            "Paraneoplastic autoantibodies test (if symptomatic)",
+            "Core needle biopsy (preferred)",
+            "Open biopsy (if core biopsy non-diagnostic)",
+            "Fine needle aspiration (FNA) biopsy",
+            "Histologic Classification (WHO subtypes)",
+            "Pulmonary function tests (if clinically indicated)",
+            "Lymph Node Dissection (per ITMIG map)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Stage I (Encapsulated, no microscopic invasion)",
+            "risk_group": "Thymoma",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Resectable",
+                    "plan_name": "Total thymectomy",
+                    "plan_details": "Complete (R0) resection via VATS or open sternotomy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Adjuvant treatment",
+                    "patient_subgroup": "After R0 resection",
+                    "plan_name": "Surveillance",
+                    "plan_details": "Chest CT every 6-12 months for 2 years, then annually until 10 years",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage II (Microscopic/macroscopic invasion)",
+            "risk_group": "Thymoma",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Resectable",
+                    "plan_name": "Total thymectomy",
+                    "plan_details": "Complete resection with extended techniques if needed",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Adjuvant treatment",
+                    "patient_subgroup": "After resection",
+                    "plan_name": "Postoperative radiotherapy",
+                    "plan_details": "45-54 Gy for R0/R1 resection",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage III/IVA (Invasion of adjacent organs/pleural dissemination)",
+            "risk_group": "Thymoma",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Resectable",
+                    "plan_name": "Extended resection",
+                    "plan_details": "Total thymectomy with involved organ resection (lung/pericardium)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Neoadjuvant treatment",
+                    "patient_subgroup": "Borderline resectable",
+                    "plan_name": "Cisplatin-based chemotherapy",
+                    "plan_details": "CAP regimen: Cisplatin + Doxorubicin + Cyclophosphamide",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Adjuvant treatment",
+                    "patient_subgroup": "After resection",
+                    "plan_name": "Postoperative radiotherapy",
+                    "plan_details": "60-70 Gy for R2 resection; 45-54 Gy for R0/R1",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IVB (Distant metastases)",
+            "risk_group": "Thymoma",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Advanced disease",
+                    "plan_name": "CAP regimen",
+                    "plan_details": "Cisplatin 50mg/m2 + Doxorubicin 50mg/m2 + Cyclophosphamide 500mg/m2",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "Refractory disease",
+                    "plan_name": "Everolimus",
+                    "plan_details": "mTOR inhibitor (10mg daily)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "Refractory disease",
+                    "plan_name": "Gemcitabine/Capecitabine",
+                    "plan_details": "Gemcitabine 1000mg/m2 + Capecitabine 1000mg/m2",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Any stage",
+            "risk_group": "Thymic Carcinoma",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Resectable",
+                    "plan_name": "Total thymectomy",
+                    "plan_details": "Complete resection with extended techniques if needed",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Adjuvant treatment",
+                    "patient_subgroup": "Post-resection",
+                    "plan_name": "Radiotherapy ± chemotherapy",
+                    "plan_details": "45-60 Gy RT with CAP or carboplatin/paclitaxel",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Advanced/metastatic",
+                    "plan_name": "Carboplatin/Paclitaxel ± Ramucirumab",
+                    "plan_details": "Carboplatin AUC5-6 + Paclitaxel 200mg/m2 ± Ramucirumab 10mg/kg",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "PD-L1 positive",
+                    "plan_name": "Pembrolizumab",
+                    "plan_details": "200mg every 3 weeks (high toxicity risk)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "Refractory disease",
+                    "plan_name": "Lenvatinib",
+                    "plan_details": "Multikinase inhibitor (24mg daily)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unresectable disease",
+            "risk_group": "All histologies",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Definitive treatment",
+                    "patient_subgroup": "Locally advanced",
+                    "plan_name": "Radiation therapy",
+                    "plan_details": "60-70 Gy using IMRT/VMAT/proton therapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Systemic therapy",
+                    "patient_subgroup": "With great vessel involvement",
+                    "plan_name": "Neoadjuvant chemotherapy",
+                    "plan_details": "CAP or carboplatin/paclitaxel regimens",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "Octreotide/Dotatate PET-CT: Guides octreotide therapy in neuroendocrine-differentiated tumors",
+            "c-KIT Mutations: Predicts response to sunitinib in thymic carcinomas (10% prevalence)",
+            "PD-L1 Expression: Predicts pembrolizumab response in thymic carcinoma (high toxicity risk)",
+            "Anti-AChR Antibodies: Diagnostic for myasthenia gravis in thymoma patients (30-45% prevalence)",
+            "WHO Histologic Classification: Determines prognosis and treatment strategy (B3 thymoma correlates with worse outcomes)"
+        ]
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：胸腺瘤和胸腺癌.txt"
+}

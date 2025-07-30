@@ -1,0 +1,200 @@
+{
+    "cancer_info": {
+        "cancer_name": "Ampullary Adenocarcinoma"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "EGD with side-viewing endoscope",
+            "EUS with biopsy",
+            "Colonoscopy",
+            "Pancreatic-protocol CT abdomen/pelvis",
+            "Chest CT",
+            "MRI for indeterminate liver lesions",
+            "CA 19-9 test",
+            "CEA test",
+            "Liver function tests (LFTs)",
+            "ERCP/PTC for biliary obstruction",
+            "Tumor somatic NGS testing",
+            "Genetic counseling",
+            "Endoscopic Ultrasound (EUS)",
+            "Multi-Detector CT (MDCT)",
+            "MRI/MRCP",
+            "Transabdominal Ultrasound",
+            "Intraductal Ultrasonography (IDUS)",
+            "PET-CT for equivocal lesions",
+            "Endoscopic biopsy",
+            "EUS-FNA",
+            "Intraoperative frozen section",
+            "Histopathological assessment",
+            "Germline testing for hereditary syndromes"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Resectable",
+            "risk_group": "Without high-risk features",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All",
+                    "plan_name": "Pancreatoduodenectomy",
+                    "plan_details": "Preferred surgery; high-volume centers only",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Appropriate"
+                },
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "Select T1 tumors",
+                    "plan_name": "Ampullectomy",
+                    "plan_details": "For small (<2-3 cm), well-differentiated T1a tumors without intraductal extension",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Resectable",
+            "risk_group": "With high-risk features",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Neoadjuvant",
+                    "patient_subgroup": "Pancreatobiliary/Mixed subtype",
+                    "plan_name": "FOLFIRINOX or Gemcitabine/nab-paclitaxel or NALIRIFOX",
+                    "plan_details": "Followed by chemoradiation",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                },
+                {
+                    "treatment_line": "Neoadjuvant",
+                    "patient_subgroup": "Intestinal subtype",
+                    "plan_name": "FOLFOX or CAPEOX",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Resectable (Post-operative)",
+            "risk_group": "Stage I",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "All",
+                    "plan_name": "Observation or systemic therapy",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Resectable (Post-operative)",
+            "risk_group": "Stage II/III",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "Pancreatobiliary subtype",
+                    "plan_name": "Gemcitabine + Capecitabine or mFOLFIRINOX or Gemcitabine alone or Capecitabine alone",
+                    "plan_details": "For high-risk features: chemoradiation with capecitabine/5-FU + RT (45-54 Gy)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Appropriate"
+                },
+                {
+                    "treatment_line": "Adjuvant",
+                    "patient_subgroup": "Intestinal subtype",
+                    "plan_name": "FOLFOX/CAPEOX or 5-FU/leucovorin",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Locally Advanced Unresectable",
+            "risk_group": "All",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary",
+                    "patient_subgroup": "All",
+                    "plan_name": "Systemic chemotherapy",
+                    "plan_details": "Per metastatic protocols or chemoradiation (45-56 Gy with capecitabine/5-FU)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic",
+            "risk_group": "First-line",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "Pancreatobiliary/Mixed subtype",
+                    "plan_name": "Gemcitabine + Cisplatin ± Durvalumab or Gemcitabine + Nab-paclitaxel or mFOLFIRINOX",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 1 for Gem/Cis",
+                    "nccn_recommendation_category": "Appropriate"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "Intestinal subtype",
+                    "plan_name": "FOLFOX/CAPEOX ± Bevacizumab or FOLFIRI ± Bevacizumab",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "MSI-H/dMMR",
+                    "plan_name": "Pembrolizumab",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Appropriate"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic",
+            "risk_group": "Subsequent lines",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Second-line",
+                    "patient_subgroup": "HER2+",
+                    "plan_name": "Fam-trastuzumab deruxtecan-nxki",
+                    "plan_details": "For IHC3+ or IHC2+/FISH amplified",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                },
+                {
+                    "treatment_line": "Second-line",
+                    "patient_subgroup": "NTRK fusion",
+                    "plan_name": "Larotrectinib or Entrectinib",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                },
+                {
+                    "treatment_line": "Second-line",
+                    "patient_subgroup": "RET fusion",
+                    "plan_name": "Selpercatinib",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                },
+                {
+                    "treatment_line": "Second-line",
+                    "patient_subgroup": "BRAF V600E mutation",
+                    "plan_name": "Dabrafenib + Trametinib",
+                    "plan_details": "",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Appropriate"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Histologic Subtype: Guides therapy selection (Pancreatobiliary → pancreatic/biliary regimens; Intestinal → colorectal regimens). MSI-H/dMMR: Predicts response to pembrolizumab. TMB-H: Indicates immunotherapy benefit. HER2 Amplification: Emerging target for HER2-directed therapies. BRCA1/2 Mutations: May benefit from platinum-based therapy/PARP inhibitors. KRAS/BRAF: BRAF V600E indicates targeted therapy (dabrafenib/trametinib); KRAS wild-type may benefit from EGFR inhibitors in intestinal subtype. NTRK/RET Fusions: Indicate targeted therapy (larotrectinib/entrectinib/selpercatinib)."
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：壶腹腺癌.txt"
+}

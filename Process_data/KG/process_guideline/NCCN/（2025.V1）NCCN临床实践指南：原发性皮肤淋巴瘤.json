@@ -1,0 +1,152 @@
+{
+    "cancer_info": {
+        "cancer_name": "Primary Cutaneous Lymphomas"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Skin biopsy (excisional, incisional, or punch)",
+            "Immunohistochemistry (IHC) panel (CD20, CD3, CD5, CD10, BCL2, BCL6, IRF4/MUM1, FOXP1, CD2, CD4, CD7, CD8, CD30, TCRβ)",
+            "Molecular studies (TCR/IgH gene rearrangement, NGS for MYD88/CD79B)",
+            "Flow cytometry (peripheral blood for Sézary cell count and TRBC1 assessment)",
+            "FDG-PET/CT or CT chest/abdomen/pelvis",
+            "CBC with differential",
+            "LDH testing",
+            "Comprehensive metabolic panel",
+            "HTLV-1/2 serology",
+            "Lymph node biopsy (if adenopathy present)",
+            "Bone marrow biopsy (for PCDLBCL-LT or cytopenias)",
+            "Physical/skin exam with BSA assessment",
+            "Pregnancy test (for childbearing-age individuals)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Early stage (IA-IIA)",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "MF/SS",
+                    "plan_name": "Skin-directed therapy",
+                    "plan_details": "Topical corticosteroids, mechlorethamine, NB-UVB/PUVA phototherapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Primary option"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "PCFCL/PCMZL (T1-T2)",
+                    "plan_name": "Involved-site RT",
+                    "plan_details": "24–30 Gy radiation",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Primary option"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Advanced stage (IIB-IV)",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "CD30+ MF",
+                    "plan_name": "Brentuximab vedotin",
+                    "plan_details": "1.8 mg/kg IV every 3 weeks (max 16 cycles)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "MF/SS",
+                    "plan_name": "Mogamulizumab",
+                    "plan_details": "1 mg/kg IV weekly (cycle 1), then days 1+15 (subsequent cycles)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "PCDLBCL-Leg Type",
+                    "plan_name": "R-CHOP",
+                    "plan_details": "Rituximab + cyclophosphamide/doxorubicin/vincristine/prednisone",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Primary regimen"
+                },
+                {
+                    "treatment_line": "Relapsed/Refractory",
+                    "patient_subgroup": "LCT MF/Visceral Disease",
+                    "plan_name": "Gemcitabine or Liposomal doxorubicin",
+                    "plan_details": "Variable dosing (low-dose preferred)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Erythrodermic MF (Stage III)",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "B1/B2 blood involvement",
+                    "plan_name": "Extracorporeal Photopheresis (ECP)",
+                    "plan_details": "6+ months of therapy, often combined with interferon/retinoids",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Sézary Syndrome (Stage IVA)",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Low blood burden (<5K/mm³)",
+                    "plan_name": "Bexarotene or Romidepsin",
+                    "plan_details": "Bexarotene: Variable dosing; Romidepsin: 14 mg/m² IV days 1,8,15 (28-day cycles)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "High blood burden (≥5K/mm³)",
+                    "plan_name": "Mogamulizumab or Romidepsin",
+                    "plan_details": "Mogamulizumab: 1 mg/kg IV weekly; Romidepsin: 14 mg/m² IV days 1,8,15",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Localized PCTLD (PC-ALCL)",
+            "risk_group": "Localized",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Solitary/grouped lesions",
+                    "plan_name": "Involved-site RT",
+                    "plan_details": "20–35 Gy radiation",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Primary option"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Multifocal PCTLD (PC-ALCL)",
+            "risk_group": "Multifocal",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Skin-only disease",
+                    "plan_name": "Brentuximab vedotin",
+                    "plan_details": "1.8 mg/kg IV every 3 weeks",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "CD30: Predicts response to brentuximab vedotin (≥10% expression optimal; responses at any level); MYD88/CD79B mutations: Define 'MCD subtype' in PCDLBCL-LT and predict poor prognosis; CXCR3/Ig class-switching: IgG4+/CXCR3− indicates indolent PCMZL, IgM+/CXCR3+ predicts higher extracutaneous risk; TRBC1: Improves specificity for Sézary cell detection; FOXP1/IgM: Differentiates PCDLBCL-LT from PCFCL; CD25: ≥20% expression required for denileukin diftitox eligibility; Blood tumor burden (B2): Diagnostic for Sézary syndrome; ALK negativity: Distinguishes PC-ALCL from systemic ALCL; DUSP22-IRF4 rearrangement: Present in PC-ALCL/LyP without prognostic impact"
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：原发性皮肤淋巴瘤.txt"
+}

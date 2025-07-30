@@ -1,0 +1,221 @@
+{
+    "cancer_info": {
+        "cancer_name": "Cancer of Unknown Primary"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Complete history and physical exam (including breast, GU, pelvic, rectal, skin, oral cavity)",
+            "CBC",
+            "Creatinine",
+            "Electrolytes",
+            "LFTs",
+            "LDH",
+            "Urinalysis",
+            "Calcium",
+            "Hemoccult test",
+            "PSA (men ≥40 years)",
+            "Beta-hCG/alpha-fetoprotein (suspected germ cell tumors)",
+            "Contrast-enhanced CT of chest/abdomen/pelvis",
+            "FDG-PET/CT (if contrast contraindicated)",
+            "Mammogram (if intact breast tissue)",
+            "Breast MRI/ultrasound (if indicated)",
+            "Core needle biopsy",
+            "Fine needle aspiration (FNA) with cell block",
+            "Rapid on-site evaluation (ROSE)",
+            "Immunohistochemistry (IHC) for subtyping",
+            "Endoscopy (for supraclavicular/head/neck nodes)",
+            "CT/MRI (for supraclavicular nodes)",
+            "CA-125 (for peritoneal ascites)",
+            "AFP (for liver involvement)",
+            "Liver-directed imaging",
+            "Bone scan",
+            "CNS-specific imaging",
+            "Perineal/genital exam (for inguinal nodes)",
+            "Cystoscopy",
+            "Anal endoscopy",
+            "p16/HPV/EBV testing (for head/neck nodes)",
+            "PET/CT or PET/MRI (if contraindication to contrast)",
+            "Multiparametric MRI (MPMRI) or 3D THRIVE MRI (for cervical nodes)",
+            "In Situ Hybridization (ISH) for translocations",
+            "Next-generation sequencing (NGS) for actionable mutations",
+            "Biomarker testing (MMR/MSI status, TMB)"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Favorable Subgroups",
+            "risk_group": "Favorable",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Women with isolated axillary nodes",
+                    "plan_name": "Breast cancer management",
+                    "plan_details": "Axillary dissection ± radiation/systemic therapy (breast regimen)",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Squamous cell carcinoma in cervical nodes",
+                    "plan_name": "Head/neck cancer regimen",
+                    "plan_details": "Radiation ± chemoradiation",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Young men with mediastinal disease",
+                    "plan_name": "Germ cell tumor regimen",
+                    "plan_details": "Platinum-based chemotherapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Women with peritoneal ascites",
+                    "plan_name": "Ovarian cancer regimen",
+                    "plan_details": "Platinum-taxane chemotherapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "SCC in inguinal nodes",
+                    "plan_name": "Lymph node dissection",
+                    "plan_details": "Lymph node dissection ± radiation",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Colon-cancer profile (CK20+/CDX2+, CK7−)",
+                    "plan_name": "FOLFOX/CAPOX",
+                    "plan_details": "Oxaliplatin-based chemotherapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Poorly differentiated neuroendocrine carcinoma",
+                    "plan_name": "Platinum/etoposide",
+                    "plan_details": "Cisplatin/carboplatin + etoposide",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unfavorable Subgroups",
+            "risk_group": "Unfavorable",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Adenocarcinoma with disseminated disease",
+                    "plan_name": "Carboplatin/paclitaxel",
+                    "plan_details": "Carboplatin AUC 5-6 + paclitaxel 175-200mg/m²",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Adenocarcinoma with disseminated disease",
+                    "plan_name": "Cisplatin/gemcitabine",
+                    "plan_details": "Cisplatin 75mg/m² + gemcitabine 1250mg/m²",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Squamous cell carcinoma with disseminated disease",
+                    "plan_name": "Carboplatin/paclitaxel",
+                    "plan_details": "Carboplatin AUC 5-6 + paclitaxel 175-200mg/m²",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Squamous cell carcinoma with disseminated disease",
+                    "plan_name": "mFOLFOX6",
+                    "plan_details": "Oxaliplatin 85mg/m² + leucovorin 400mg/m² + fluorouracil bolus 400mg/m² + infusion 2400mg/m²",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "Refractory adenocarcinoma",
+                    "plan_name": "FOLFIRI",
+                    "plan_details": "Irinotecan 180mg/m² + leucovorin 400mg/m² + fluorouracil bolus 400mg/m² + infusion 2400mg/m²",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other option"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Biomarker-Driven",
+            "risk_group": "Applicable to all subgroups",
+            "treatment_plans": [
+                {
+                    "treatment_line": "As indicated by biomarker",
+                    "patient_subgroup": "dMMR/MSI-H tumors",
+                    "plan_name": "Pembrolizumab",
+                    "plan_details": "200mg IV every 3 weeks",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Useful in Certain Circumstances"
+                },
+                {
+                    "treatment_line": "As indicated by biomarker",
+                    "patient_subgroup": "TMB-H (≥10 mut/Mb) tumors",
+                    "plan_name": "Pembrolizumab",
+                    "plan_details": "200mg IV every 3 weeks",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Useful in Certain Circumstances"
+                },
+                {
+                    "treatment_line": "As indicated by biomarker",
+                    "patient_subgroup": "NTRK fusion-positive tumors",
+                    "plan_name": "TRK inhibitors",
+                    "plan_details": "Entrectinib/larotrectinib/repotrectinib",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Useful in Certain Circumstances"
+                },
+                {
+                    "treatment_line": "As indicated by biomarker",
+                    "patient_subgroup": "BRAF V600E-mutant tumors",
+                    "plan_name": "Dabrafenib + trametinib",
+                    "plan_details": "Dabrafenib 150mg BID + trametinib 2mg daily",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Useful in Certain Circumstances"
+                },
+                {
+                    "treatment_line": "As indicated by biomarker",
+                    "patient_subgroup": "HER2 IHC 3+ tumors",
+                    "plan_name": "Fam-trastuzumab deruxtecan",
+                    "plan_details": "5.4mg/kg IV every 3 weeks",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Useful in Certain Circumstances"
+                },
+                {
+                    "treatment_line": "As indicated by biomarker",
+                    "patient_subgroup": "RET fusion-positive tumors",
+                    "plan_name": "Selpercatinib",
+                    "plan_details": "160mg BID",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Useful in Certain Circumstances"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "dMMR/MSI-H: Defective DNA repair; rare in CUP (1.8%); predicts response to immune checkpoint inhibitors",
+            "TMB-H (≥10 mut/Mb): High tumor mutational burden; predicts response to immune checkpoint inhibitors",
+            "HER2 IHC 3+: Overexpression in solid tumors; indicates HER2-targeted antibody-drug conjugates",
+            "RET fusion: Gene rearrangement; indicates RET inhibitor therapy",
+            "BRAF V600E: Oncogenic driver mutation; indicates BRAF/MEK inhibitor therapy",
+            "NTRK fusion: Rare gene fusion; indicates TRK inhibitor therapy",
+            "PSA elevation: Suggests prostate primary; indicates androgen deprivation therapy",
+            "HPV/p16+ (ISH): Indicates oropharyngeal primary in cervical SCC; guides site-specific therapy"
+        ]
+    },
+    "guideline_id": "（2025.V2）NCCN临床实践指南：不明原发部位肿瘤[CUP].txt"
+}

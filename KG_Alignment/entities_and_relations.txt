@@ -1,0 +1,70 @@
+KG（以癌症为核心）：
+(['ClinicalSituation'], HAS_TREATMENT, ['Treatment'])
+(['Cancer'], HAS_EXAMINATION, ['Examination'])
+(['Cancer'], HAS_CLINICAL_SITUATION, ['ClinicalSituation'])
+(['Treatment'], REQUIRES_BIOMARKER, ['Biomarker'])
+
+TKG（以患者为核心）：
+(['Patient'], HAS_ADMISSION, ['HospitalAdmission'])
+(['HospitalAdmission'], PRECEDES_ADMISSION, ['HospitalAdmission']) #时序关系，以住院记录为时序
+(['HospitalAdmission'], INCLUDES_EVENT, ['ClinicalEvent'])
+(['ClinicalEvent'], IS_DRUG, ['Drug'])
+(['ClinicalEvent'], MEASURES, ['Biomarker'])
+
+两KG相连部分
+(['Patient'], HAS_CANCER, ['Cancer'])
+
+
+实体属性描述：
+==================================================
+实体类型: ['Treatment']
+属性名称: ['line', 'name', 'source', 'type', 'recommendation_level', 'evidence_level', 'content']
+------------------------------
+实体类型: ['ClinicalSituation']
+属性名称: ['stage', 'name', 'risk_group', 'source', 'type']
+------------------------------
+实体类型: ['Cancer']
+属性名称: ['name', 'source', 'type']
+------------------------------
+实体类型: ['Examination']
+属性名称: ['name', 'source', 'type']
+------------------------------
+实体类型: ['Treatment']
+属性名称: ['line', 'name', 'source', 'type', 'evidence_level', 'recommendation_level', 'content']
+------------------------------
+实体类型: ['ClinicalSituation']
+属性名称: ['stage', 'name', 'source', 'type']
+------------------------------
+实体类型: ['Patient']
+属性名称: ['id', 'source', 'type']
+------------------------------
+实体类型: ['HospitalAdmission']
+属性名称: ['clinical_diagnosis', 'admission_time', 'source', 'id', 'department', 'type']
+------------------------------
+实体类型: ['ClinicalEvent']
+属性名称: ['name', 'source', 'id', 'type']
+------------------------------
+实体类型: ['ClinicalEvent']
+属性名称: ['name', 'id', 'source', 'type']
+------------------------------
+实体类型: ['Drug']
+属性名称: ['name', 'source', 'type']
+------------------------------
+实体类型: ['HospitalAdmission']
+属性名称: ['clinical_diagnosis', 'admission_time', 'id', 'source', 'department', 'type']
+------------------------------
+实体类型: ['Biomarker']
+属性名称: ['name', 'source', 'type']
+------------------------------
+实体类型: ['Biomarker']
+属性名称: ['guidance', 'name', 'source', 'type', 'status']
+------------------------------
+实体类型: ['Treatment']
+属性名称: ['line', 'name', 'source', 'type', 'evidence_level', 'content']
+------------------------------
+实体类型: ['HospitalAdmission']
+属性名称: ['admission_time', 'source', 'id', 'department', 'type']
+------------------------------
+实体类型: ['HospitalAdmission']
+属性名称: ['admission_time', 'id', 'source', 'department', 'type']
+------------------------------

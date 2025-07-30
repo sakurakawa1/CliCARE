@@ -1,0 +1,198 @@
+{
+    "cancer_info": {
+        "cancer_name": "B-Cell Lymphomas"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Excisional/incisional biopsy",
+            "Core needle biopsy",
+            "FNA with ancillary techniques (IHC, flow cytometry, FISH)",
+            "Immunophenotyping (IHC/Flow): CD20, CD3, CD5, CD10, BCL2, BCL6, cyclin D1, MYC, Ki-67, IRF4/MUM1, CD30, CD15, EBER, HHV8",
+            "FISH for MYC/BCL2/BCL6 rearrangements",
+            "NGS lymphoma panel (CREBBP, EZH2, MAP2K1, TNFRSF14, STAT6, TP53)",
+            "PET/CT or contrast-enhanced CT",
+            "Bone marrow biopsy with flow cytometry",
+            "LDH testing",
+            "CBC with differential",
+            "Comprehensive metabolic panel",
+            "Hepatitis B/C serology",
+            "HIV serology",
+            "EBV PCR/EBER-ISH",
+            "Lumbar puncture with CSF flow cytometry",
+            "MUGA scan/echocardiogram",
+            "Endoscopy (gastric MZL)",
+            "β2-microglobulin testing",
+            "Cryoglobulin testing",
+            "Direct Coombs test",
+            "Tumor lysis syndrome prophylaxis"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Follicular Lymphoma (Ann Arbor)",
+            "risk_group": "Low tumor burden",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "Asymptomatic",
+                    "plan_name": "Observation",
+                    "plan_details": "Active surveillance",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Standard"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "Symptomatic",
+                    "plan_name": "Rituximab monotherapy",
+                    "plan_details": "4 weekly doses",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Follicular Lymphoma (Ann Arbor)",
+            "risk_group": "High tumor burden",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "General",
+                    "plan_name": "Bendamustine-rituximab",
+                    "plan_details": "Bendamustine 90mg/m² + rituximab",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "General",
+                    "plan_name": "R-CHOP",
+                    "plan_details": "Rituximab + cyclophosphamide, doxorubicin, vincristine, prednisone",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Maintenance",
+                    "patient_subgroup": "Post-induction response",
+                    "plan_name": "Rituximab maintenance",
+                    "plan_details": "Every 8-12 weeks × 2 years",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Mantle Cell Lymphoma (Ann Arbor)",
+            "risk_group": "TP53 mutated",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "BOVen regimen",
+                    "plan_details": "Zanubrutinib + obinutuzumab + venetoclax",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "Suitable for aggressive therapy",
+                    "plan_name": "TRIANGLE regimen",
+                    "plan_details": "Alternating R-CHOP/ibrutinib/R-DHAP",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Other recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "DLBCL (Ann Arbor)",
+            "risk_group": "Early-stage (I-II non-bulky)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "General",
+                    "plan_name": "R-CHOP ×3 + ISRT",
+                    "plan_details": "3 cycles R-CHOP + involved-site radiation therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "DLBCL (Ann Arbor)",
+            "risk_group": "Advanced-stage (III-IV/bulky)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "General",
+                    "plan_name": "Pola-R-CHP",
+                    "plan_details": "Polatuzumab vedotin + rituximab + cyclophosphamide + doxorubicin + prednisone",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "Frail/elderly (≥80 years)",
+                    "plan_name": "R-miniCHOP",
+                    "plan_details": "Reduced-dose R-CHOP",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Burkitt Lymphoma",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "General",
+                    "plan_name": "CODOX-M",
+                    "plan_details": "Cyclophosphamide, vincristine, doxorubicin, methotrexate",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Marginal Zone Lymphoma (Gastric)",
+            "risk_group": "Stage I-II H. pylori+",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "General",
+                    "plan_name": "H. pylori eradication",
+                    "plan_details": "Antibiotic therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "PTLD",
+            "risk_group": "Monomorphic B-cell",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line",
+                    "patient_subgroup": "General",
+                    "plan_name": "RI + rituximab",
+                    "plan_details": "Reduction of immunosuppression + rituximab",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "BCL2 rearrangement (t(14;18)): Diagnostic hallmark for follicular lymphoma",
+            "EZH2 mutations: Predict response to tazemetostat in relapsed/refractory FL",
+            "TP53 mutations: Strongest adverse prognostic factor in MCL; requires targeted therapy",
+            "MYC/BCL2/BCL6 rearrangements: Define high-grade B-cell lymphoma; require intensive therapy",
+            "t(11;18) in gastric MZL: Predicts resistance to H. pylori eradication therapy",
+            "CD30 positivity: Enables brentuximab vedotin use in CD30+ lymphomas",
+            "9p24 alterations (PMBCL): Predict sensitivity to PD-1 inhibitors",
+            "EBV positivity: Associated with aggressive disease in HIV-related lymphomas",
+            "Ki-67 >30%: Adverse prognostic factor in MCL and transformed lymphomas"
+        ]
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：B细胞淋巴瘤.txt"
+}

@@ -1,0 +1,161 @@
+{
+    "cancer_info": {
+        "cancer_name": "Hairy Cell Leukemia"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Bone Marrow Biopsy/Aspirate",
+            "Immunophenotyping (Flow Cytometry/IHC)",
+            "Molecular Testing: BRAF V600E mutation",
+            "Molecular Testing: IGHV4-34 rearrangement",
+            "History/Physical Exam",
+            "CBC with differential",
+            "Comprehensive metabolic panel",
+            "LDH testing",
+            "Hepatitis B/C testing",
+            "Peripheral blood smear",
+            "CT chest/abdomen/pelvis with contrast (if symptomatic)",
+            "Fertility Preservation discussion"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Asymptomatic without treatment indications",
+            "risk_group": "Observation group",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Initial management",
+                    "patient_subgroup": "Asymptomatic patients",
+                    "plan_name": "Observation",
+                    "plan_details": "No immediate treatment; monitor for symptom development",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard approach"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Active disease requiring treatment",
+            "risk_group": "Treatment-naive",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "General population",
+                    "plan_name": "Cladribine or Pentostatin",
+                    "plan_details": "Purine analogs: Cladribine (IV/SC) or Pentostatin",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "General population",
+                    "plan_name": "Cladribine + Rituximab",
+                    "plan_details": "Combination therapy for higher CR/MRD negativity rates",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Frail patients, active infection, or purine analog intolerance",
+                    "plan_name": "Vemurafenib + Anti-CD20 mAb",
+                    "plan_details": "Vemurafenib with Obinutuzumab/Rituximab",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Useful in Certain Circumstances"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Relapsed disease",
+            "risk_group": "Relapse >2 years after initial therapy",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "Late relapse",
+                    "plan_name": "Retreatment with purine analog ± Rituximab",
+                    "plan_details": "Initial purine analog or alternative purine analog + rituximab",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Relapsed/refractory disease",
+            "risk_group": "Relapse ≤2 years or refractory",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "BRAF V600E+ patients",
+                    "plan_name": "Vemurafenib + Rituximab",
+                    "plan_details": "Targeted therapy combination",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "BRAF V600E+ patients",
+                    "plan_name": "Dabrafenib + Trametinib",
+                    "plan_details": "BRAF/MEK inhibitor combination",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "General population",
+                    "plan_name": "Ibrutinib or Zanubrutinib",
+                    "plan_details": "BTK inhibitors",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other Recommended"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "BRAF inhibitor-resistant",
+                    "plan_name": "Venetoclax + Rituximab",
+                    "plan_details": "BCL-2 inhibitor combination",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other Recommended"
+                },
+                {
+                    "treatment_line": "Second-line treatment",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "Clinical Trials",
+                    "plan_details": "Encouraged participation",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Progressive disease",
+            "risk_group": "After prior therapies",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Later-line treatment",
+                    "patient_subgroup": "Not previously exposed",
+                    "plan_name": "BRAF/MEK inhibitors",
+                    "plan_details": "For patients without prior BRAF/MEK inhibitor exposure",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Recommended"
+                },
+                {
+                    "treatment_line": "Later-line treatment",
+                    "patient_subgroup": "General population",
+                    "plan_name": "BTK inhibitors",
+                    "plan_details": "Ibrutinib or Zanubrutinib",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other Recommended"
+                },
+                {
+                    "treatment_line": "Later-line treatment",
+                    "patient_subgroup": "All patients",
+                    "plan_name": "Clinical Trials",
+                    "plan_details": "Preferred approach",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "BRAF V600E: Diagnostic for classical HCL; predicts response to BRAF inhibitors. IGHV4-34 Rearrangement: Associated with poor prognosis and resistance to purine analogs. MAP2K1 Mutations: Aids differential diagnosis of HCL variant when BRAF wild-type. MRD Monitoring: Post-treatment negativity correlates with prolonged remission in relapsed disease."
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：毛细胞白血病.txt"
+}

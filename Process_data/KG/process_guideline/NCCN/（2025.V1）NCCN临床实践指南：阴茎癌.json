@@ -1,0 +1,190 @@
+{
+    "cancer_info": {
+        "cancer_name": "Penile Squamous Cell Carcinoma"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Punch/excisional biopsy",
+            "HPV/HIV status assessment",
+            "CT/MRI of chest/abdomen/pelvis (with contrast)",
+            "Ultrasound/CT-guided biopsy",
+            "FDG-PET/CT",
+            "Dynamic Sentinel Node Biopsy (DSNB)",
+            "Fine-needle aspiration (FNA)",
+            "Excisional biopsy (for negative FNA confirmation)",
+            "Surveillance CT/MRI/ultrasound"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "PelN/Ta",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary lesion management",
+                    "patient_subgroup": "Noninvasive lesions",
+                    "plan_name": "Topical therapy/laser/excision",
+                    "plan_details": "Imiquimod 5% 3x/week or 5-FU 5% BID, laser therapy, wide excision, glansectomy, or Mohs surgery",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Organ-sparing approaches"
+                },
+                {
+                    "treatment_line": "Lymph node management",
+                    "patient_subgroup": "Non-palpable nodes",
+                    "plan_name": "Surveillance",
+                    "plan_details": "Clinical exam q3–6mo for 5 years",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "T1a",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary lesion management",
+                    "patient_subgroup": "No LVI/perineural invasion, low-grade",
+                    "plan_name": "Organ-sparing surgery/RT",
+                    "plan_details": "Wide excision, partial penectomy, RT (brachytherapy/EBRT), or laser therapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "T1b",
+            "risk_group": "Intermediate risk (G1–2) / High risk (G3–4)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary lesion management",
+                    "patient_subgroup": "G1–2 tumors",
+                    "plan_name": "Excision/penectomy",
+                    "plan_details": "Wide excision, partial penectomy, or RT",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard"
+                },
+                {
+                    "treatment_line": "Primary lesion management",
+                    "patient_subgroup": "G3–4 tumors",
+                    "plan_name": "Radical surgery",
+                    "plan_details": "Partial/total penectomy ± adjuvant RT/chemo-RT",
+                    "nccn_evidence_category": "Category 3",
+                    "nccn_recommendation_category": "High-risk management"
+                },
+                {
+                    "treatment_line": "Lymph node management",
+                    "patient_subgroup": "Non-palpable nodes",
+                    "plan_name": "DSNB or modified ILND",
+                    "plan_details": "Dynamic Sentinel Node Biopsy or Inguinal Lymph Node Dissection",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Required"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "T2",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary lesion management",
+                    "patient_subgroup": "Invades corpus spongiosum",
+                    "plan_name": "Radical surgery",
+                    "plan_details": "Partial/total penectomy ± adjuvant therapy",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Standard"
+                },
+                {
+                    "treatment_line": "Lymph node management",
+                    "patient_subgroup": "cN0",
+                    "plan_name": "Bilateral ILND",
+                    "plan_details": "Immediate bilateral inguinal lymphadenectomy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Mandatory"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "T3–T4/Unresectable",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary lesion management",
+                    "patient_subgroup": "Advanced local disease",
+                    "plan_name": "Chemo-RT",
+                    "plan_details": "45–50.4 Gy + boost to 60–70 Gy",
+                    "nccn_evidence_category": "Category 3",
+                    "nccn_recommendation_category": "For unresectable cases"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Palpable Nodes (cN+)",
+            "risk_group": "Node-positive",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Lymph node management",
+                    "patient_subgroup": "Non-bulky (<4 cm)",
+                    "plan_name": "Excisional biopsy → ILND",
+                    "plan_details": "ILND ± chemo/RT",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Standard"
+                },
+                {
+                    "treatment_line": "Lymph node management",
+                    "patient_subgroup": "Bulky (≥4 cm)/Fixed nodes",
+                    "plan_name": "Neoadjuvant TIP chemo → ILND",
+                    "plan_details": "Paclitaxel 175 mg/m² + ifosfamide 1.2 g/m² + cisplatin 25 mg/m² (Days 1–3, q3–4wk)",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Pelvic Nodes (N3)",
+            "risk_group": "Very high risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Management",
+                    "patient_subgroup": "Pelvic node involvement",
+                    "plan_name": "Neoadjuvant chemo → surgery/chemo-RT",
+                    "plan_details": "Neoadjuvant chemotherapy → consolidation surgery or chemo-RT",
+                    "nccn_evidence_category": "Category 2B",
+                    "nccn_recommendation_category": "Multimodal approach"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Metastatic/Recurrent Disease (M1)",
+            "risk_group": "Advanced",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line treatment",
+                    "patient_subgroup": "Metastatic disease",
+                    "plan_name": "TIP or 5-FU/cisplatin/pembrolizumab",
+                    "plan_details": "TIP: Paclitaxel 175 mg/m² + ifosfamide 1.2 g/m² + cisplatin 25 mg/m² (Days 1–3, q3–4wk) OR 5-FU 1000 mg/m²/day (Days 1–4) + cisplatin 70 mg/m² + pembrolizumab 200 mg (Day 1, q3wk ×6) → pembrolizumab maintenance",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred regimen"
+                },
+                {
+                    "treatment_line": "Subsequent lines",
+                    "patient_subgroup": "Refractory disease",
+                    "plan_name": "Pembrolizumab/paclitaxel/cetuximab",
+                    "plan_details": "Pembrolizumab (if MSI-H/dMMR/TMB-H), paclitaxel, cetuximab, or clinical trials",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Targeted options"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "HPV/p16+ status correlates with better disease-specific survival",
+            "dMMR/MSI-H or TMB-H predicts response to pembrolizumab in metastatic disease",
+            "Aggressive subtypes (basaloid, sarcomatoid) indicate poor prognosis",
+            "Verrucous carcinoma subtype has rare metastases",
+            "LVI, perineural invasion, and poor differentiation are high-risk features"
+        ]
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：阴茎癌.txt"
+}

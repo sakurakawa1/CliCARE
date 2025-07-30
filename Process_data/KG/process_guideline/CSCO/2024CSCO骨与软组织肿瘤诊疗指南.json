@@ -1,0 +1,210 @@
+{
+    "guideline_id": "2024CSCO骨与软组织肿瘤诊疗指南.txt",
+    "cancer_info": {
+        "cancer_name": "Bone and Soft Tissue Sarcomas"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "Classic osteosarcoma, IIA stage (intracompartmental)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Direct surgery (wide resection) followed by postoperative chemotherapy",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Classic osteosarcoma, IIB stage (extracompartmental)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Preoperative chemotherapy (MAP regimen: methotrexate + doxorubicin + cisplatin) for 2-3 months, followed by surgery, then postoperative chemotherapy; for chemotherapy-resistant or non-limb-salvageable cases: amputation",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Classic osteosarcoma, III stage (metastatic)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Chemotherapy + metastasectomy (especially pulmonary metastases) ± radiotherapy",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": "Evidence 2B"
+        },
+        {
+            "clinical_context": "Classic osteosarcoma, progressive or recurrent disease",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Clinical trials or regorafenib; alternatives include sorafenib or high-dose ifosfamide + etoposide",
+            "treatment_line": "Second-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation (for regorafenib: Level IIB)",
+            "evidence_level": "Evidence 2B (for regorafenib)"
+        },
+        {
+            "clinical_context": "Giant cell tumor of bone (GCTB), resectable lesions",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Extended curettage + adjuvant treatment (high-speed burr/liquid nitrogen/phenol) + cementation",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "H3F3A",
+                    "status": "Mutation",
+                    "testing_guidance": "Molecular testing (e.g., FISH or RNA-seq) for H3F3A mutation (e.g., G34W) as I-level recommendation for diagnosis"
+                }
+            ],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": "Evidence 2A"
+        },
+        {
+            "clinical_context": "Giant cell tumor of bone (GCTB), unresectable lesions (e.g., pelvis/sacrum/spine)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Denosumab (120mg subcutaneously, loading doses on days 1/8/15, then monthly) or narlumosbart; assess surgery after 1-6 months for downstaging",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "RANKL",
+                    "status": "High",
+                    "testing_guidance": "Immunohistochemistry for RANKL expression to confirm target for denosumab"
+                }
+            ],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": "Evidence 2A"
+        },
+        {
+            "clinical_context": "Giant cell tumor of bone (GCTB), pulmonary metastases",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Observation for asymptomatic cases; surgery or targeted therapy for progression",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": "Evidence 2A"
+        },
+        {
+            "clinical_context": "Tenosynovial giant cell tumor (TGCT), nodular type (NTGCT)",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Surgical resection (open or arthroscopic, with open preferred for hand/foot lesions)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "CSF1",
+                    "status": "Rearrangement",
+                    "testing_guidance": "FISH testing for CSF1 gene rearrangement (e.g., CSF1-COL6A3 fusion) as IIB-level evidence for diagnosis"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Tenosynovial giant cell tumor (TGCT), diffuse type (DTGCT), symptomatic and resectable",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Surgical synovectomy (open) ± postoperative radiotherapy for positive margins",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "CSF1",
+                    "status": "Rearrangement",
+                    "testing_guidance": "FISH testing for CSF1 rearrangement to guide therapy"
+                }
+            ],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": "Evidence 2A"
+        },
+        {
+            "clinical_context": "Tenosynovial giant cell tumor (TGCT), diffuse type (DTGCT), unresectable",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Medical therapy: Pexidartinib (50mg twice daily, ORR 39-61%), nilotinib, or imatinib; or radiotherapy (20-40Gy)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "CSF1R",
+                    "status": "Expression",
+                    "testing_guidance": "Immunohistochemistry for CSF1R to support targeted therapy selection"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Undifferentiated small round cell sarcoma, Ewing sarcoma, localized disease",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Neoadjuvant chemotherapy (VDC/IE alternating regimen: vincristine + doxorubicin + cyclophosphamide / ifosfamide + etoposide) every 2 weeks, followed by local therapy (surgery or radiotherapy for axial sites), then adjuvant chemotherapy for 28-49 weeks",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "EWSR1-ETS fusion",
+                    "status": "Positive",
+                    "testing_guidance": "FISH or RNA-seq for EWSR1-FLI1 or other fusions as key for diagnosis and treatment planning"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Undifferentiated small round cell sarcoma, Ewing sarcoma, metastatic disease",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Multi-agent chemotherapy (e.g., VIDE regimen); second-line: irinotecan + temozolomide or VIT regimen (vincristine + irinotecan + temozolomide)",
+            "treatment_line": "First-line and second-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Undifferentiated small round cell sarcoma, CIC-rearranged sarcoma",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Surgery if resectable; otherwise, clinical trials or chemotherapy similar to Ewing sarcoma (less sensitive)",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "CIC-DUX4 fusion",
+                    "status": "Positive",
+                    "testing_guidance": "FISH or RNA-seq for CIC-DUX4 fusion for diagnosis"
+                }
+            ],
+            "recommendation_level": "Level II Recommendation",
+            "evidence_level": "Evidence 2A"
+        },
+        {
+            "clinical_context": "Undifferentiated small round cell sarcoma, BCOR-altered sarcoma",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Chemotherapy sensitive; use Ewing-like regimens (e.g., VDC/IE) with neoadjuvant approach, followed by surgery",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "BCOR-CCNB3 fusion or BCOR-ITD",
+                    "status": "Positive",
+                    "testing_guidance": "Molecular testing for BCOR alterations for diagnosis"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        },
+        {
+            "clinical_context": "Desmoid fibromatosis (DF), symptomatic",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "COX-2 inhibitors (e.g., celecoxib 200mg/day) for pain; active surveillance for asymptomatic cases",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level III Recommendation",
+            "evidence_level": "Evidence 3"
+        },
+        {
+            "clinical_context": "Desmoid fibromatosis (DF), progressive",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Sorafenib or methotrexate + vinblastine",
+            "treatment_line": "Second-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "CTNNB1",
+                    "status": "Mutation",
+                    "testing_guidance": "Molecular testing for CTNNB1 mutation to inform prognosis and therapy"
+                }
+            ],
+            "recommendation_level": "Level I Recommendation",
+            "evidence_level": "Evidence 1A"
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Biomarkers serve diagnostic, prognostic, and therapeutic roles: H3F3A mutation (e.g., G34W) is diagnostic for giant cell tumor of bone; RANKL expression predicts response to denosumab; EWSR1-ETS fusion defines Ewing sarcoma and guides chemotherapy; CSF1 rearrangement drives tenosynovial giant cell tumor and indicates CSF1R inhibitor therapy; CTNNB1 mutation in desmoid fibromatosis informs prognosis; tumor necrosis rate ≥90% after chemotherapy predicts better survival in osteosarcoma; dynamic ALP/LDH levels monitor osteosarcoma recurrence; CDK4 amplification and FOXO1 fusion are therapeutic targets in specific sarcomas."
+    },
+    "tcm_recommendations": []
+}

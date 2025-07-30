@@ -1,0 +1,324 @@
+{
+    "guideline_identifier": "PIIS0923753422041928.txt",
+    "cancer_focus": {
+        "primary_cancer": "Metastatic Colorectal Cancer",
+        "related_syndrome_or_condition": "Lynch Syndrome, BRAF V600E-mutant mCRC, HER2-amplified mCRC"
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Resectable or potentially resectable metastases",
+            "risk_group": "Favorable risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Resectable metastases with favorable risk",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Upfront surgery without perioperative chemotherapy",
+                    "treatment_line": "Perioperative",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": ""
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Resectable or potentially resectable metastases",
+            "risk_group": "Unfavorable risk",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Resectable metastases with unfavorable risk",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Perioperative FOLFOX (3 months pre- and post-surgery)",
+                    "treatment_line": "Perioperative",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level I A"
+                },
+                {
+                    "clinical_context": "Perioperative setting for resectable disease",
+                    "recommendation_type": "Contraindication",
+                    "recommendation_content": "Avoid anti-EGFR therapy",
+                    "treatment_line": "Perioperative",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level I B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Resectable or potentially resectable metastases",
+            "risk_group": "RAS-wt and left-sided",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Conversion therapy for initially unresectable disease",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "FOLFOX/FOLFIRI + anti-EGFR (cetuximab/panitumumab)",
+                    "treatment_line": "Conversion",
+                    "biomarker_requirements": [
+                        {
+                            "name": "RAS",
+                            "status": "Wild-type",
+                            "testing_guidance": "Mandatory at diagnosis (KRAS/NRAS exons 2/3/4)"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level II A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Resectable or potentially resectable metastases",
+            "risk_group": "RAS-mut or right-sided",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Conversion therapy for initially unresectable disease",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "FOLFOXIRI + bevacizumab or doublet chemotherapy + bevacizumab",
+                    "treatment_line": "Conversion",
+                    "biomarker_requirements": [
+                        {
+                            "name": "RAS",
+                            "status": "Mutant",
+                            "testing_guidance": "Mandatory at diagnosis (KRAS/NRAS exons 2/3/4)"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level II B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Oligometastatic disease",
+            "risk_group": "General",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Resectable oligometastatic lesions",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Surgery (gold standard)",
+                    "treatment_line": "Local therapy",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level II A"
+                },
+                {
+                    "clinical_context": "Lesions ≤3 cm in non-surgical candidates",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Thermal ablation (RFA/MWA)",
+                    "treatment_line": "Local therapy",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level II B"
+                },
+                {
+                    "clinical_context": "Inoperable oligometastatic lesions",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Stereotactic body radiotherapy (SBRT)",
+                    "treatment_line": "Local therapy",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level III B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Peritoneal carcinomatosis",
+            "risk_group": "General",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Peritoneal metastases",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Cytoreductive surgery + hyperthermic intraperitoneal chemotherapy (HIPEC) with oxaliplatin",
+                    "treatment_line": "Curative intent",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level II B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unresectable advanced disease",
+            "risk_group": "RAS-wt and left-sided",
+            "treatment_plans": [
+                {
+                    "clinical_context": "First-line therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "FOLFOX/FOLFIRI + anti-EGFR (cetuximab/panitumumab)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "RAS",
+                            "status": "Wild-type",
+                            "testing_guidance": "Mandatory at diagnosis (KRAS/NRAS exons 2/3/4)"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level I A"
+                },
+                {
+                    "clinical_context": "Maintenance after 4 months induction",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Fluoropyrimidine + anti-EGFR (if used initially)",
+                    "treatment_line": "Maintenance",
+                    "biomarker_requirements": [
+                        {
+                            "name": "RAS",
+                            "status": "Wild-type",
+                            "testing_guidance": "Confirmatory testing recommended"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level II B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unresectable advanced disease",
+            "risk_group": "RAS-mut or right-sided",
+            "treatment_plans": [
+                {
+                    "clinical_context": "First-line therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "FOLFOX/CAPOX/FOLFIRI + bevacizumab",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "RAS",
+                            "status": "Mutant",
+                            "testing_guidance": "Mandatory at diagnosis (KRAS/NRAS exons 2/3/4)"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level I B"
+                },
+                {
+                    "clinical_context": "Maintenance after 4 months induction",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Fluoropyrimidine + bevacizumab",
+                    "treatment_line": "Maintenance",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level I B"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unresectable advanced disease",
+            "risk_group": "dMMR/MSI-H",
+            "treatment_plans": [
+                {
+                    "clinical_context": "First-line therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Pembrolizumab or nivolumab (± ipilimumab)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "MMR/MSI",
+                            "status": "Deficient/High",
+                            "testing_guidance": "Mandatory at diagnosis"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level I A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unresectable advanced disease",
+            "risk_group": "BRAF V600E-mut",
+            "treatment_plans": [
+                {
+                    "clinical_context": "First-line therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "FOLFOXIRI + bevacizumab",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRAF",
+                            "status": "V600E mutant",
+                            "testing_guidance": "Mandatory at diagnosis"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level II B"
+                },
+                {
+                    "clinical_context": "Second-line therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Encorafenib + cetuximab ± binimetinib",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "BRAF",
+                            "status": "V600E mutant",
+                            "testing_guidance": "Confirmatory testing recommended"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level I A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unresectable advanced disease",
+            "risk_group": "Frail patients",
+            "treatment_plans": [
+                {
+                    "clinical_context": "First-line therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Fluoropyrimidine monotherapy ± bevacizumab or anti-EGFR (for left-sided tumors)",
+                    "treatment_line": "First-line",
+                    "biomarker_requirements": [
+                        {
+                            "name": "RAS",
+                            "status": "Wild-type (if using anti-EGFR)",
+                            "testing_guidance": "Mandatory for anti-EGFR eligibility"
+                        }
+                    ],
+                    "esmo_evidence_level": ""
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unresectable advanced disease",
+            "risk_group": "Prior anti-VEGF therapy",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Second-line therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Aflibercept/ramucirumab + FOLFIRI",
+                    "treatment_line": "Second-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level I A"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Unresectable advanced disease",
+            "risk_group": "Refractory disease",
+            "treatment_plans": [
+                {
+                    "clinical_context": "Third-line therapy",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Regorafenib or trifluridine/tipiracil",
+                    "treatment_line": "Third-line",
+                    "biomarker_requirements": [],
+                    "esmo_evidence_level": "Level I A"
+                },
+                {
+                    "clinical_context": "Anti-EGFR rechallenge",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Cetuximab/panitumumab retreatment (liquid biopsy-guided if prior response >6 months)",
+                    "treatment_line": "Third-line+",
+                    "biomarker_requirements": [
+                        {
+                            "name": "RAS",
+                            "status": "Wild-type",
+                            "testing_guidance": "Liquid biopsy monitoring required"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level II B"
+                },
+                {
+                    "clinical_context": "HER2-amplified tumors",
+                    "recommendation_type": "Treatment",
+                    "recommendation_content": "Trastuzumab + lapatinib",
+                    "treatment_line": "Third-line+",
+                    "biomarker_requirements": [
+                        {
+                            "name": "HER2",
+                            "status": "Amplified",
+                            "testing_guidance": "IHC/FISH testing in RAS-wt tumors"
+                        }
+                    ],
+                    "esmo_evidence_level": "Level III C"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Biomarkers (RAS, BRAF, MSI/MMR, HER2, NTRK) determine eligibility for targeted therapies and immunotherapies, predict treatment efficacy, and have prognostic implications. For example: RAS wild-type predicts anti-EGFR response; MSI-H/dMMR indicates immunotherapy benefit; BRAF V600E mutation confers poor prognosis but responds to specific inhibitors."
+    }
+}

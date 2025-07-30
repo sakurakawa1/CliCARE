@@ -1,0 +1,170 @@
+{
+    "cancer_info": {
+        "cancer_name": "Colon Cancer"
+    },
+    "diagnosis_recommendations": {
+        "examinations": [
+            "Colonoscopy with biopsy",
+            "CEA (Carcinoembryonic Antigen) testing",
+            "CBC and chemistry profile",
+            "CT abdomen/pelvis with IV/oral contrast",
+            "CT chest/abdomen/pelvis (contrast-enhanced)",
+            "MRI liver (for resectable metastases)",
+            "FDG-PET/CT for equivocal findings",
+            "Molecular testing: RAS (KRAS/NRAS), BRAF V600E, MSI/MMR status",
+            "HER2 amplification testing (IHC/FISH/NGS)",
+            "NTRK/RET fusion testing (NGS)",
+            "POLE/POLD1 mutation analysis",
+            "TMB assessment",
+            "Diagnostic laparoscopy for peritoneal disease",
+            "Peritoneal Cancer Index (PCI) scoring",
+            "Lymph node examination (minimum 12 nodes)",
+            "Tumor budding assessment"
+        ]
+    },
+    "staging_treatment_plans": [
+        {
+            "staging_criteria": "Stage I",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Primary treatment",
+                    "patient_subgroup": "All",
+                    "plan_name": "Surgery only",
+                    "plan_details": "Colectomy with complete mesocolic excision",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage II (pMMR/MSS)",
+            "risk_group": "Low risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "No high-risk features",
+                    "plan_name": "Observation or fluoropyrimidine",
+                    "plan_details": "Capecitabine or 5-FU/LV",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage II (pMMR/MSS)",
+            "risk_group": "High risk",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "T4 tumors or high-risk features",
+                    "plan_name": "CAPEOX or FOLFOX",
+                    "plan_details": "CAPEOX ×3 months or FOLFOX ×6 months",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage III",
+            "risk_group": "Low risk (T1-3 N1)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "CAPEOX or FOLFOX",
+                    "plan_details": "CAPEOX ×3 months or FOLFOX ×3-6 months",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage III",
+            "risk_group": "High risk (T4 or N2)",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Adjuvant therapy",
+                    "patient_subgroup": "All",
+                    "plan_name": "CAPEOX or FOLFOX",
+                    "plan_details": "CAPEOX ×3-6 months or FOLFOX ×6 months",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IV (Metastatic)",
+            "risk_group": "Resectable metastases",
+            "treatment_plans": [
+                {
+                    "treatment_line": "Perioperative therapy",
+                    "patient_subgroup": "pMMR/MSS",
+                    "plan_name": "FOLFOX/CAPEOX ± bevacizumab",
+                    "plan_details": "4-6 cycles pre/post resection",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Perioperative therapy",
+                    "patient_subgroup": "dMMR/MSI-H",
+                    "plan_name": "Checkpoint inhibitors",
+                    "plan_details": "Nivolumab ± ipilimumab or pembrolizumab",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                }
+            ]
+        },
+        {
+            "staging_criteria": "Stage IV (Metastatic)",
+            "risk_group": "Unresectable metastases",
+            "treatment_plans": [
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "RAS/BRAF WT left-sided",
+                    "plan_name": "Anti-EGFR + chemotherapy",
+                    "plan_details": "FOLFOX/CAPEOX + cetuximab/panitumumab",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "First-line therapy",
+                    "patient_subgroup": "dMMR/MSI-H",
+                    "plan_name": "Checkpoint inhibitors",
+                    "plan_details": "Pembrolizumab or nivolumab ± ipilimumab",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Second-line therapy",
+                    "patient_subgroup": "BRAF V600E mutant",
+                    "plan_name": "Encorafenib + cetuximab",
+                    "plan_details": "Targeted combination therapy",
+                    "nccn_evidence_category": "Category 1",
+                    "nccn_recommendation_category": "Preferred"
+                },
+                {
+                    "treatment_line": "Later-line therapy",
+                    "patient_subgroup": "HER2-positive",
+                    "plan_name": "HER2-targeted therapy",
+                    "plan_details": "Trastuzumab + pertuzumab/tucatinib",
+                    "nccn_evidence_category": "Category 2A",
+                    "nccn_recommendation_category": "Other recommended"
+                }
+            ]
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": [
+            "dMMR/MSI-H: Predicts response to immunotherapy; checkpoint inhibitors preferred in metastatic disease",
+            "RAS mutations: Predicts resistance to anti-EGFR therapy; contraindicates cetuximab/panitumumab",
+            "BRAF V600E mutation: Poor prognostic factor; indicates need for BRAF/EGFR inhibitor combinations",
+            "HER2 amplification: Predicts response to HER2-targeted therapies in later lines",
+            "NTRK/RET fusions: Predicts response to targeted inhibitors (larotrectinib/entrectinib for NTRK; selpercatinib for RET)",
+            "POLE/POLD1 mutations: Ultra-hypermutated phenotype predicts immunotherapy response when TMB ≥50 mut/Mb",
+            "TMB-H (≥10 mut/Mb): May predict pembrolizumab response regardless of MSI status",
+            "Primary tumor location (left vs. right): Predictive for anti-EGFR benefit (left-sided tumors show improved survival)"
+        ]
+    },
+    "guideline_id": "（2025.V1）NCCN临床实践指南：结肠癌.txt"
+}

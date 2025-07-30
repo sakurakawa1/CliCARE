@@ -1,0 +1,116 @@
+TKG节点: id=3287, name=Dexamethasone, labels=['ClinicalEvent'], properties={'name': 'Dexamethasone', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_4_20250704141533679292_Dexamethasone', 'type': 'Medication', 'admission_time': '2020-01-04 00:00:00'}
+ALIGN_TO
+KG节点: id=2175, name=Bendamustine + dexamethasone, labels=['Treatment'], properties={'line': 'Relapsed/Refractory treatment', 'name': 'Bendamustine + dexamethasone', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Other recommended', 'evidence_level': 'Category 2A', 'content': 'Bendamustine + dexamethasone'}
+
+TKG节点: id=3272, name=OXALIplatin with desensitization protocol, labels=['ClinicalEvent'], properties={'name': 'OXALIplatin with desensitization protocol', 'id': 'colorectal_case_01_Event_4_20250704141525446973_OXALIplatinwithdesensitizationprotocol', 'source': 'ClinicalData', 'type': 'Medication', 'admission_time': '2020-01-04 00:00:00'}
+ALIGN_TO
+KG节点: id=1633, name=Oxaliplatin + capecitabine, labels=['Treatment'], properties={'line': 'Adjuvant', 'name': 'Oxaliplatin + capecitabine', 'source': 'CSCO', 'type': 'Treatment', 'recommendation_level': 'Level I Recommendation', 'evidence_level': 'Evidence 1A', 'content': 'Oxaliplatin + capecitabine'}
+
+TKG节点: id=3193, name=Dexamethasone, labels=['ClinicalEvent'], properties={'name': 'Dexamethasone', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_4_20250704140729588478_Dexamethasone', 'type': 'Medication', 'admission_time': '2020-01-04 00:00:00'}
+ALIGN_TO
+KG节点: id=2175, name=Bendamustine + dexamethasone, labels=['Treatment'], properties={'line': 'Relapsed/Refractory treatment', 'name': 'Bendamustine + dexamethasone', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Other recommended', 'evidence_level': 'Category 2A', 'content': 'Bendamustine + dexamethasone'}
+
+TKG节点: id=3156, name=OXALIplatin, labels=['ClinicalEvent'], properties={'name': 'OXALIplatin', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_4_20250704140719320278_OXALIplatin', 'type': 'Medication', 'admission_time': '2020-01-04 00:00:00'}
+ALIGN_TO
+KG节点: id=1633, name=Oxaliplatin + capecitabine, labels=['Treatment'], properties={'line': 'Adjuvant', 'name': 'Oxaliplatin + capecitabine', 'source': 'CSCO', 'type': 'Treatment', 'recommendation_level': 'Level I Recommendation', 'evidence_level': 'Evidence 1A', 'content': 'Oxaliplatin + capecitabine'}
+
+TKG节点: id=3627, name=Cetirizine, labels=['ClinicalEvent'], properties={'name': 'Cetirizine', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_5_20250704141811793981_Cetirizine', 'type': 'Medication', 'admission_time': '2020-01-05 00:00:00'}
+ALIGN_TO
+KG节点: id=2482, name=Iron chelation, labels=['Treatment'], properties={'line': 'Supportive care', 'name': 'Iron chelation', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Appropriate regimen', 'evidence_level': 'Category 2B', 'content': 'Deferasirox or deferoxamine'}
+
+TKG节点: id=3583, name=DiphenhydrAMINE, labels=['ClinicalEvent'], properties={'name': 'DiphenhydrAMINE', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_5_20250704141755274788_DiphenhydrAMINE', 'type': 'Medication', 'admission_time': '2020-01-05 00:00:00'}
+ALIGN_TO
+KG节点: id=728, name=D-Rd, labels=['Treatment'], properties={'line': 'Primary Therapy', 'name': 'D-Rd', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Preferred regimen', 'evidence_level': 'Category 1', 'content': 'Daratumumab + lenalidomide/dexamethasone'}
+
+TKG节点: id=3547, name=Dexamethasone, labels=['ClinicalEvent'], properties={'name': 'Dexamethasone', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_5_20250704141738799874_Dexamethasone', 'type': 'Medication', 'admission_time': '2020-01-05 00:00:00'}
+ALIGN_TO
+KG节点: id=2175, name=Bendamustine + dexamethasone, labels=['Treatment'], properties={'line': 'Relapsed/Refractory treatment', 'name': 'Bendamustine + dexamethasone', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Other recommended', 'evidence_level': 'Category 2A', 'content': 'Bendamustine + dexamethasone'}
+
+TKG节点: id=3542, name=OXALIplatin Desensitization, labels=['ClinicalEvent'], properties={'name': 'OXALIplatin Desensitization', 'id': 'colorectal_case_01_Event_5_20250704141736728310_OXALIplatinDesensitization', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-01-05 00:00:00'}
+ALIGN_TO
+KG节点: id=1633, name=Oxaliplatin + capecitabine, labels=['Treatment'], properties={'line': 'Adjuvant', 'name': 'Oxaliplatin + capecitabine', 'source': 'CSCO', 'type': 'Treatment', 'recommendation_level': 'Level I Recommendation', 'evidence_level': 'Evidence 1A', 'content': 'Oxaliplatin + capecitabine'}
+
+TKG节点: id=3529, name=OXALIplatin, labels=['ClinicalEvent'], properties={'name': 'OXALIplatin', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_5_20250704141728459095_OXALIplatin', 'type': 'Medication', 'admission_time': '2020-01-05 00:00:00'}
+ALIGN_TO
+KG节点: id=1633, name=Oxaliplatin + capecitabine, labels=['Treatment'], properties={'line': 'Adjuvant', 'name': 'Oxaliplatin + capecitabine', 'source': 'CSCO', 'type': 'Treatment', 'recommendation_level': 'Level I Recommendation', 'evidence_level': 'Evidence 1A', 'content': 'Oxaliplatin + capecitabine'}
+
+TKG节点: id=3525, name=Encounter for antineoplastic chemotherapy, labels=['ClinicalEvent'], properties={'name': 'Encounter for antineoplastic chemotherapy', 'id': 'colorectal_case_01_Event_5_20250704141726407335_Encounterforantineoplasticchemotherapy', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-01-05 00:00:00'}
+ALIGN_TO
+KG节点: id=177, name=Minimal-risk chemotherapy, labels=['ClinicalSituation'], properties={'stage': 'Chemotherapy: Minimal risk (<10% vomiting risk)', 'name': 'Minimal-risk chemotherapy', 'risk_group': 'Minimal risk', 'source': 'ESMO', 'type': 'ClinicalSituation'}
+
+TKG节点: id=3946, name=DiphenhydrAMINE, labels=['ClinicalEvent'], properties={'name': 'DiphenhydrAMINE', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_6_20250704142045021023_DiphenhydrAMINE', 'type': 'Medication', 'admission_time': '2020-01-06 00:00:00'}
+ALIGN_TO
+KG节点: id=728, name=D-Rd, labels=['Treatment'], properties={'line': 'Primary Therapy', 'name': 'D-Rd', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Preferred regimen', 'evidence_level': 'Category 1', 'content': 'Daratumumab + lenalidomide/dexamethasone'}
+
+TKG节点: id=3915, name=Dexamethasone, labels=['ClinicalEvent'], properties={'name': 'Dexamethasone', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_6_20250704142028621200_Dexamethasone', 'type': 'Medication', 'admission_time': '2020-01-06 00:00:00'}
+ALIGN_TO
+KG节点: id=2175, name=Bendamustine + dexamethasone, labels=['Treatment'], properties={'line': 'Relapsed/Refractory treatment', 'name': 'Bendamustine + dexamethasone', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Other recommended', 'evidence_level': 'Category 2A', 'content': 'Bendamustine + dexamethasone'}
+
+TKG节点: id=3908, name=OXALIplatin Desensitization, labels=['ClinicalEvent'], properties={'name': 'OXALIplatin Desensitization', 'id': 'colorectal_case_01_Event_6_20250704142026569971_OXALIplatinDesensitization', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-01-06 00:00:00'}
+ALIGN_TO
+KG节点: id=1633, name=Oxaliplatin + capecitabine, labels=['Treatment'], properties={'line': 'Adjuvant', 'name': 'Oxaliplatin + capecitabine', 'source': 'CSCO', 'type': 'Treatment', 'recommendation_level': 'Level I Recommendation', 'evidence_level': 'Evidence 1A', 'content': 'Oxaliplatin + capecitabine'}
+
+TKG节点: id=3891, name=OXALIplatin, labels=['ClinicalEvent'], properties={'name': 'OXALIplatin', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_6_20250704142018356578_OXALIplatin', 'type': 'Medication', 'admission_time': '2020-01-06 00:00:00'}
+ALIGN_TO
+KG节点: id=1633, name=Oxaliplatin + capecitabine, labels=['Treatment'], properties={'line': 'Adjuvant', 'name': 'Oxaliplatin + capecitabine', 'source': 'CSCO', 'type': 'Treatment', 'recommendation_level': 'Level I Recommendation', 'evidence_level': 'Evidence 1A', 'content': 'Oxaliplatin + capecitabine'}
+
+TKG节点: id=3882, name=Introduction of Other Antineoplastic into Central Vein, labels=['ClinicalEvent'], properties={'name': 'Introduction of Other Antineoplastic into Central Vein', 'id': 'colorectal_case_01_Event_6_20250704142016322475_IntroductionofOtherAntineoplasticintoCentralVein', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-01-06 00:00:00'}
+ALIGN_TO
+KG节点: id=2624, name=Paraneoplastic syndrome markers (anti-Hu antibodies), labels=['Examination'], properties={'name': 'Paraneoplastic syndrome markers (anti-Hu antibodies)', 'source': 'NCCN', 'type': 'Examination'}
+
+TKG节点: id=4241, name=Cetirizine, labels=['ClinicalEvent'], properties={'name': 'Cetirizine', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_10_20250704142251911280_Cetirizine', 'type': 'Medication', 'admission_time': '2020-01-10 00:00:00'}
+ALIGN_TO
+KG节点: id=2482, name=Iron chelation, labels=['Treatment'], properties={'line': 'Supportive care', 'name': 'Iron chelation', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Appropriate regimen', 'evidence_level': 'Category 2B', 'content': 'Deferasirox or deferoxamine'}
+
+TKG节点: id=4228, name=DiphenhydrAMINE, labels=['ClinicalEvent'], properties={'name': 'DiphenhydrAMINE', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_10_20250704142243672021_DiphenhydrAMINE', 'type': 'Medication', 'admission_time': '2020-01-10 00:00:00'}
+ALIGN_TO
+KG节点: id=728, name=D-Rd, labels=['Treatment'], properties={'line': 'Primary Therapy', 'name': 'D-Rd', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Preferred regimen', 'evidence_level': 'Category 1', 'content': 'Daratumumab + lenalidomide/dexamethasone'}
+
+TKG节点: id=4180, name=Dexamethasone, labels=['ClinicalEvent'], properties={'name': 'Dexamethasone', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_10_20250704142227193589_Dexamethasone', 'type': 'Medication', 'admission_time': '2020-01-10 00:00:00'}
+ALIGN_TO
+KG节点: id=2175, name=Bendamustine + dexamethasone, labels=['Treatment'], properties={'line': 'Relapsed/Refractory treatment', 'name': 'Bendamustine + dexamethasone', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Other recommended', 'evidence_level': 'Category 2A', 'content': 'Bendamustine + dexamethasone'}
+
+TKG节点: id=4174, name=OXALIplatin Desensitization, labels=['ClinicalEvent'], properties={'name': 'OXALIplatin Desensitization', 'id': 'colorectal_case_01_Event_10_20250704142225130118_OXALIplatinDesensitization', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-01-10 00:00:00'}
+ALIGN_TO
+KG节点: id=1633, name=Oxaliplatin + capecitabine, labels=['Treatment'], properties={'line': 'Adjuvant', 'name': 'Oxaliplatin + capecitabine', 'source': 'CSCO', 'type': 'Treatment', 'recommendation_level': 'Level I Recommendation', 'evidence_level': 'Evidence 1A', 'content': 'Oxaliplatin + capecitabine'}
+
+TKG节点: id=4157, name=OXALIplatin, labels=['ClinicalEvent'], properties={'name': 'OXALIplatin', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_10_20250704142216901450_OXALIplatin', 'type': 'Medication', 'admission_time': '2020-01-10 00:00:00'}
+ALIGN_TO
+KG节点: id=1633, name=Oxaliplatin + capecitabine, labels=['Treatment'], properties={'line': 'Adjuvant', 'name': 'Oxaliplatin + capecitabine', 'source': 'CSCO', 'type': 'Treatment', 'recommendation_level': 'Level I Recommendation', 'evidence_level': 'Evidence 1A', 'content': 'Oxaliplatin + capecitabine'}
+
+TKG节点: id=4635, name=Transfer to Hematology/Oncology Intermediate, labels=['ClinicalEvent'], properties={'name': 'Transfer to Hematology/Oncology Intermediate', 'id': 'colorectal_case_01_Event_15_20250704142556903003_TransfertoHematology/OncologyIntermediate', 'source': 'ClinicalData', 'type': 'Care', 'admission_time': '2020-01-15 00:00:00'}
+ALIGN_TO
+KG节点: id=2208, name=Gynecologic exam (including cervical cancer screening), labels=['Examination'], properties={'name': 'Gynecologic exam (including cervical cancer screening)', 'source': 'NCCN', 'type': 'Examination'}
+
+TKG节点: id=4621, name=OXALIplatin, labels=['ClinicalEvent'], properties={'name': 'OXALIplatin', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_15_20250704142548617033_OXALIplatin', 'type': 'Medication', 'admission_time': '2020-01-15 00:00:00'}
+ALIGN_TO
+KG节点: id=1633, name=Oxaliplatin + capecitabine, labels=['Treatment'], properties={'line': 'Adjuvant', 'name': 'Oxaliplatin + capecitabine', 'source': 'CSCO', 'type': 'Treatment', 'recommendation_level': 'Level I Recommendation', 'evidence_level': 'Evidence 1A', 'content': 'Oxaliplatin + capecitabine'}
+
+TKG节点: id=4619, name=OXALIplatin Desensitization, labels=['ClinicalEvent'], properties={'name': 'OXALIplatin Desensitization', 'id': 'colorectal_case_01_Event_15_20250704142546558900_OXALIplatinDesensitization', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-01-15 00:00:00'}
+ALIGN_TO
+KG节点: id=1633, name=Oxaliplatin + capecitabine, labels=['Treatment'], properties={'line': 'Adjuvant', 'name': 'Oxaliplatin + capecitabine', 'source': 'CSCO', 'type': 'Treatment', 'recommendation_level': 'Level I Recommendation', 'evidence_level': 'Evidence 1A', 'content': 'Oxaliplatin + capecitabine'}
+
+TKG节点: id=4601, name=Fosaprepitant, labels=['ClinicalEvent'], properties={'name': 'Fosaprepitant', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_15_20250704142538326571_Fosaprepitant', 'type': 'Medication', 'admission_time': '2020-01-15 00:00:00'}
+ALIGN_TO
+KG节点: id=189, name=Aprepitant/fosaprepitant + 5-HT₃ RA + dexamethasone, labels=['Treatment'], properties={'line': 'First-line', 'name': 'Aprepitant/fosaprepitant + 5-HT₃ RA + dexamethasone', 'source': 'ESMO', 'type': 'Treatment', 'evidence_level': 'II, B', 'content': 'Aprepitant/fosaprepitant + 5-HT₃ RA + dexamethasone'}
+
+TKG节点: id=4575, name=Dexamethasone, labels=['ClinicalEvent'], properties={'name': 'Dexamethasone', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_15_20250704142521798044_Dexamethasone', 'type': 'Medication', 'admission_time': '2020-01-15 00:00:00'}
+ALIGN_TO
+KG节点: id=2175, name=Bendamustine + dexamethasone, labels=['Treatment'], properties={'line': 'Relapsed/Refractory treatment', 'name': 'Bendamustine + dexamethasone', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Other recommended', 'evidence_level': 'Category 2A', 'content': 'Bendamustine + dexamethasone'}
+
+TKG节点: id=4542, name=Diphenhydramine, labels=['ClinicalEvent'], properties={'name': 'Diphenhydramine', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_15_20250704142505259616_Diphenhydramine', 'type': 'Medication', 'admission_time': '2020-01-15 00:00:00'}
+ALIGN_TO
+KG节点: id=728, name=D-Rd, labels=['Treatment'], properties={'line': 'Primary Therapy', 'name': 'D-Rd', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Preferred regimen', 'evidence_level': 'Category 1', 'content': 'Daratumumab + lenalidomide/dexamethasone'}
+
+TKG节点: id=4524, name=Cetirizine, labels=['ClinicalEvent'], properties={'name': 'Cetirizine', 'source': 'ClinicalData', 'id': 'colorectal_case_01_Event_15_20250704142456965574_Cetirizine', 'type': 'Medication', 'admission_time': '2020-01-15 00:00:00'}
+ALIGN_TO
+KG节点: id=2482, name=Iron chelation, labels=['Treatment'], properties={'line': 'Supportive care', 'name': 'Iron chelation', 'source': 'NCCN', 'type': 'Treatment', 'recommendation_level': 'Appropriate regimen', 'evidence_level': 'Category 2B', 'content': 'Deferasirox or deferoxamine'}
+
+TKG节点: id=4517, name=Encounter for antineoplastic chemotherapy, labels=['ClinicalEvent'], properties={'name': 'Encounter for antineoplastic chemotherapy', 'id': 'colorectal_case_01_Event_15_20250704142454911144_Encounterforantineoplasticchemotherapy', 'source': 'ClinicalData', 'type': 'Care', 'admission_time': '2020-01-15 00:00:00'}
+ALIGN_TO
+KG节点: id=177, name=Minimal-risk chemotherapy, labels=['ClinicalSituation'], properties={'stage': 'Chemotherapy: Minimal risk (<10% vomiting risk)', 'name': 'Minimal-risk chemotherapy', 'risk_group': 'Minimal risk', 'source': 'ESMO', 'type': 'ClinicalSituation'}
+
+TKG节点: id=4770, name=Excision of Ascending Colon, labels=['ClinicalEvent'], properties={'name': 'Excision of Ascending Colon', 'id': 'colorectal_case_01_Event_16_20250704142701027284_ExcisionofAscendingColon', 'source': 'ClinicalData', 'type': 'Procedure', 'admission_time': '2020-01-16 00:00:00'}
+ALIGN_TO
+KG节点: id=2195, name=Surgery only, labels=['Treatment'], properties={'line': 'Primary treatment', 'name': 'Surgery only', 'source': 'NCCN', 'type': 'Treatment', 'evidence_level': 'Category 1', 'recommendation_level': 'Preferred', 'content': 'Colectomy with complete mesocolic excision'}
+

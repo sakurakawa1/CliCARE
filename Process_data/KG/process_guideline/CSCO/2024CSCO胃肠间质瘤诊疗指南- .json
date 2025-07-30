@@ -1,0 +1,149 @@
+{
+    "guideline_id": "2024CSCO胃肠间质瘤诊疗指南- .txt",
+    "cancer_info": {
+        "cancer_name": "Gastrointestinal Stromal Tumor (GIST)"
+    },
+    "clinical_recommendations": [
+        {
+            "clinical_context": "Primary resectable GIST",
+            "recommendation_type": "Surgical Treatment",
+            "recommendation_content": "Goal: R0 resection with avoidance of tumor rupture. For gastric GIST, laparoscopy is suitable for tumors in greater curvature or anterior wall. For duodenal or rectal GIST, prioritize function-preserving surgery and avoid pancreatoduodenectomy.",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level IIA Recommendation",
+            "evidence_level": "Evidence IIA"
+        },
+        {
+            "clinical_context": "Locally advanced GIST requiring neoadjuvant therapy",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Indications: Tumors in special locations requiring combined organ resection or difficult to achieve R0 resection. Regimen: Imatinib 400mg/day (increase to 600-800mg/day for KIT exon 9 mutations) for at least 6 months.",
+            "treatment_line": "",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "KIT",
+                    "status": "Exon 9 mutation",
+                    "testing_guidance": "Molecular testing for KIT mutations (exons 9, 11, 13, 17) required before treatment initiation."
+                }
+            ],
+            "recommendation_level": "Level IIIA Recommendation",
+            "evidence_level": "Evidence IIIA"
+        },
+        {
+            "clinical_context": "Metastatic or recurrent GIST",
+            "recommendation_type": "Surgical Treatment",
+            "recommendation_content": "Resection recommended only when targeted therapy shows partial response (PR) or stable disease (SD). For liver metastases, combine with radiofrequency ablation or embolization.",
+            "treatment_line": "",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level IIA Recommendation",
+            "evidence_level": "Evidence IIA"
+        },
+        {
+            "clinical_context": "Adjuvant therapy for intermediate-risk GIST after resection",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Imatinib 400mg/day for 1 year for gastric origin, or 3 years for non-gastric origin.",
+            "treatment_line": "",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "PDGFRA",
+                    "status": "D842V mutation",
+                    "testing_guidance": "Contraindicated if PDGFRA D842V mutation is present; molecular testing required before treatment."
+                }
+            ],
+            "recommendation_level": "Level IIA Recommendation",
+            "evidence_level": "Evidence IIA"
+        },
+        {
+            "clinical_context": "Adjuvant therapy for high-risk GIST after resection",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Imatinib 400mg/day for 3 years (may extend to 5 years). Contraindicated for PDGFRA D842V mutation.",
+            "treatment_line": "",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "PDGFRA",
+                    "status": "D842V mutation",
+                    "testing_guidance": "Molecular testing for PDGFRA mutations required; avoid imatinib if D842V mutation is detected."
+                }
+            ],
+            "recommendation_level": "Level IA Recommendation",
+            "evidence_level": "Evidence IA"
+        },
+        {
+            "clinical_context": "First-line treatment for advanced GIST",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Imatinib 400mg/day. Increase dose to 600-800mg/day for KIT exon 9 mutations. Use avapritinib for PDGFRA D842V mutations.",
+            "treatment_line": "First-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "KIT",
+                    "status": "Exon 9 mutation",
+                    "testing_guidance": "Molecular testing for KIT exon 9 mutations required; dose adjustment based on result."
+                },
+                {
+                    "biomarker_name": "PDGFRA",
+                    "status": "D842V mutation",
+                    "testing_guidance": "Molecular testing for PDGFRA mutations required; use avapritinib if detected."
+                }
+            ],
+            "recommendation_level": "Level IA Recommendation",
+            "evidence_level": "Evidence IA"
+        },
+        {
+            "clinical_context": "Second-line treatment for advanced GIST",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Sunitinib 37.5mg/day or ripretinib. Ripretinib preferred for KIT exon 11 mutations.",
+            "treatment_line": "Second-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "KIT",
+                    "status": "Exon 11 mutation",
+                    "testing_guidance": "Molecular testing for KIT mutations recommended to guide ripretinib use."
+                }
+            ],
+            "recommendation_level": "Level IA Recommendation",
+            "evidence_level": "Evidence IA"
+        },
+        {
+            "clinical_context": "Third-line treatment for advanced GIST",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Regorafenib 160mg/day (3 weeks on, 1 week off). For NTRK fusion GIST, use entrectinib.",
+            "treatment_line": "Third-line",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "NTRK",
+                    "status": "Fusion",
+                    "testing_guidance": "Molecular testing for NTRK fusions required; use entrectinib if detected."
+                }
+            ],
+            "recommendation_level": "Level IIA Recommendation",
+            "evidence_level": "Evidence IIA"
+        },
+        {
+            "clinical_context": "Fourth-line treatment for advanced GIST",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Ripretinib.",
+            "treatment_line": "Fourth-line",
+            "biomarker_requirements": [],
+            "recommendation_level": "Level IA Recommendation",
+            "evidence_level": "Evidence IA"
+        },
+        {
+            "clinical_context": "SDH-deficient GIST",
+            "recommendation_type": "Treatment Plan",
+            "recommendation_content": "Surgery as primary approach; adjuvant therapy ineffective. Anti-angiogenic agents may be considered in advanced stages.",
+            "treatment_line": "",
+            "biomarker_requirements": [
+                {
+                    "biomarker_name": "SDHB",
+                    "status": "Deficient",
+                    "testing_guidance": "Immunohistochemical testing for SDHB loss required; no KIT/PDGFRA mutations expected."
+                }
+            ],
+            "recommendation_level": "Level III Recommendation",
+            "evidence_level": "Evidence III"
+        }
+    ],
+    "biomarker_clinical_significance": {
+        "clinical_significance": "Predicts efficacy of targeted therapies; for example, KIT exon 11 mutations are highly sensitive to imatinib, PDGFRA D842V mutations respond well to avapritinib, and secondary KIT exon 13/14/17 mutations indicate sensitivity to sunitinib or regorafenib. SDH deficiency defines a distinct subtype with indolent growth and no response to standard adjuvant therapy."
+    },
+    "tcm_recommendations": []
+}
