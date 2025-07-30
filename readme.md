@@ -55,6 +55,52 @@ Generate Q&A training data, fine-tune models with LoRA, and evaluate Generation 
 
 
 
+## Dataset
+
+The project utilizes two main data sources:
+
+- **MIMIC-IV (Open Source):** We leverage the publicly available MIMIC-IV database, integrating multiple hospital admissions for each patient. By using keyword filtering and AI-assisted models, we exclude non-cancer patients and non-cancer-related admissions, retaining only the complete hospitalization trajectories of cancer patients.
+
+- **CancerEHR (Private, Oncology Hospital):** This is a real-world electronic health record (EHR) dataset of cancer patients from an oncology hospital, containing rich clinical treatment processes and follow-up information.
+
+
+
+## Usage
+
+To run the KG alignment module, please follow these four steps:
+
+1. **Clone the repository and install dependencies**
+   ```bash
+   git clone https://github.com/sakurakawa1/CliCARE.git
+   pip install -r requirements.txt
+   cd CliCARE/KG_Alignment
+   ```
+
+2. **Configure Neo4j and API settings**
+   - Edit `config.py` with your Neo4j and API information as shown below:
+   ```python
+   # --- Neo4j Database Connection Configuration ---
+   NEO4J_URI = "bolt://localhost:7687"
+   NEO4J_USER = "neo4j"
+   NEO4J_PASSWORD = "your_password_here" 
+   NEO4J_DATABASE = "database" 
+
+   # --- Large Language Model (LLM) API Configuration ---
+   OPENAI_API_KEY = "your_key_here"  
+   OPENAI_BASE_URL = "https://api.XXX.com"  
+   ```
+
+3. **Import guideline KG and clinical TKG into Neo4j**
+   
+   Load the guideline knowledge graph (KG) and clinical temporal knowledge graph (TKG) data into your Neo4j database before running the alignment.
+
+4. **Run the alignment process**
+
+   ```bash
+   python main.py
+   ```
+
+
 ## Model Fine-tuning Framework
 
 We utilize [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), an efficient and flexible framework for large language model fine-tuning. LLaMA-Factory supports a variety of training strategies and is well-suited for customizing models to meet the unique challenges of clinical data processing and reasoning.

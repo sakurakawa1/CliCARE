@@ -6,7 +6,7 @@
 NEO4J_URI = "bolt://localhost:7687"
 NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "your_password_here" # Please replace with your password
-NEO4J_DATABASE = "newcancer"  # Specify the name of the database to use
+NEO4J_DATABASE = "database"  # Specify the name of the database to use
 
 # --- Large Language Model (LLM) API Configuration ---
 # Please provide the API key according to your LLM service provider
