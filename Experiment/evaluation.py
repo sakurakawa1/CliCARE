@@ -194,9 +194,6 @@ SUMMARY_REPORT_FILE = os.path.join(EVALUATION_RESULTS_DIR, f"summary_report_{mod
 API_KEY = "sk-XXX"  # 请替换为您的有效API密钥
 BASE_URL = "https://www.chataiapi.com/v1"
 EVALUATOR_MODEL_NAME = "gemini-2.5-pro-preview-03-25"
-# API_KEY = "sk-d46680ddd44d4023a62affcc8d8252a0"  # 请替换为您的有效API密钥
-# BASE_URL = "https://api.deepseek.com"
-# EVALUATOR_MODEL_NAME = "deepseek-reasoner"
 MAX_TOKENS_EVAL = 15360  # 为评估任务设置的token上限
 # NEW: 指定 patient_context 的来源，0代表使用第一个INPUT_CONFIGS中的数据
 CONTEXT_SOURCE_INDEX = 11
