@@ -20,7 +20,7 @@ logging.basicConfig(
 # url = 'https://ark.cn-beijing.volces.com/api/v3'
 # api_key = 'your_volces_api_key'
 url = 'https://api.deepseek.com/v1'
-api_key = 'sk-d46680ddd44d4023a62affcc8d8252a0'
+api_key = 'xxx'
 
 client = OpenAI(
     base_url=url,
